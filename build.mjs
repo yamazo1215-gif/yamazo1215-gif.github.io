@@ -8,7 +8,7 @@ const latest=works.filter(w=>w.category==='anime'&&w.image).slice(0,4);
 const latestHtml=`<section class="latest-section" aria-labelledby="latest-title"><div class="section-title"><h2 id="latest-title">Latest works</h2><span>ANIMATION / 劇伴音楽</span></div><div class="latest-grid">${latest.map((w,i)=>`<a class="latest-card" href="${safe(w.url)}"><div class="cover-frame"><img src="${safe(w.image)}" alt="${esc(w.title)}" width="460" height="650" loading="lazy" referrerpolicy="no-referrer"></div><div class="card-meta"><span>0${i+1} / ${esc(w.year)}</span><span>劇伴音楽 ↗</span></div><h3>${esc(w.title)}</h3>${w.titleEn&&w.titleEn!==w.title?`<p>${esc(w.titleEn)}</p>`:''}</a>`).join('')}</div></section>`;
 function renderList(rows,anime){
  const render=items=>items.map(w=>`<article class="work-row"><span class="year">${esc(w.year||'—')}</span><div><h3>${w.url&&w.source!=='legacy'?`<a href="${safe(w.url)}">${esc(w.title)}</a>`:esc(w.title)}</h3><p>${esc(anime?w.titleEn:w.detail)}</p></div><span class="role">${anime?'劇伴音楽':esc(w.role)}</span></article>`).join('');
- return render(rows.slice(0,10))+(rows.length>10?`<details class="more-works"><summary><span class="when-closed">もっと見る（残り${rows.length-10}件）</span><span class="when-open">閉じる</span><span aria-hidden="true">＋</span></summary>${render(rows.slice(10))}</details>`:'');
+ return render(rows.slice(0,5))+(rows.length>5?`<details class="more-works"><summary><span class="when-closed">もっと見る（残り${rows.length-5}件）</span><span class="when-open">閉じる</span><span aria-hidden="true">＋</span></summary>${render(rows.slice(5))}</details>`:'');
 }
 const animeHtml=renderList(works.filter(w=>w.category==='anime'),true);
 const songsHtml=renderList(works.filter(w=>w.category!=='anime'),false);
