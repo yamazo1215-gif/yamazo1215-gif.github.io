@@ -1,0 +1,20 @@
+import {test} from 'node:test';
+import assert from 'node:assert/strict';
+import fs from 'node:fs/promises';
+import os from 'node:os';
+import path from 'node:path';
+import {normalizeEdges,mergeWorks,fetchWorks,fetchAliasWorks,sync} from './sync-anilist.mjs';
+const edge=(id,role='Music')=>({staffRole:role,node:{id,title:{native:`作品${id}`},startDate:{year:2025},siteUrl:`https://anilist.co/anime/${id}`}});
+const page=(n,next,edges)=>new Response(JSON.stringify({data:{Staff:{id:149067,name:{full:'Yamazo'},staffMedia:{pageInfo:{currentPage:n,hasNextPage:next},edges}}}}));
+test('Music only; no duplicate ID',()=>assert.deepEqual(normalizeEdges([edge(1),edge(1),edge(2,'Theme Song Arrangement')]).map(w=>w.anilistId),[1]));
+test('complete pagination',async()=>{let n=0;assert.equal((await fetchWorks(async()=>{n++;return page(n,n===1,[edge(n)])},async()=>{})).length,2)});
+test('rate-limit retry',async()=>{let n=0;assert.equal((await fetchWorks(async()=>++n===1?new Response('',{status:429}):page(1,false,[edge(1)]),async()=>{})).length,1)});
+test('partial pagination rejected',async()=>{let n=0;await assert.rejects(fetchWorks(async()=>++n===1?page(1,true,[edge(1)]):new Response('',{status:403}),async()=>{}))});
+test('GraphQL and identity errors',async()=>{await assert.rejects(fetchWorks(async()=>new Response(JSON.stringify({errors:[{message:'offline'}]}))));await assert.rejects(fetchWorks(async()=>new Response(JSON.stringify({data:{Staff:{id:2}}}))))});
+test('empty response rejected',async()=>assert.rejects(fetchWorks(async()=>page(1,false,[]))));
+test('idempotency and retained deletions',()=>{const a=normalizeEdges([edge(1),edge(2)]),b=mergeWorks(a,normalizeEdges([edge(1)]));assert.equal(b.records.length,2);assert.deepEqual(b.missing,['anilist-2']);assert.deepEqual(mergeWorks(b.records,normalizeEdges([edge(1)])).changed,[])});
+test('seed merge',()=>{const a=normalizeEdges([edge(1)]);assert.equal(mergeWorks([{...a[0],id:'seed',anilistId:null}],a).records.length,1)});
+test('403 preserves disk bytes',async()=>{const d=await fs.mkdtemp(path.join(os.tmpdir(),'yamazo-test-'));const f=path.join(d,'anilist.json'),s=JSON.stringify(normalizeEdges([edge(1)]));await fs.writeFile(f,s);try{await assert.rejects(sync(d,async()=>new Response('',{status:403})));assert.equal(await fs.readFile(f,'utf8'),s)}finally{await fs.rm(d,{recursive:true})}});
+test('invalid links rejected',()=>{const e=edge(1);e.node.siteUrl='javascript:alert(1)';assert.throws(()=>normalizeEdges([e]))});
+
+test('verified alias imported and namesake without Music ignored',async()=>{for(const valid of [true,false]){let n=0;const f=async()=>++n===1?new Response(JSON.stringify({data:{Page:{pageInfo:{hasNextPage:false},staff:[{id:123,name:{full:'Tomohiro Yamada',native:'山田知広'}}]}}})):new Response(JSON.stringify({data:{Staff:{id:123,name:{full:'Tomohiro Yamada'},staffMedia:{pageInfo:{currentPage:1,hasNextPage:false},edges:valid?[edge(21321),edge(105928)]:[]}}}}));assert.equal((await fetchAliasWorks(f,async()=>{})).length,valid?2:0)}});

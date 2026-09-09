@@ -1,0 +1,436 @@
+[
+  {
+    "id": "legacy-001",
+    "title": "Lefty Hand Cream",
+    "year": null,
+    "category": "song",
+    "role": "編曲",
+    "detail": "ハート/あいみょん（カバー）",
+    "sources": [
+      "https://www.yamazo.jp/works"
+    ],
+    "source": "legacy",
+    "titleEn": "",
+    "image": "",
+    "url": "https://www.yamazo.jp/works",
+    "anilistId": null
+  },
+  {
+    "id": "legacy-002",
+    "title": "ヤマノススメ Next Summit",
+    "year": null,
+    "category": "anime",
+    "role": "劇伴担当",
+    "detail": "劇伴担当",
+    "sources": [
+      "https://www.yamazo.jp/works"
+    ],
+    "source": "legacy",
+    "titleEn": "",
+    "image": "",
+    "url": "https://www.yamazo.jp/works",
+    "anilistId": null,
+    "mergedInto": "ヤマノススメ Next Summit"
+  },
+  {
+    "id": "legacy-003",
+    "title": "Club Saturno's Collection",
+    "year": null,
+    "category": "song",
+    "role": "作詞作曲編曲",
+    "detail": "1.ゲラメキユSaturno ver. / 7.ゲラメキユAll ver.",
+    "sources": [
+      "https://www.yamazo.jp/works"
+    ],
+    "source": "legacy",
+    "titleEn": "",
+    "image": "",
+    "url": "https://www.yamazo.jp/works",
+    "anilistId": null
+  },
+  {
+    "id": "legacy-004",
+    "title": "Club Saturno No1. 桐野",
+    "year": null,
+    "category": "song",
+    "role": "作詞作曲編曲",
+    "detail": "2.ゲラメキユ桐野ver.",
+    "sources": [
+      "https://www.yamazo.jp/works"
+    ],
+    "source": "legacy",
+    "titleEn": "",
+    "image": "",
+    "url": "https://www.yamazo.jp/works",
+    "anilistId": null
+  },
+  {
+    "id": "legacy-005",
+    "title": "Club Saturno No2 環珠",
+    "year": null,
+    "category": "song",
+    "role": "作詞作曲編曲",
+    "detail": "2.ゲラメキユ環珠ver.",
+    "sources": [
+      "https://www.yamazo.jp/works"
+    ],
+    "source": "legacy",
+    "titleEn": "",
+    "image": "",
+    "url": "https://www.yamazo.jp/works",
+    "anilistId": null
+  },
+  {
+    "id": "legacy-006",
+    "title": "Club Saturno No3. 亜土夢",
+    "year": null,
+    "category": "song",
+    "role": "作詞作曲編曲",
+    "detail": "2.ゲラメキユ亜土夢ver.",
+    "sources": [
+      "https://www.yamazo.jp/works"
+    ],
+    "source": "legacy",
+    "titleEn": "",
+    "image": "",
+    "url": "https://www.yamazo.jp/works",
+    "anilistId": null
+  },
+  {
+    "id": "legacy-007",
+    "title": "Club Saturno No4. 蔡久良",
+    "year": null,
+    "category": "song",
+    "role": "作詞作曲編曲",
+    "detail": "2.ゲラメキユ蔡久良ver.",
+    "sources": [
+      "https://www.yamazo.jp/works"
+    ],
+    "source": "legacy",
+    "titleEn": "",
+    "image": "",
+    "url": "https://www.yamazo.jp/works",
+    "anilistId": null
+  },
+  {
+    "id": "legacy-008",
+    "title": "Club Saturno No5. てん星",
+    "year": null,
+    "category": "song",
+    "role": "作詞作曲編曲",
+    "detail": "1.旋律のFate / 2.ゲラメキユてん星ver.",
+    "sources": [
+      "https://www.yamazo.jp/works"
+    ],
+    "source": "legacy",
+    "titleEn": "",
+    "image": "",
+    "url": "https://www.yamazo.jp/works",
+    "anilistId": null
+  },
+  {
+    "id": "legacy-009",
+    "title": "Club Vanere's Collection",
+    "year": null,
+    "category": "song",
+    "role": "作詞作曲編曲",
+    "detail": "Club Vanere's Collection / M1 ゲラメキユ Club Vanere ver. / M7 ゲラメキユAll ver.",
+    "sources": [
+      "https://www.yamazo.jp/works"
+    ],
+    "source": "legacy",
+    "titleEn": "",
+    "image": "",
+    "url": "https://www.yamazo.jp/works",
+    "anilistId": null
+  },
+  {
+    "id": "legacy-010",
+    "title": "Club Vanere No.1 輝石",
+    "year": null,
+    "category": "song",
+    "role": "作詞作曲編曲",
+    "detail": "2.ゲラメキユ輝石ver.",
+    "sources": [
+      "https://www.yamazo.jp/works"
+    ],
+    "source": "legacy",
+    "titleEn": "",
+    "image": "",
+    "url": "https://www.yamazo.jp/works",
+    "anilistId": null
+  },
+  {
+    "id": "legacy-011",
+    "title": "Club Vanere No.2 明星",
+    "year": null,
+    "category": "song",
+    "role": "作詞作曲編曲",
+    "detail": "2.ゲラメキユ明星ver.",
+    "sources": [
+      "https://www.yamazo.jp/works"
+    ],
+    "source": "legacy",
+    "titleEn": "",
+    "image": "",
+    "url": "https://www.yamazo.jp/works",
+    "anilistId": null
+  },
+  {
+    "id": "legacy-012",
+    "title": "Club Vanere No.3 愛抱夢",
+    "year": null,
+    "category": "song",
+    "role": "作詞作曲編曲",
+    "detail": "2.ゲラメキユ愛抱夢ver.",
+    "sources": [
+      "https://www.yamazo.jp/works"
+    ],
+    "source": "legacy",
+    "titleEn": "",
+    "image": "",
+    "url": "https://www.yamazo.jp/works",
+    "anilistId": null
+  },
+  {
+    "id": "legacy-013",
+    "title": "Club Vanere No.4 金多",
+    "year": null,
+    "category": "song",
+    "role": "作詞作曲編曲",
+    "detail": "1.ギャンブリングデート / 2.ゲラメキユ金多ver.",
+    "sources": [
+      "https://www.yamazo.jp/works"
+    ],
+    "source": "legacy",
+    "titleEn": "",
+    "image": "",
+    "url": "https://www.yamazo.jp/works",
+    "anilistId": null
+  },
+  {
+    "id": "legacy-014",
+    "title": "Club Vanere No.5 夕星",
+    "year": null,
+    "category": "song",
+    "role": "作詞作曲編曲",
+    "detail": "1.Secret makeup / 2.ゲラメキユ夕星ver.",
+    "sources": [
+      "https://www.yamazo.jp/works"
+    ],
+    "source": "legacy",
+    "titleEn": "",
+    "image": "",
+    "url": "https://www.yamazo.jp/works",
+    "anilistId": null
+  },
+  {
+    "id": "legacy-015",
+    "title": "Fairy 蘭丸〜あなたの心お助けします〜O.S.T",
+    "year": null,
+    "category": "song",
+    "role": "作曲・Guitar",
+    "detail": "作曲・Guitar",
+    "sources": [
+      "https://www.yamazo.jp/works"
+    ],
+    "source": "legacy",
+    "titleEn": "",
+    "image": "",
+    "url": "https://www.yamazo.jp/works",
+    "anilistId": null
+  },
+  {
+    "id": "legacy-016",
+    "title": "A3! ETERNA GOD EP",
+    "year": null,
+    "category": "song",
+    "role": "作詞・作曲・編曲：yamazo",
+    "detail": "GOD座コラボ公演曲B / 2 Valet Resonance / 作詞・作曲・編曲：yamazo / ルッツ＆サシャ［荒川志太、泉田 莇（CV：影山達也、小西成弥）］",
+    "sources": [
+      "https://www.yamazo.jp/works"
+    ],
+    "source": "legacy",
+    "titleEn": "",
+    "image": "",
+    "url": "https://www.yamazo.jp/works",
+    "anilistId": null
+  },
+  {
+    "id": "legacy-017",
+    "title": "HEVENS DOOR",
+    "year": null,
+    "category": "song",
+    "role": "作曲・編曲：yamazo",
+    "detail": "M1. 愛らんらんらん / 歌：阿以蘭丸 (CV：坂田将吾)",
+    "sources": [
+      "https://www.yamazo.jp/works"
+    ],
+    "source": "legacy",
+    "titleEn": "",
+    "image": "",
+    "url": "https://www.yamazo.jp/works",
+    "anilistId": null
+  },
+  {
+    "id": "legacy-018",
+    "title": "TVアニメ「Fairy蘭丸〜あなたの心お助けします〜」",
+    "year": null,
+    "category": "anime",
+    "role": "劇伴音楽担当",
+    "detail": "劇伴音楽担当",
+    "sources": [
+      "https://www.yamazo.jp/works"
+    ],
+    "source": "legacy",
+    "titleEn": "",
+    "image": "",
+    "url": "https://www.yamazo.jp/works",
+    "anilistId": null,
+    "mergedInto": "Fairy蘭丸～あなたの心お助けします～"
+  },
+  {
+    "id": "legacy-019",
+    "title": "THE IDOLM@STER ARTIST4 如月千早",
+    "year": null,
+    "category": "song",
+    "role": "編曲・Guitar・Bass・Prog",
+    "detail": "1.Coming Smile",
+    "sources": [
+      "https://www.yamazo.jp/works"
+    ],
+    "source": "legacy",
+    "titleEn": "",
+    "image": "",
+    "url": "https://www.yamazo.jp/works",
+    "anilistId": null
+  },
+  {
+    "id": "legacy-020",
+    "title": "OneRoom サードシーズン主題歌",
+    "year": null,
+    "category": "song",
+    "role": "作曲・編曲・Guitar・Bass・Prog",
+    "detail": "1.太陽とレインボー",
+    "sources": [
+      "https://www.yamazo.jp/works"
+    ],
+    "source": "legacy",
+    "titleEn": "",
+    "image": "",
+    "url": "https://www.yamazo.jp/works",
+    "anilistId": null
+  },
+  {
+    "id": "legacy-021",
+    "title": "デート・ア・ライブ キャラクターソングコレクション",
+    "year": null,
+    "category": "song",
+    "role": "編曲",
+    "detail": "6.DOUBLE PUNCH LOVE",
+    "sources": [
+      "https://www.yamazo.jp/works"
+    ],
+    "source": "legacy",
+    "titleEn": "",
+    "image": "",
+    "url": "https://www.yamazo.jp/works",
+    "anilistId": null
+  },
+  {
+    "id": "legacy-022",
+    "title": "ソードアート・オンライン アリシゼーション War of Underwold #2",
+    "year": null,
+    "category": "song",
+    "role": "作曲・編曲・Guitar・Prog",
+    "detail": "Deep in the dark",
+    "sources": [
+      "https://www.yamazo.jp/works"
+    ],
+    "source": "legacy",
+    "titleEn": "",
+    "image": "",
+    "url": "https://www.yamazo.jp/works",
+    "anilistId": null
+  },
+  {
+    "id": "legacy-023",
+    "title": "A3! MIX SEASON LP",
+    "year": null,
+    "category": "song",
+    "role": "作詞・作曲・編曲：yamazo",
+    "detail": "第二回公演ミックス公演曲A / ３、不屈のチャント / 作詞・作曲・編曲：yamazo / 久保田＆宮木[皆木 綴、高遠 丞(CV：西山宏太朗、佐藤拓也)]",
+    "sources": [
+      "https://www.yamazo.jp/works"
+    ],
+    "source": "legacy",
+    "titleEn": "",
+    "image": "",
+    "url": "https://www.yamazo.jp/works",
+    "anilistId": null
+  },
+  {
+    "id": "legacy-024",
+    "title": "三森すずこ「チャンス！/夕方」",
+    "year": null,
+    "category": "song",
+    "role": "編曲（大石昌良・yamazo）",
+    "detail": "1.チャンス！ / 作詞：hotaru　作曲：大石昌良　編曲：大石昌良、yamazo",
+    "sources": [
+      "https://www.yamazo.jp/works"
+    ],
+    "source": "legacy",
+    "titleEn": "",
+    "image": "",
+    "url": "https://www.yamazo.jp/works",
+    "anilistId": null
+  },
+  {
+    "id": "legacy-025",
+    "title": "ハイスクールフリート5.1ch BD BOX",
+    "year": null,
+    "category": "song",
+    "role": "作編曲",
+    "detail": "万里小路楓キャラクターソング「ビューティフル・ビューグル」",
+    "sources": [
+      "https://www.yamazo.jp/works"
+    ],
+    "source": "legacy",
+    "titleEn": "",
+    "image": "",
+    "url": "https://www.yamazo.jp/works",
+    "anilistId": null
+  },
+  {
+    "id": "legacy-026",
+    "title": "冴えない彼女の育てかた ギャルゲーカバーソングコレクション",
+    "year": null,
+    "category": "song",
+    "role": "編曲",
+    "detail": "Disc1 / 1.Leaf Ticket / 2.勇気の神様 / 8.届かない恋 / Disc2 / 7.未来への咆哮",
+    "sources": [
+      "https://www.yamazo.jp/works"
+    ],
+    "source": "legacy",
+    "titleEn": "",
+    "image": "",
+    "url": "https://www.yamazo.jp/works",
+    "anilistId": null
+  },
+  {
+    "id": "legacy-027",
+    "title": "ソードアート・オンライン アリシゼーション#8",
+    "year": null,
+    "category": "song",
+    "role": "作編曲",
+    "detail": "Blazing The Future",
+    "sources": [
+      "https://www.yamazo.jp/works"
+    ],
+    "source": "legacy",
+    "titleEn": "",
+    "image": "",
+    "url": "https://www.yamazo.jp/works",
+    "anilistId": null
+  }
+]
