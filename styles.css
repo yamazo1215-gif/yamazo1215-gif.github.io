@@ -10,3 +10,5 @@
 .work-row{border-bottom:0}.work-row.year-start{border-top:1px solid var(--border)}
 
 .works-section,.about{max-width:960px;margin-left:auto;margin-right:auto}
+
+.video{width:50%;margin-inline:auto}.latest-section{max-width:760px;margin-inline:auto}.latest-grid{gap:18px}.latest-card h3{font-size:15px}@media(max-width:760px){.video{width:100%}.latest-grid{gap:16px}.latest-card h3{font-size:14px}}
