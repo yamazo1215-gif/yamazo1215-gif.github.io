@@ -173,5 +173,19 @@
       "https://vgmdb.net/album/144640"
     ],
     "url": "https://vgmdb.net/album/144640"
+  },
+  {
+    "id": "verified-song-mihonouta",
+    "title": "みほのうた",
+    "detail": "TRUE / 一度だけの恋なら・花ざかりWeekend✿",
+    "role": "編曲",
+    "startDate": "2026-01-21",
+    "year": 2026,
+    "category": "song",
+    "source": "verified-official-and-credit-pages",
+    "sources": [
+      "https://true-singer.com/contents/1012635"
+    ],
+    "url": "https://true-singer.com/contents/1012635"
   }
 ]
