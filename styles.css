@@ -8,3 +8,5 @@
 .profile-links{display:flex;gap:1.75rem;margin-top:1.5rem;font-size:1rem}.profile-links a{text-decoration:underline;text-underline-offset:.3em}
 
 .work-row{border-bottom:0}.work-row.year-start{border-top:1px solid var(--border)}
+
+.works-section,.about{max-width:960px;margin-left:auto;margin-right:auto}
