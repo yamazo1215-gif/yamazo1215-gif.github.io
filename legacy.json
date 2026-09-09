@@ -34,195 +34,219 @@
   },
   {
     "id": "legacy-003",
-    "title": "Club Saturno's Collection",
-    "year": null,
+    "title": "リモート☆ホスト / Club Saturno's Collection",
+    "year": 2021,
     "category": "song",
-    "role": "作詞作曲編曲",
-    "detail": "1.ゲラメキユSaturno ver. / 7.ゲラメキユAll ver.",
+    "role": "作詞・作曲・編曲",
+    "detail": "ゲラメキユ Club Saturno ver. / 旋律のFate / ゲラメキユ All ver.",
     "sources": [
-      "https://www.yamazo.jp/works"
+      "https://www.yamazo.jp/works",
+      "https://remohos.com/music/saturno_a01.html"
     ],
     "source": "legacy",
     "titleEn": "",
     "image": "",
-    "url": "https://www.yamazo.jp/works",
-    "anilistId": null
+    "url": "https://remohos.com/music/saturno_a01.html",
+    "anilistId": null,
+    "startDate": "2021-12-15"
   },
   {
     "id": "legacy-004",
-    "title": "Club Saturno No1. 桐野",
-    "year": null,
+    "title": "リモート☆ホスト / Club Saturno No1. 桐野",
+    "year": 2021,
     "category": "song",
-    "role": "作詞作曲編曲",
+    "role": "作詞・作曲・編曲",
     "detail": "2.ゲラメキユ桐野ver.",
     "sources": [
-      "https://www.yamazo.jp/works"
+      "https://www.yamazo.jp/works",
+      "https://remohos.com/music/saturno_s01.html"
     ],
     "source": "legacy",
     "titleEn": "",
     "image": "",
-    "url": "https://www.yamazo.jp/works",
-    "anilistId": null
+    "url": "https://remohos.com/music/saturno_s01.html",
+    "anilistId": null,
+    "startDate": "2021-12-15"
   },
   {
     "id": "legacy-005",
-    "title": "Club Saturno No2 環珠",
-    "year": null,
+    "title": "リモート☆ホスト / Club Saturno No2 環珠",
+    "year": 2021,
     "category": "song",
-    "role": "作詞作曲編曲",
+    "role": "作詞・作曲・編曲",
     "detail": "2.ゲラメキユ環珠ver.",
     "sources": [
-      "https://www.yamazo.jp/works"
+      "https://www.yamazo.jp/works",
+      "https://remohos.com/music/saturno_s02.html"
     ],
     "source": "legacy",
     "titleEn": "",
     "image": "",
-    "url": "https://www.yamazo.jp/works",
-    "anilistId": null
+    "url": "https://remohos.com/music/saturno_s02.html",
+    "anilistId": null,
+    "startDate": "2021-12-15"
   },
   {
     "id": "legacy-006",
-    "title": "Club Saturno No3. 亜土夢",
-    "year": null,
+    "title": "リモート☆ホスト / Club Saturno No3. 亜土夢",
+    "year": 2021,
     "category": "song",
-    "role": "作詞作曲編曲",
+    "role": "作詞・作曲・編曲",
     "detail": "2.ゲラメキユ亜土夢ver.",
     "sources": [
-      "https://www.yamazo.jp/works"
+      "https://www.yamazo.jp/works",
+      "https://remohos.com/music/saturno_s03.html"
     ],
     "source": "legacy",
     "titleEn": "",
     "image": "",
-    "url": "https://www.yamazo.jp/works",
-    "anilistId": null
+    "url": "https://remohos.com/music/saturno_s03.html",
+    "anilistId": null,
+    "startDate": "2021-12-15"
   },
   {
     "id": "legacy-007",
-    "title": "Club Saturno No4. 蔡久良",
-    "year": null,
+    "title": "リモート☆ホスト / Club Saturno No4. 蔡久良",
+    "year": 2021,
     "category": "song",
-    "role": "作詞作曲編曲",
+    "role": "作詞・作曲・編曲",
     "detail": "2.ゲラメキユ蔡久良ver.",
     "sources": [
-      "https://www.yamazo.jp/works"
+      "https://www.yamazo.jp/works",
+      "https://remohos.com/music/saturno_s04.html"
     ],
     "source": "legacy",
     "titleEn": "",
     "image": "",
-    "url": "https://www.yamazo.jp/works",
-    "anilistId": null
+    "url": "https://remohos.com/music/saturno_s04.html",
+    "anilistId": null,
+    "startDate": "2021-12-15"
   },
   {
     "id": "legacy-008",
-    "title": "Club Saturno No5. てん星",
-    "year": null,
+    "title": "リモート☆ホスト / Club Saturno No5. てん星",
+    "year": 2021,
     "category": "song",
-    "role": "作詞作曲編曲",
+    "role": "作詞・作曲・編曲",
     "detail": "1.旋律のFate / 2.ゲラメキユてん星ver.",
     "sources": [
-      "https://www.yamazo.jp/works"
+      "https://www.yamazo.jp/works",
+      "https://remohos.com/music/saturno_s05.html"
     ],
     "source": "legacy",
     "titleEn": "",
     "image": "",
-    "url": "https://www.yamazo.jp/works",
-    "anilistId": null
+    "url": "https://remohos.com/music/saturno_s05.html",
+    "anilistId": null,
+    "startDate": "2021-12-15"
   },
   {
     "id": "legacy-009",
-    "title": "Club Vanere's Collection",
-    "year": null,
+    "title": "リモート☆ホスト / Club Venere's Collection",
+    "year": 2021,
     "category": "song",
-    "role": "作詞作曲編曲",
-    "detail": "Club Vanere's Collection / M1 ゲラメキユ Club Vanere ver. / M7 ゲラメキユAll ver.",
+    "role": "作詞・作曲・編曲",
+    "detail": "ゲラメキユ Club Venere ver. / ギャンブリングデート / Secret makeup / ゲラメキユ All ver.",
     "sources": [
-      "https://www.yamazo.jp/works"
+      "https://www.yamazo.jp/works",
+      "https://remohos.com/music/venere_a01.html"
     ],
     "source": "legacy",
     "titleEn": "",
     "image": "",
-    "url": "https://www.yamazo.jp/works",
-    "anilistId": null
+    "url": "https://remohos.com/music/venere_a01.html",
+    "anilistId": null,
+    "startDate": "2021-11-17"
   },
   {
     "id": "legacy-010",
-    "title": "Club Vanere No.1 輝石",
-    "year": null,
+    "title": "リモート☆ホスト / Club Venere No.1 輝石",
+    "year": 2021,
     "category": "song",
-    "role": "作詞作曲編曲",
+    "role": "作詞・作曲・編曲",
     "detail": "2.ゲラメキユ輝石ver.",
     "sources": [
-      "https://www.yamazo.jp/works"
+      "https://www.yamazo.jp/works",
+      "https://remohos.com/music/venere_s01.html"
     ],
     "source": "legacy",
     "titleEn": "",
     "image": "",
-    "url": "https://www.yamazo.jp/works",
-    "anilistId": null
+    "url": "https://remohos.com/music/venere_s01.html",
+    "anilistId": null,
+    "startDate": "2021-11-17"
   },
   {
     "id": "legacy-011",
-    "title": "Club Vanere No.2 明星",
-    "year": null,
+    "title": "リモート☆ホスト / Club Venere No.2 明星",
+    "year": 2021,
     "category": "song",
-    "role": "作詞作曲編曲",
+    "role": "作詞・作曲・編曲",
     "detail": "2.ゲラメキユ明星ver.",
     "sources": [
-      "https://www.yamazo.jp/works"
+      "https://www.yamazo.jp/works",
+      "https://remohos.com/music/venere_s02.html"
     ],
     "source": "legacy",
     "titleEn": "",
     "image": "",
-    "url": "https://www.yamazo.jp/works",
-    "anilistId": null
+    "url": "https://remohos.com/music/venere_s02.html",
+    "anilistId": null,
+    "startDate": "2021-11-17"
   },
   {
     "id": "legacy-012",
-    "title": "Club Vanere No.3 愛抱夢",
-    "year": null,
+    "title": "リモート☆ホスト / Club Venere No.3 愛抱夢",
+    "year": 2021,
     "category": "song",
-    "role": "作詞作曲編曲",
+    "role": "作詞・作曲・編曲",
     "detail": "2.ゲラメキユ愛抱夢ver.",
     "sources": [
-      "https://www.yamazo.jp/works"
+      "https://www.yamazo.jp/works",
+      "https://remohos.com/music/venere_s03.html"
     ],
     "source": "legacy",
     "titleEn": "",
     "image": "",
-    "url": "https://www.yamazo.jp/works",
-    "anilistId": null
+    "url": "https://remohos.com/music/venere_s03.html",
+    "anilistId": null,
+    "startDate": "2021-11-17"
   },
   {
     "id": "legacy-013",
-    "title": "Club Vanere No.4 金多",
-    "year": null,
+    "title": "リモート☆ホスト / Club Venere No.4 金多",
+    "year": 2021,
     "category": "song",
-    "role": "作詞作曲編曲",
+    "role": "作詞・作曲・編曲",
     "detail": "1.ギャンブリングデート / 2.ゲラメキユ金多ver.",
     "sources": [
-      "https://www.yamazo.jp/works"
+      "https://www.yamazo.jp/works",
+      "https://remohos.com/music/venere_s04.html"
     ],
     "source": "legacy",
     "titleEn": "",
     "image": "",
-    "url": "https://www.yamazo.jp/works",
-    "anilistId": null
+    "url": "https://remohos.com/music/venere_s04.html",
+    "anilistId": null,
+    "startDate": "2021-11-17"
   },
   {
     "id": "legacy-014",
-    "title": "Club Vanere No.5 夕星",
-    "year": null,
+    "title": "リモート☆ホスト / Club Venere No.5 夕星",
+    "year": 2021,
     "category": "song",
-    "role": "作詞作曲編曲",
+    "role": "作詞・作曲・編曲",
     "detail": "1.Secret makeup / 2.ゲラメキユ夕星ver.",
     "sources": [
-      "https://www.yamazo.jp/works"
+      "https://www.yamazo.jp/works",
+      "https://remohos.com/music/venere_s05.html"
     ],
     "source": "legacy",
     "titleEn": "",
     "image": "",
-    "url": "https://www.yamazo.jp/works",
-    "anilistId": null
+    "url": "https://remohos.com/music/venere_s05.html",
+    "anilistId": null,
+    "startDate": "2021-11-17"
   },
   {
     "id": "legacy-015",

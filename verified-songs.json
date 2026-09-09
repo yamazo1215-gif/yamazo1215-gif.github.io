@@ -77,7 +77,7 @@
   {
     "id": "verified-song-rmhs",
     "title": "R・M・H・S アンセム",
-    "detail": "Venere 5 & Saturno 5",
+    "detail": "リモート☆ホスト / Venere 5 & Saturno 5",
     "role": "作詞・作曲・編曲",
     "startDate": "2024-11-06",
     "year": 2024,
@@ -88,5 +88,90 @@
     ],
     "url": "https://remohos.com/music/rmhs.html",
     "dateNote": "Release date of this edition; may differ from original song release"
+  },
+  {
+    "id": "verified-song-remohos-infinity",
+    "title": "リモホスナイン～サマーインフィニティ～",
+    "detail": "リモート☆ホスト / Venere 5 & Saturno 5",
+    "role": "作詞・作曲・編曲",
+    "startDate": "2025-12-24",
+    "year": 2025,
+    "category": "song",
+    "source": "verified-official-and-credit-pages",
+    "sources": [
+      "https://remohos.com/music/infinity.html",
+      "https://www.youtube.com/watch?v=aEE32zW4ui8"
+    ],
+    "url": "https://remohos.com/music/infinity.html"
+  },
+  {
+    "id": "verified-song-remohos-tokyo",
+    "title": "トーキョーシティボーイズ",
+    "detail": "リモート☆ホスト / 夕星（CV：石井孝英）＆環珠（CV：安田陸矢）",
+    "role": "作詞・作曲・編曲",
+    "startDate": "2023-12-06",
+    "year": 2023,
+    "category": "song",
+    "source": "verified-official-and-credit-pages",
+    "sources": [
+      "https://remohos.com/music/duet_003.html"
+    ],
+    "url": "https://remohos.com/music/duet_003.html"
+  },
+  {
+    "id": "verified-song-remohos-konamon",
+    "title": "KONAMON",
+    "detail": "リモート☆ホスト / 安曇（CV：大野智敬）",
+    "role": "編曲",
+    "startDate": "2022-12-07",
+    "year": 2022,
+    "category": "song",
+    "source": "verified-official-and-credit-pages",
+    "sources": [
+      "https://remohos.com/music/saturno_s10.html"
+    ],
+    "url": "https://remohos.com/music/saturno_s10.html"
+  },
+  {
+    "id": "verified-song-remohos-beauty",
+    "title": "ビューティフル・シンパシー",
+    "detail": "リモート☆ホスト / 夕星（CV：石井孝英）",
+    "role": "作詞・作曲・編曲",
+    "startDate": "2022-12-07",
+    "year": 2022,
+    "category": "song",
+    "source": "verified-official-and-credit-pages",
+    "sources": [
+      "https://remohos.com/music/venere_s08.html"
+    ],
+    "url": "https://remohos.com/music/venere_s08.html"
+  },
+  {
+    "id": "verified-song-remohos-king",
+    "title": "King of the night‼",
+    "detail": "リモート☆ホスト / Venere 5",
+    "role": "作曲・編曲",
+    "startDate": "2022-06-15",
+    "year": 2022,
+    "category": "song",
+    "source": "verified-official-and-credit-pages",
+    "sources": [
+      "https://remohos.com/music/venere_n01.html"
+    ],
+    "url": "https://remohos.com/music/venere_n01.html"
+  },
+  {
+    "id": "verified-song-youtou",
+    "title": "洋燈",
+    "detail": "Nona* / Fate/Grand Order",
+    "role": "作曲・編曲・ギター",
+    "startDate": "2024-11-14",
+    "year": 2024,
+    "category": "song",
+    "source": "verified-vgmdb",
+    "sources": [
+      "https://vgmdb.net/album/144640"
+    ],
+    "url": "https://vgmdb.net/album/144640"
   }
 ]

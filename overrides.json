@@ -1,5 +1,8 @@
 {
-  "excludedIds": [],
+  "excludedIds": [
+    "verified-song-ashita-tv",
+    "verified-song-kakumei-tv"
+  ],
   "records": {
     "anilist-177761": {
       "title": "9-nine- Ruler's Crown"
