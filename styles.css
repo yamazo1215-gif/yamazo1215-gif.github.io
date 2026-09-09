@@ -6,3 +6,5 @@
 .more-works summary{display:flex;justify-content:space-between;cursor:pointer;padding:1.3rem 0;font-size:1rem;border-bottom:1px solid #ccc;list-style:none}.more-works summary::-webkit-details-marker{display:none}.more-works summary:focus-visible{outline:2px solid currentColor;outline-offset:4px}.more-works .when-open{display:none}.more-works[open] .when-open{display:inline}.more-works[open] .when-closed{display:none}.more-works[open] summary>span:last-child{transform:rotate(45deg)}
 
 .profile-links{display:flex;gap:1.75rem;margin-top:1.5rem;font-size:1rem}.profile-links a{text-decoration:underline;text-underline-offset:.3em}
+
+.work-row{border-bottom:0}.work-row.year-start{border-top:1px solid var(--border)}
