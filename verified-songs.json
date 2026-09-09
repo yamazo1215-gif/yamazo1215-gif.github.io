@@ -1,0 +1,92 @@
+[
+  {
+    "id": "verified-song-nest-camp",
+    "title": "NesT CAMP",
+    "detail": "TRUE",
+    "role": "作曲・編曲",
+    "startDate": "2026-06-28",
+    "year": 2026,
+    "category": "song",
+    "source": "verified-official-and-credit-pages",
+    "sources": [
+      "https://true-singer.com/contents/1087046"
+    ],
+    "url": "https://true-singer.com/contents/1087046",
+    "dateNote": "Release date of this edition; may differ from original song release"
+  },
+  {
+    "id": "verified-song-emoria",
+    "title": "ないものねだらせたもん勝ち",
+    "detail": "安月名莉子 / Emoria収録",
+    "role": "編曲",
+    "startDate": "2026-03-25",
+    "year": 2026,
+    "category": "song",
+    "source": "verified-official-and-credit-pages",
+    "sources": [
+      "https://azuna-riko.com/discography/29/"
+    ],
+    "url": "https://azuna-riko.com/discography/29/",
+    "dateNote": "Release date of this edition; may differ from original song release"
+  },
+  {
+    "id": "verified-song-chant-2024-live",
+    "title": "不屈のチャント（Four Seasons LIVE 2024 Ver.）",
+    "detail": "MANKAI STAGE「A3!」",
+    "role": "作詞・作曲・編曲",
+    "startDate": "2026-01-28",
+    "year": 2026,
+    "category": "song",
+    "source": "verified-official-and-credit-pages",
+    "sources": [
+      "https://www.uta-net.com/song/387134/"
+    ],
+    "url": "https://www.uta-net.com/song/387134/",
+    "dateNote": "Release date of this edition; may differ from original song release"
+  },
+  {
+    "id": "verified-song-ashita-tv",
+    "title": "明日が来れば（TV MIX）",
+    "detail": "yamazo / 美男高校地球防衛部ハイカラ！",
+    "role": "作曲・編曲",
+    "startDate": "2025-09-03",
+    "year": 2025,
+    "category": "song",
+    "source": "verified-official-and-credit-pages",
+    "sources": [
+      "https://www.uta-net.com/song/379190/"
+    ],
+    "url": "https://www.uta-net.com/song/379190/",
+    "dateNote": "Release date of this edition; may differ from original song release"
+  },
+  {
+    "id": "verified-song-kakumei-tv",
+    "title": "革命の歌（TV MIX）",
+    "detail": "yamazo / 美男高校地球防衛部ハイカラ！",
+    "role": "作曲・編曲",
+    "startDate": "2025-09-03",
+    "year": 2025,
+    "category": "song",
+    "source": "verified-official-and-credit-pages",
+    "sources": [
+      "https://www.uta-net.com/song/379189/"
+    ],
+    "url": "https://www.uta-net.com/song/379189/",
+    "dateNote": "Release date of this edition; may differ from original song release"
+  },
+  {
+    "id": "verified-song-rmhs",
+    "title": "R・M・H・S アンセム",
+    "detail": "Venere 5 & Saturno 5",
+    "role": "作詞・作曲・編曲",
+    "startDate": "2024-11-06",
+    "year": 2024,
+    "category": "song",
+    "source": "verified-official-and-credit-pages",
+    "sources": [
+      "https://remohos.com/music/rmhs.html"
+    ],
+    "url": "https://remohos.com/music/rmhs.html",
+    "dateNote": "Release date of this edition; may differ from original song release"
+  }
+]
