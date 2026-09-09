@@ -9,7 +9,7 @@ Run `node sync-anilist.mjs` to fetch new Music credits from AniList staff 149067
 
 ## Data
 
-- `legacy.json`: all 27 records recovered from https://www.yamazo.jp/works on 2026-09-09. Two anime records are merged into the animation section; 25 legacy records display separately. Unknown release years are not invented.
+- `legacy.json`: all 27 records recovered from https://www.yamazo.jp/works on 2026-09-09. Two anime records are merged into the animation section; Legacy rows are excluded from display at the owner’s request. The raw snapshot remains as a backup. Unknown release years are not invented.
 - `anilist.json`: 21 anime seeds, with sources per record. AniList API was temporarily unavailable (HTTP 403) at setup; complete API import is pending service recovery. Room Mate and ETERNAL LOVE have direct AniList musicBy credits. Other initial credits use https://www.anisil.com/people/17149-yamazo and AniList metadata. No agency site is used as a source.
 - `overrides.json`: permanent display corrections and excluded IDs. Update this file for corrections; it is not overwritten by runtime snapshots.
 - `sync-status.json`: latest successful import and changes. Current initial value records the setup outage.

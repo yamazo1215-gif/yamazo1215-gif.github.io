@@ -7,7 +7,7 @@ const composer={'target-type':'work',type:'composer',work};
 const arrangement={'target-type':'recording',type:'arranger',recording:{id:rid,title:'同じ曲 (Instrumental)'}};
 const details={[rid]:{id:rid,'first-release-date':'2019-04-12','artist-credit':[{name:'歌手'}],relations:[{'target-type':'work',type:'performance',work}]}};
 test('canonical work links combine recording and composition roles without title guessing',()=>{
- const rows=normalizeArtist(a([composer,arrangement]),details);assert.equal(rows.length,1);assert.equal(rows[0].role,'作曲・編曲');assert.equal(rows[0].detail,'歌手');assert.equal(rows[0].year,2019);
+ const rows=normalizeArtist(a([composer,arrangement]),details);assert.equal(rows.length,1);assert.equal(rows[0].role,'作曲・編曲');assert.equal(rows[0].detail,'歌手');assert.equal(rows[0].year,2019);assert.equal(rows[0].startDate,'2019-04-12');
  const unlinked=structuredClone(details);unlinked[rid].relations=[];assert.equal(normalizeArtist(a([composer,arrangement]),unlinked).length,2);
 });
 test('reject wrong artist, empty response and missing recording before writing',()=>{

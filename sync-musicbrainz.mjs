@@ -27,7 +27,7 @@ export function normalizeArtist(artist,recordings={}){
   row.sources=[...new Set([...row.sources,`https://musicbrainz.org/${type}/${item.id}`,`https://musicbrainz.org/artist/${ARTIST}`])];
   // Use the recording's first-release-date, never the last reissue date.
   const date=rec?.['first-release-date'];
-  if(/^\d{4}(?:-\d{2})?(?:-\d{2})?$/.test(date||''))row.year=row.year===null?Number(date.slice(0,4)):Math.min(row.year,Number(date.slice(0,4)));
+  if(/^\d{4}(?:-\d{2})?(?:-\d{2})?$/.test(date||'')){row.year=row.year===null?Number(date.slice(0,4)):Math.min(row.year,Number(date.slice(0,4)));if(!row.startDate||date<row.startDate)row.startDate=date;}
   row.role=row.roles.join('・');row.detail=row.artists.join(' / ');
   rows.set(id,row);
  }
