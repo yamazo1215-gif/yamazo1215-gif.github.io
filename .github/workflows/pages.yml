@@ -1,0 +1,90 @@
+name: Publish yamazo.jp
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+  schedule:
+    - cron: '17 21 * * 0'
+permissions:
+  contents: read
+concurrency:
+  group: yamazo-pages
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      actions: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: node --test *.test.mjs
+      - name: Locate previous Works snapshot
+        id: snapshot
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const response = await github.rest.actions.listArtifactsForRepo({
+              ...context.repo, name: 'yamazo-works-snapshot', per_page: 10
+            });
+            const artifact = response.data.artifacts.find(a => !a.expired && a.workflow_run?.head_branch === 'main');
+            if (artifact) {
+              core.setOutput('id', String(artifact.id));
+              core.setOutput('run', String(artifact.workflow_run.id));
+            }
+      - name: Restore previous Works snapshot
+        if: steps.snapshot.outputs.id != ''
+        uses: actions/download-artifact@v4
+        with:
+          artifact-ids: ${{ steps.snapshot.outputs.id }}
+          run-id: ${{ steps.snapshot.outputs.run }}
+          github-token: ${{ github.token }}
+          path: previous
+          merge-multiple: true
+      - run: node restore-snapshot.mjs
+      - name: Check AniList weekly or on manual run
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+        id: anime
+        continue-on-error: true
+        run: node sync-anilist.mjs
+      - name: Check song credits weekly or on manual run
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+        id: songs
+        continue-on-error: true
+        run: node sync-musicbrainz.mjs
+      - name: Report unavailable sources
+        if: steps.anime.outcome == 'failure' || steps.songs.outcome == 'failure'
+        run: |
+          echo "::warning::A credit source is unavailable. Its previous data is retained; other sources can still update."
+          echo "One source failed. Previous credits were preserved. Check the AniList and MusicBrainz step logs." >> "$GITHUB_STEP_SUMMARY"
+      - run: node build.mjs
+      - name: Keep updated Works without repository write access
+        uses: actions/upload-artifact@v4
+        with:
+          name: yamazo-works-snapshot
+          path: |
+            anilist.json
+            sync-status.json
+            musicbrainz.json
+            musicbrainz-status.json
+          retention-days: 90
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Publish
+        id: deployment
+        uses: actions/deploy-pages@v4
