@@ -18,6 +18,6 @@ if(!html.includes('{{LATEST}}')||!html.includes('{{WORKS}}'))throw Error('Missin
 html=html.replace('{{LATEST}}',latestHtml).replace('{{WORKS}}',worksHtml).replace(/© \d{4} yamazo/,`© ${new Date().getFullYear()} yamazo`);
 await fs.mkdir('dist',{recursive:true});
 await fs.writeFile('dist/index.html',html);
-await Promise.all(['styles.css','favicon.svg'].map(f=>fs.copyFile(f,`dist/${f}`)));
+await Promise.all(['styles.css','favicon.svg','yamazo.jpg'].map(f=>fs.copyFile(f,`dist/${f}`)));
 await fs.writeFile('dist/.nojekyll','');
 console.log(`Built ${works.length} credits, ${latest.length} covers, one video. No client JavaScript.`);
