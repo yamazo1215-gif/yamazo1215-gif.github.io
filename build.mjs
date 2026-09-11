@@ -1,26 +1,49 @@
 import fs from 'node:fs/promises';
-const read=async p=>JSON.parse(await fs.readFile(p,'utf8'));
-const [anime,legacy,overrides,music,verified,soundtracks]=await Promise.all(['anilist.json','legacy.json','overrides.json','musicbrainz.json','verified-songs.json','soundtracks.json'].map(read));
-const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const safe=s=>s&&new URL(s).protocol==='https:'?esc(s):'';
-// MusicBrainz lists many anime character/theme songs as song credits. Keep those
-// attached to the animation work rather than mixing them into general client work.
-const works=[...anime,...legacy,...music,...verified,...soundtracks].filter(w=>!w.mergedInto&&!overrides.excludedIds.includes(w.id)&&!(w.source==='musicbrainz'&&!w.detail)&&!String(w.title).includes('オリジナルカラオケ')).map(w=>({...w,...overrides.records[w.id]})).sort((a,b)=>(b.year||0)-(a.year||0)||(b.startDate||'').localeCompare(a.startDate||''));
-const latest=works.filter(w=>w.category==='anime'&&w.image).slice(0,4);
-const latestHtml=`<section class="latest-section" aria-labelledby="latest-title"><div class="section-title"><h2 id="latest-title">Latest works</h2><span>ANIMATION / 劇伴音楽</span></div><div class="latest-grid">${latest.map((w,i)=>`<a class="latest-card" href="${safe(w.url)}"><div class="cover-frame"><img src="${safe(w.image)}" alt="${esc(w.title)}" width="460" height="650" loading="lazy" referrerpolicy="no-referrer"></div><div class="card-meta"><span>0${i+1} / ${esc(w.year)}</span><span>劇伴音楽 ↗</span></div><h3>${esc(w.title)}</h3>${w.titleEn&&w.titleEn!==w.title?`<p>${esc(w.titleEn)}</p>`:''}</a>`).join('')}</div></section>`;
-function renderList(rows,kind){
- const render=items=>items.map((w,i)=>`<article class="work-row${i===0||items[i-1].year!==w.year?' year-start':''}"><span class="year">${i===0||items[i-1].year!==w.year?esc(w.year||'—'):''}</span><div><h3>${w.url&&w.source!=='legacy'?`<a href="${safe(w.url)}">${esc(w.title)}</a>`:esc(w.title)}</h3><p>${esc(kind==='anime'?w.titleEn:w.detail)}</p></div><span class="role">${kind==='anime'?'劇伴音楽':kind==='anime-song'?'主題歌・挿入歌':esc(w.role)}</span></article>`).join('');
- return render(rows.slice(0,5))+(rows.length>5?`<details class="more-works"><summary><span class="when-closed">もっと見る（残り${rows.length-5}件）</span><span class="when-open">閉じる</span><span aria-hidden="true">＋</span></summary>${render(rows.slice(5))}</details>`:'');
-}
-const animeHtml=renderList(works.filter(w=>w.category==='anime'),'anime');
-const soundtrackHtml=renderList(works.filter(w=>w.category==='soundtrack'),'soundtrack');
-const songsHtml=renderList(works.filter(w=>w.category==='song'),'song');
-const worksHtml=`<section class="works-section" id="works"><div class="section-title"><h2>Works</h2><span>${works.length} CREDITS</span></div><h3 class="list-heading">Animation <span>劇伴音楽</span></h3><div class="work-list">${animeHtml}</div><h3 class="list-heading songs-heading">Soundtrack CDs <span>サウンドトラック・アルバム</span></h3><div class="work-list">${soundtrackHtml}</div><h3 class="list-heading songs-heading">Songs &amp; other works <span>楽曲提供・参加作品</span></h3><div class="work-list">${songsHtml}</div></section>`;
-let html=await fs.readFile('template.html','utf8');
-if(!html.includes('{{LATEST}}')||!html.includes('{{WORKS}}'))throw Error('Missing template markers');
-html=html.replace('{{LATEST}}',latestHtml).replace('{{WORKS}}',worksHtml).replace(/© \d{4} yamazo/,`© ${new Date().getFullYear()} yamazo`);
-await fs.mkdir('dist',{recursive:true});
-await fs.writeFile('dist/index.html',html);
-await Promise.all(['styles.css','favicon.svg','yamazo.jpg'].map(f=>fs.copyFile(f,`dist/${f}`)));
-await fs.writeFile('dist/.nojekyll','');
-console.log(`Built ${works.length} credits, ${latest.length} covers, one video. No client JavaScript.`);
+
+const works = JSON.parse(await fs.readFile('yamazo_works_master.json', 'utf8')).sort(
+  (a, b) => (b.year ?? 0) - (a.year ?? 0) || (b.release_date ?? '').localeCompare(a.release_date ?? '') || (a.work_title ?? a.track_title ?? '').localeCompare(b.work_title ?? b.track_title ?? '', 'ja'),
+);
+const esc = (value) => String(value ?? '').replace(/[&<>"']/g, (char) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[char]);
+const safe = (value) => {
+  if (!value) return '';
+  try { const url = new URL(value); return url.protocol === 'https:' || url.protocol === 'mailto:' ? esc(value) : ''; } catch { return ''; }
+};
+const categoryLabel = { score: 'Score / Soundtrack', song: 'Song', original: 'Original', performance: 'Performance' };
+const titleFor = (work) => work.category === 'song' ? work.track_title : work.work_title;
+
+const card = (work, index) => {
+  const title = titleFor(work);
+  const links = [['Official', work.official_url], ['Apple Music', work.apple_music], ['Spotify', work.spotify], ['YouTube', work.youtube]].filter(([, url]) => url);
+  return `<article class="work-card${index >= 12 ? ' initial-hidden' : ''}" data-category="${esc(work.category)}" data-roles="${esc((work.roles || []).join(' '))}">
+    <div class="work-card-top"><span>${esc(categoryLabel[work.category] || work.category)}</span>${work.year ? `<time datetime="${esc(work.year)}">${esc(work.year)}</time>` : ''}</div>
+    ${work.category === 'song' && work.work_title ? `<p class="work-parent">${esc(work.work_title)}</p>` : ''}
+    ${title ? `<h3>${esc(title)}</h3>` : ''}
+    ${work.artist ? `<p class="artist">${esc(work.artist)}</p>` : ''}
+    ${work.roles?.length ? `<p class="roles">${esc(work.roles.join(' / '))}</p>` : ''}
+    ${work.credit_note ? `<p class="credit-note">${esc(work.credit_note)}</p>` : ''}
+    ${links.length ? `<nav class="work-links" aria-label="${esc(title || 'Work')} の関連リンク">${links.map(([label, url]) => `<a href="${safe(url)}" target="_blank" rel="noreferrer">${label}<span aria-hidden="true"> ↗</span></a>`).join('')}</nav>` : ''}
+  </article>`;
+};
+
+const featured = works.filter((work) => work.featured);
+const featuredHtml = featured.length ? `<div class="featured-grid">${featured.map((work, index) => {
+  const title = titleFor(work);
+  return `<article class="featured-card"><div class="featured-visual">${work.image ? `<img src="${safe(work.image)}" alt="" loading="lazy" referrerpolicy="no-referrer">` : `<span>${String(index + 1).padStart(2, '0')}</span>`}</div><div class="featured-copy"><p>${esc(categoryLabel[work.category] || work.category)}${work.year ? ` · ${esc(work.year)}` : ''}</p>${title ? `<h3>${esc(title)}</h3>` : ''}${work.artist ? `<p class="artist">${esc(work.artist)}</p>` : ''}${work.roles?.length ? `<p class="roles">${esc(work.roles.join(' / '))}</p>` : ''}</div></article>`;
+}).join('')}</div>` : '<p class="empty-state">Featured WorksはWorks Masterで指定されます。</p>';
+
+const worksHtml = `<div class="works-toolbar" aria-label="Worksを絞り込む">
+  <button type="button" class="active" aria-pressed="true" data-filter="all">All</button>
+  <button type="button" aria-pressed="false" data-filter="score">Score</button>
+  <button type="button" aria-pressed="false" data-filter="song">Songs</button>
+  <button type="button" aria-pressed="false" data-filter="compose">Compose</button>
+  <button type="button" aria-pressed="false" data-filter="arrange">Arrange</button>
+  <button type="button" aria-pressed="false" data-filter="guitar">Guitar</button>
+</div><p class="result-count" aria-live="polite">${works.length} credits</p><div class="works-grid">${works.map(card).join('')}</div>${works.length > 12 ? `<button class="show-more" type="button">もっと見る（残り${works.length - 12}件）</button>` : ''}`;
+
+let html = await fs.readFile('template.html', 'utf8');
+html = html.replace('{{FEATURED}}', featuredHtml).replace('{{WORKS}}', worksHtml).replace('{{YEAR}}', String(new Date().getFullYear()));
+await fs.mkdir('dist', { recursive: true });
+await fs.writeFile('dist/index.html', html);
+await Promise.all(['styles.css', 'app.js', 'favicon.svg', 'yamazo.jpg', 'yamazo_works_master.json'].map((file) => fs.copyFile(file, `dist/${file}`)));
+await fs.writeFile('dist/.nojekyll', '');
+console.log(`Built ${works.length} temporary credits from yamazo_works_master.json.`);
