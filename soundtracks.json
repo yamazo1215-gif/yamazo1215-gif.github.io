@@ -1,0 +1,24 @@
+[
+  {
+    "id": "soundtrack-haikara-ost",
+    "title": "美男高校地球防衛部ハイカラ！O.S.T.",
+    "year": 2025,
+    "category": "soundtrack",
+    "role": "音楽",
+    "detail": "TVアニメ『美男高校地球防衛部ハイカラ！』オリジナルサウンドトラック",
+    "url": "https://www.ponycanyon.co.jp/music/PCCG000002458",
+    "sources": ["https://www.ponycanyon.co.jp/music/PCCG000002458"],
+    "source": "official"
+  },
+  {
+    "id": "soundtrack-hananoi-ost",
+    "title": "花野井くんと恋の病 オリジナルサウンドトラック",
+    "year": 2024,
+    "category": "soundtrack",
+    "role": "音楽",
+    "detail": "TVアニメ『花野井くんと恋の病』オリジナルサウンドトラック",
+    "url": "https://tower.jp/item/6422159",
+    "sources": ["https://tower.jp/item/6422159"],
+    "source": "official"
+  }
+]
