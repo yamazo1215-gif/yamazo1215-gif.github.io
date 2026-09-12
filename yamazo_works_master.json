@@ -144,7 +144,8 @@
     "featured": true,
     "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx177761-KdJxyWwdBdiS.jpg",
     "source_url": "https://anilist.co/anime/177761",
-    "temporary": true
+    "temporary": true,
+    "release_id": "release-177761"
   },
   {
     "id": "anilist-188138",
@@ -165,7 +166,8 @@
     "featured": true,
     "image": "https://boueibu.com/hc/images/news/p_002.jpg",
     "source_url": "https://anilist.co/anime/188138",
-    "temporary": true
+    "temporary": true,
+    "release_id": "release-188138"
   },
   {
     "id": "anilist-179838",
@@ -186,7 +188,8 @@
     "featured": true,
     "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx179838-qCOaqbhZ8eFX.jpg",
     "source_url": "https://anilist.co/anime/179838",
-    "temporary": true
+    "temporary": true,
+    "release_id": "release-179838"
   },
   {
     "id": "soundtrack-haikara-ost",
@@ -270,7 +273,8 @@
     "featured": true,
     "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx165855-uJ0Hq5EFUlz8.jpg",
     "source_url": "https://anilist.co/anime/165855",
-    "temporary": true
+    "temporary": true,
+    "release_id": "release-165855"
   },
   {
     "id": "soundtrack-hananoi-ost",
@@ -1148,7 +1152,8 @@
     "featured": false,
     "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b98238-4DhBzMv946g9.png",
     "source_url": "https://anilist.co/anime/98238",
-    "temporary": true
+    "temporary": true,
+    "release_id": "release-98238"
   },
   {
     "id": "mb-work-6cfa2f99-0456-4a76-baa2-670bc21bc9d5",

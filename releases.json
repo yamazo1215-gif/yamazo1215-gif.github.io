@@ -1,0 +1,77 @@
+[
+  {
+    "id": "release-177761",
+    "release_title": "9-nine- Ruler's Crown",
+    "release_type": "score",
+    "release_date": "2025-01-01",
+    "artwork": {
+      "src": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx177761-KdJxyWwdBdiS.jpg",
+      "width": 600,
+      "height": 600,
+      "alt": "9-nine- Ruler's Crown ジャケット",
+      "provider": "anilist",
+      "source_url": "https://anilist.co/anime/177761",
+      "checked_at": "2026-09-11"
+    }
+  },
+  {
+    "id": "release-188138",
+    "release_title": "美男高校地球防衛部 ハイカラ！",
+    "release_type": "score",
+    "release_date": "2025-01-01",
+    "artwork": {
+      "src": "https://boueibu.com/hc/images/news/p_002.jpg",
+      "width": 768,
+      "height": 1080,
+      "alt": "美男高校地球防衛部 ハイカラ！ ジャケット",
+      "provider": "official",
+      "source_url": "https://anilist.co/anime/188138",
+      "checked_at": "2026-09-11"
+    }
+  },
+  {
+    "id": "release-179838",
+    "release_title": "美男高校地球防衛部 ETERNAL LOVE！",
+    "release_type": "score",
+    "release_date": "2025-01-01",
+    "artwork": {
+      "src": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx179838-qCOaqbhZ8eFX.jpg",
+      "width": 600,
+      "height": 600,
+      "alt": "美男高校地球防衛部 ETERNAL LOVE！ ジャケット",
+      "provider": "anilist",
+      "source_url": "https://anilist.co/anime/179838",
+      "checked_at": "2026-09-11"
+    }
+  },
+  {
+    "id": "release-165855",
+    "release_title": "花野井くんと恋の病",
+    "release_type": "score",
+    "release_date": "2024-01-01",
+    "artwork": {
+      "src": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx165855-uJ0Hq5EFUlz8.jpg",
+      "width": 600,
+      "height": 600,
+      "alt": "花野井くんと恋の病 ジャケット",
+      "provider": "anilist",
+      "source_url": "https://anilist.co/anime/165855",
+      "checked_at": "2026-09-11"
+    }
+  },
+  {
+    "id": "release-98238",
+    "release_title": "Room Mate",
+    "release_type": "song",
+    "release_date": "2017-01-01",
+    "artwork": {
+      "src": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b98238-4DhBzMv946g9.png",
+      "width": 345,
+      "height": 500,
+      "alt": "Room Mate ジャケット",
+      "provider": "anilist",
+      "source_url": "https://anilist.co/anime/98238",
+      "checked_at": "2026-09-11"
+    }
+  }
+]
