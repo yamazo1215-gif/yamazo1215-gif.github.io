@@ -81,7 +81,8 @@
     "featured": false,
     "image": "",
     "source_url": "https://true-singer.com/contents/1012635",
-    "temporary": true
+    "temporary": true,
+    "release_id": "artwork-verified-song-mihonouta-ichido-e52c1201c9f2"
   },
   {
     "id": "verified-song-mihonouta-hanazakari",
@@ -102,7 +103,8 @@
     "featured": false,
     "image": "",
     "source_url": "https://true-singer.com/contents/1012635",
-    "temporary": true
+    "temporary": true,
+    "release_id": "artwork-verified-song-mihonouta-hanazakari-e52c1201c9f2"
   },
   {
     "id": "verified-song-remohos-infinity",
@@ -123,7 +125,8 @@
     "featured": false,
     "image": "",
     "source_url": "https://remohos.com/music/infinity.html",
-    "temporary": true
+    "temporary": true,
+    "release_id": "remohos-infinity"
   },
   {
     "id": "anilist-177761",
@@ -231,7 +234,8 @@
     "featured": false,
     "image": "",
     "source_url": "https://vgmdb.net/album/144640",
-    "temporary": true
+    "temporary": true,
+    "release_id": "itunes-1777974920"
   },
   {
     "id": "verified-song-rmhs",
@@ -252,7 +256,8 @@
     "featured": false,
     "image": "",
     "source_url": "https://remohos.com/music/rmhs.html",
-    "temporary": true
+    "temporary": true,
+    "release_id": "remohos-rmhs"
   },
   {
     "id": "anilist-165855",
@@ -316,7 +321,8 @@
     "featured": false,
     "image": "",
     "source_url": "https://remohos.com/music/duet_003.html",
-    "temporary": true
+    "temporary": true,
+    "release_id": "remohos-duet_003"
   },
   {
     "id": "mb-work-8e80ffef-cd65-432a-b511-7b80d1b3c29e",
@@ -337,7 +343,8 @@
     "featured": false,
     "image": "",
     "source_url": "https://musicbrainz.org/work/8e80ffef-cd65-432a-b511-7b80d1b3c29e",
-    "temporary": true
+    "temporary": true,
+    "release_id": "itunes-1692702349"
   },
   {
     "id": "seed-anime-4",
@@ -358,7 +365,8 @@
     "featured": false,
     "image": "",
     "source_url": "https://www.anisil.com/people/17149-yamazo",
-    "temporary": true
+    "temporary": true,
+    "release_id": "anilist-148109"
   },
   {
     "id": "verified-song-remohos-konamon",
@@ -379,7 +387,8 @@
     "featured": false,
     "image": "",
     "source_url": "https://remohos.com/music/saturno_s10.html",
-    "temporary": true
+    "temporary": true,
+    "release_id": "remohos-saturno_s10"
   },
   {
     "id": "verified-song-remohos-beauty",
@@ -400,7 +409,8 @@
     "featured": false,
     "image": "",
     "source_url": "https://remohos.com/music/venere_s08.html",
-    "temporary": true
+    "temporary": true,
+    "release_id": "remohos-venere_s08"
   },
   {
     "id": "mb-work-fdc83ed8-98ca-467a-a3f0-3f9786f65f56",
@@ -422,7 +432,8 @@
     "featured": false,
     "image": "",
     "source_url": "https://musicbrainz.org/work/fdc83ed8-98ca-467a-a3f0-3f9786f65f56",
-    "temporary": true
+    "temporary": true,
+    "release_id": "itunes-1647486149"
   },
   {
     "id": "verified-song-remohos-king",
@@ -443,7 +454,8 @@
     "featured": false,
     "image": "",
     "source_url": "https://remohos.com/music/venere_n01.html",
-    "temporary": true
+    "temporary": true,
+    "release_id": "artwork-verified-song-remohos-king-3f20c0c8dec6"
   },
   {
     "id": "seed-anime-5",
@@ -464,7 +476,8 @@
     "featured": false,
     "image": "",
     "source_url": "https://www.anisil.com/people/17149-yamazo",
-    "temporary": true
+    "temporary": true,
+    "release_id": "anilist-131182"
   },
   {
     "id": "legacy-003",
@@ -485,7 +498,8 @@
     "featured": false,
     "image": "",
     "source_url": "https://remohos.com/music/saturno_a01.html",
-    "temporary": true
+    "temporary": true,
+    "release_id": "remohos-saturno_a01"
   },
   {
     "id": "legacy-004",
@@ -506,7 +520,8 @@
     "featured": false,
     "image": "",
     "source_url": "https://remohos.com/music/saturno_s01.html",
-    "temporary": true
+    "temporary": true,
+    "release_id": "remohos-saturno_s01"
   },
   {
     "id": "legacy-005",
@@ -527,7 +542,8 @@
     "featured": false,
     "image": "",
     "source_url": "https://remohos.com/music/saturno_s02.html",
-    "temporary": true
+    "temporary": true,
+    "release_id": "remohos-saturno_s02"
   },
   {
     "id": "legacy-006",
@@ -548,7 +564,8 @@
     "featured": false,
     "image": "",
     "source_url": "https://remohos.com/music/saturno_s03.html",
-    "temporary": true
+    "temporary": true,
+    "release_id": "remohos-saturno_s03"
   },
   {
     "id": "legacy-007",
@@ -569,7 +586,8 @@
     "featured": false,
     "image": "",
     "source_url": "https://remohos.com/music/saturno_s04.html",
-    "temporary": true
+    "temporary": true,
+    "release_id": "remohos-saturno_s04"
   },
   {
     "id": "legacy-008",
@@ -590,7 +608,8 @@
     "featured": false,
     "image": "",
     "source_url": "https://remohos.com/music/saturno_s05.html",
-    "temporary": true
+    "temporary": true,
+    "release_id": "remohos-saturno_s05"
   },
   {
     "id": "legacy-009",
@@ -611,7 +630,8 @@
     "featured": false,
     "image": "",
     "source_url": "https://remohos.com/music/venere_a01.html",
-    "temporary": true
+    "temporary": true,
+    "release_id": "remohos-venere_a01"
   },
   {
     "id": "legacy-010",
@@ -632,7 +652,8 @@
     "featured": false,
     "image": "",
     "source_url": "https://remohos.com/music/venere_s01.html",
-    "temporary": true
+    "temporary": true,
+    "release_id": "remohos-venere_s01"
   },
   {
     "id": "legacy-011",
@@ -653,7 +674,8 @@
     "featured": false,
     "image": "",
     "source_url": "https://remohos.com/music/venere_s02.html",
-    "temporary": true
+    "temporary": true,
+    "release_id": "remohos-venere_s02"
   },
   {
     "id": "legacy-012",
@@ -674,7 +696,8 @@
     "featured": false,
     "image": "",
     "source_url": "https://remohos.com/music/venere_s03.html",
-    "temporary": true
+    "temporary": true,
+    "release_id": "remohos-venere_s03"
   },
   {
     "id": "legacy-013",
@@ -695,7 +718,8 @@
     "featured": false,
     "image": "",
     "source_url": "https://remohos.com/music/venere_s04.html",
-    "temporary": true
+    "temporary": true,
+    "release_id": "remohos-venere_s04"
   },
   {
     "id": "legacy-014",
@@ -716,7 +740,8 @@
     "featured": false,
     "image": "",
     "source_url": "https://remohos.com/music/venere_s05.html",
-    "temporary": true
+    "temporary": true,
+    "release_id": "remohos-venere_s05"
   },
   {
     "id": "seed-anime-6",
@@ -737,7 +762,8 @@
     "featured": false,
     "image": "",
     "source_url": "https://www.anisil.com/people/17149-yamazo",
-    "temporary": true
+    "temporary": true,
+    "release_id": "anilist-128399"
   },
   {
     "id": "mb-work-6d8f6950-7def-496f-88f8-404e8502622a",
@@ -760,7 +786,8 @@
     "featured": false,
     "image": "",
     "source_url": "https://musicbrainz.org/work/6d8f6950-7def-496f-88f8-404e8502622a",
-    "temporary": true
+    "temporary": true,
+    "release_id": "itunes-1535742124"
   },
   {
     "id": "yamada-anime-0",
@@ -781,7 +808,8 @@
     "featured": false,
     "image": "",
     "source_url": "https://oneroom-anime.com/staff/",
-    "temporary": true
+    "temporary": true,
+    "release_id": "anilist-116147"
   },
   {
     "id": "mb-work-54c6eb5d-c5c4-494c-97a4-6f7672461de9",
@@ -825,7 +853,8 @@
     "featured": false,
     "image": "",
     "source_url": "https://musicbrainz.org/work/2801e74c-1167-4a9d-854e-771e4266ff5d",
-    "temporary": true
+    "temporary": true,
+    "release_id": "itunes-1458324782"
   },
   {
     "id": "anilist-105928",
@@ -846,7 +875,8 @@
     "featured": false,
     "image": "",
     "source_url": "https://st-comet.com/archives/399",
-    "temporary": true
+    "temporary": true,
+    "release_id": "anilist-105928"
   },
   {
     "id": "mb-work-e3be01e2-5c11-48f2-a71b-035572e72a15",
@@ -868,7 +898,8 @@
     "featured": false,
     "image": "",
     "source_url": "https://musicbrainz.org/work/e3be01e2-5c11-48f2-a71b-035572e72a15",
-    "temporary": true
+    "temporary": true,
+    "release_id": "itunes-1424120710"
   },
   {
     "id": "mb-work-45ff7693-3534-4184-89a4-43df4e7676e7",
@@ -890,7 +921,8 @@
     "featured": false,
     "image": "",
     "source_url": "https://musicbrainz.org/work/45ff7693-3534-4184-89a4-43df4e7676e7",
-    "temporary": true
+    "temporary": true,
+    "release_id": "itunes-1424120710"
   },
   {
     "id": "mb-work-9197c179-fe8d-4686-889d-0d47d141d05d",
@@ -915,7 +947,8 @@
     "featured": false,
     "image": "",
     "source_url": "https://musicbrainz.org/work/9197c179-fe8d-4686-889d-0d47d141d05d",
-    "temporary": true
+    "temporary": true,
+    "release_id": "itunes-1524588371"
   },
   {
     "id": "seed-anime-7",
@@ -936,7 +969,8 @@
     "featured": false,
     "image": "",
     "source_url": "https://www.anisil.com/people/17149-yamazo",
-    "temporary": true
+    "temporary": true,
+    "release_id": "anilist-98866"
   },
   {
     "id": "seed-anime-8",
@@ -957,7 +991,8 @@
     "featured": false,
     "image": "",
     "source_url": "https://www.anisil.com/people/17149-yamazo",
-    "temporary": true
+    "temporary": true,
+    "release_id": "anilist-101046"
   },
   {
     "id": "anilist-100133",
@@ -978,7 +1013,8 @@
     "featured": false,
     "image": "",
     "source_url": "https://oneroom-anime.com/staff/",
-    "temporary": true
+    "temporary": true,
+    "release_id": "anilist-100133"
   },
   {
     "id": "mb-work-8838e274-ad11-4515-82d5-5b0b4d665f5d",
@@ -1131,7 +1167,8 @@
     "featured": false,
     "image": "",
     "source_url": "https://musicbrainz.org/work/e6d47786-4533-49a1-8ec5-149afa43256e",
-    "temporary": true
+    "temporary": true,
+    "release_id": "itunes-1537899093"
   },
   {
     "id": "anilist-98238",
@@ -1176,7 +1213,8 @@
     "featured": false,
     "image": "",
     "source_url": "https://musicbrainz.org/work/6cfa2f99-0456-4a76-baa2-670bc21bc9d5",
-    "temporary": true
+    "temporary": true,
+    "release_id": "itunes-1198080442"
   },
   {
     "id": "seed-anime-10",
@@ -1197,7 +1235,8 @@
     "featured": false,
     "image": "",
     "source_url": "https://www.anisil.com/people/17149-yamazo",
-    "temporary": true
+    "temporary": true,
+    "release_id": "anilist-97857"
   },
   {
     "id": "seed-anime-11",
@@ -1218,7 +1257,8 @@
     "featured": false,
     "image": "",
     "source_url": "https://www.anisil.com/people/17149-yamazo",
-    "temporary": true
+    "temporary": true,
+    "release_id": "anilist-98868"
   },
   {
     "id": "seed-anime-12",
@@ -1239,7 +1279,8 @@
     "featured": false,
     "image": "",
     "source_url": "https://www.anisil.com/people/17149-yamazo",
-    "temporary": true
+    "temporary": true,
+    "release_id": "anilist-98599"
   },
   {
     "id": "mb-work-bfbc3836-0598-4a92-8f3a-c6f0440f5881",
@@ -1281,7 +1322,8 @@
     "featured": false,
     "image": "",
     "source_url": "https://www.anisil.com/people/17149-yamazo",
-    "temporary": true
+    "temporary": true,
+    "release_id": "anilist-21293"
   },
   {
     "id": "anilist-21321",
@@ -1302,7 +1344,8 @@
     "featured": false,
     "image": "",
     "source_url": "https://www.tbs.co.jp/anime/meido/staffcast/",
-    "temporary": true
+    "temporary": true,
+    "release_id": "anilist-21321"
   },
   {
     "id": "mb-work-c7a6c8ad-4325-3623-b3ff-83605d72369f",
@@ -1366,7 +1409,8 @@
     "featured": false,
     "image": "",
     "source_url": "https://musicbrainz.org/work/e4858bb9-269b-412f-9acb-2ca2014eb4c4",
-    "temporary": true
+    "temporary": true,
+    "release_id": "itunes-961540313"
   },
   {
     "id": "seed-anime-14",
@@ -1387,7 +1431,8 @@
     "featured": false,
     "image": "",
     "source_url": "https://www.anisil.com/people/17149-yamazo",
-    "temporary": true
+    "temporary": true,
+    "release_id": "anilist-20877"
   },
   {
     "id": "yamada-anime-4",
@@ -1408,7 +1453,8 @@
     "featured": false,
     "image": "",
     "source_url": "https://www.video.unext.jp/title/SID0018916",
-    "temporary": true
+    "temporary": true,
+    "release_id": "anilist-21044"
   },
   {
     "id": "mb-work-9edcd8bb-3f25-4f07-8262-530cff46e424",
@@ -1430,7 +1476,8 @@
     "featured": false,
     "image": "",
     "source_url": "https://musicbrainz.org/work/9edcd8bb-3f25-4f07-8262-530cff46e424",
-    "temporary": true
+    "temporary": true,
+    "release_id": "itunes-931355581"
   },
   {
     "id": "mb-work-b899ef5f-1436-4ff9-bc78-7e42ac79e371",
@@ -1454,7 +1501,8 @@
     "featured": false,
     "image": "",
     "source_url": "https://musicbrainz.org/work/b899ef5f-1436-4ff9-bc78-7e42ac79e371",
-    "temporary": true
+    "temporary": true,
+    "release_id": "itunes-912413985"
   },
   {
     "id": "mb-work-f02a6bac-b758-4bac-97e4-dbe73a286275",
@@ -1475,7 +1523,8 @@
     "featured": false,
     "image": "",
     "source_url": "https://musicbrainz.org/work/f02a6bac-b758-4bac-97e4-dbe73a286275",
-    "temporary": true
+    "temporary": true,
+    "release_id": "itunes-1535788651"
   },
   {
     "id": "mb-work-404ec12c-a982-453b-80cf-78e81b94831c",
@@ -1496,7 +1545,8 @@
     "featured": false,
     "image": "",
     "source_url": "https://musicbrainz.org/work/404ec12c-a982-453b-80cf-78e81b94831c",
-    "temporary": true
+    "temporary": true,
+    "release_id": "itunes-1629368692"
   },
   {
     "id": "mb-work-27eeb3bd-2cdb-4fa2-a519-d6d2e426a44a",
@@ -1518,7 +1568,8 @@
     "featured": false,
     "image": "",
     "source_url": "https://musicbrainz.org/work/27eeb3bd-2cdb-4fa2-a519-d6d2e426a44a",
-    "temporary": true
+    "temporary": true,
+    "release_id": "itunes-897450663"
   },
   {
     "id": "seed-anime-15",
@@ -1539,7 +1590,8 @@
     "featured": false,
     "image": "",
     "source_url": "https://www.anisil.com/people/17149-yamazo",
-    "temporary": true
+    "temporary": true,
+    "release_id": "anilist-21003"
   },
   {
     "id": "mb-work-444f0d58-da70-40b0-8431-1c4e7fce4f5a",
@@ -1560,7 +1612,8 @@
     "featured": false,
     "image": "",
     "source_url": "https://musicbrainz.org/work/444f0d58-da70-40b0-8431-1c4e7fce4f5a",
-    "temporary": true
+    "temporary": true,
+    "release_id": "itunes-730900174"
   },
   {
     "id": "mb-work-4c12d676-eff2-4a8f-91dc-3d7f3659d419",
@@ -1581,7 +1634,8 @@
     "featured": false,
     "image": "",
     "source_url": "https://musicbrainz.org/work/4c12d676-eff2-4a8f-91dc-3d7f3659d419",
-    "temporary": true
+    "temporary": true,
+    "release_id": "itunes-668864666"
   },
   {
     "id": "mb-work-1253610d-e221-4767-850f-9eed0d416551",
@@ -1604,7 +1658,8 @@
     "featured": false,
     "image": "",
     "source_url": "https://musicbrainz.org/work/1253610d-e221-4767-850f-9eed0d416551",
-    "temporary": true
+    "temporary": true,
+    "release_id": "itunes-651978343"
   },
   {
     "id": "mb-work-e2957410-4732-4eea-b490-1ffe2d6e42ce",
@@ -1627,7 +1682,8 @@
     "featured": false,
     "image": "",
     "source_url": "https://musicbrainz.org/work/e2957410-4732-4eea-b490-1ffe2d6e42ce",
-    "temporary": true
+    "temporary": true,
+    "release_id": "itunes-910555991"
   },
   {
     "id": "mb-work-17589161-6324-46a3-853e-045f8d5bb44e",
@@ -1648,7 +1704,8 @@
     "featured": false,
     "image": "",
     "source_url": "https://musicbrainz.org/work/17589161-6324-46a3-853e-045f8d5bb44e",
-    "temporary": true
+    "temporary": true,
+    "release_id": "itunes-619537929"
   },
   {
     "id": "mb-recording-452e5b1b-afd0-4a3f-a312-0c3634a67aec",
@@ -1669,7 +1726,8 @@
     "featured": false,
     "image": "",
     "source_url": "https://musicbrainz.org/recording/452e5b1b-afd0-4a3f-a312-0c3634a67aec",
-    "temporary": true
+    "temporary": true,
+    "release_id": "itunes-595588912"
   },
   {
     "id": "mb-work-4e0afd19-3970-4232-96d6-912e29cc5eea",
@@ -1712,7 +1770,8 @@
     "featured": false,
     "image": "",
     "source_url": "https://musicbrainz.org/work/7e049a0e-b0ac-45d6-a8cc-26428b691c54",
-    "temporary": true
+    "temporary": true,
+    "release_id": "itunes-576675801"
   },
   {
     "id": "mb-work-587367d8-321f-4109-89eb-78442fd8ff92",
@@ -1733,7 +1792,8 @@
     "featured": false,
     "image": "",
     "source_url": "https://musicbrainz.org/work/587367d8-321f-4109-89eb-78442fd8ff92",
-    "temporary": true
+    "temporary": true,
+    "release_id": "itunes-551582892"
   },
   {
     "id": "mb-work-a2f5e10b-e973-4a81-92b3-73ab910efe0e",
@@ -1755,7 +1815,8 @@
     "featured": false,
     "image": "",
     "source_url": "https://musicbrainz.org/work/a2f5e10b-e973-4a81-92b3-73ab910efe0e",
-    "temporary": true
+    "temporary": true,
+    "release_id": "itunes-547890778"
   },
   {
     "id": "mb-work-159ffd9a-b397-44bb-83dd-5a98ec778540",
@@ -1777,7 +1838,8 @@
     "featured": false,
     "image": "",
     "source_url": "https://musicbrainz.org/work/159ffd9a-b397-44bb-83dd-5a98ec778540",
-    "temporary": true
+    "temporary": true,
+    "release_id": "itunes-518215455"
   },
   {
     "id": "mb-work-ef99166c-56c6-4a2f-971a-65103ef5e721",
@@ -1819,7 +1881,8 @@
     "featured": false,
     "image": "",
     "source_url": "https://musicbrainz.org/work/54e26760-3e85-41f0-97e5-4a48c8618100",
-    "temporary": true
+    "temporary": true,
+    "release_id": "itunes-687625667"
   },
   {
     "id": "mb-work-97334e4d-02a8-45b4-b100-da916a30028a",
@@ -1840,217 +1903,8 @@
     "featured": false,
     "image": "",
     "source_url": "https://musicbrainz.org/work/97334e4d-02a8-45b4-b100-da916a30028a",
-    "temporary": true
-  },
-  {
-    "id": "mb-work-38bded3a-5c4d-447d-b5e3-d7c53c0be070",
-    "category": "song",
-    "work_title": null,
-    "track_title": "keep on runnin'",
-    "artist": "高坂桐乃 / 竹達彩奈",
-    "year": 2011,
-    "release_date": "2011-07-27",
-    "roles": [
-      "ミックス"
-    ],
-    "credit_note": "",
-    "official_url": "",
-    "apple_music": "",
-    "spotify": "",
-    "youtube": "",
-    "featured": false,
-    "image": "",
-    "source_url": "https://musicbrainz.org/work/38bded3a-5c4d-447d-b5e3-d7c53c0be070",
-    "temporary": true
-  },
-  {
-    "id": "mb-work-d6637d95-8d4f-4339-ba98-8e2d564a5cd8",
-    "category": "song",
-    "work_title": null,
-    "track_title": "贖罪のセレナーデ",
-    "artist": "黒猫 / 花澤香菜 / 高坂京介 / 中村悠一",
-    "year": 2011,
-    "release_date": "2011-07-27",
-    "roles": [
-      "ミックス"
-    ],
-    "credit_note": "",
-    "official_url": "",
-    "apple_music": "",
-    "spotify": "",
-    "youtube": "",
-    "featured": false,
-    "image": "",
-    "source_url": "https://musicbrainz.org/work/d6637d95-8d4f-4339-ba98-8e2d564a5cd8",
-    "temporary": true
-  },
-  {
-    "id": "mb-work-59f84267-5351-4247-8c2c-9e64a6b9b6c9",
-    "category": "song",
-    "work_title": null,
-    "track_title": "†命短し恋せよ乙女†",
-    "artist": "黒猫 / 花澤香菜",
-    "year": 2011,
-    "release_date": "2011-06-22",
-    "roles": [
-      "ミックス"
-    ],
-    "credit_note": "",
-    "official_url": "",
-    "apple_music": "",
-    "spotify": "",
-    "youtube": "",
-    "featured": false,
-    "image": "",
-    "source_url": "https://musicbrainz.org/work/59f84267-5351-4247-8c2c-9e64a6b9b6c9",
-    "temporary": true
-  },
-  {
-    "id": "mb-work-38df7612-4a23-4837-823e-951fb62b9007",
-    "category": "song",
-    "work_title": null,
-    "track_title": "READY",
-    "artist": "高坂桐乃 / 竹達彩奈",
-    "year": 2011,
-    "release_date": "2011-06-22",
-    "roles": [
-      "ミックス"
-    ],
-    "credit_note": "",
-    "official_url": "",
-    "apple_music": "",
-    "spotify": "",
-    "youtube": "",
-    "featured": false,
-    "image": "",
-    "source_url": "https://musicbrainz.org/work/38df7612-4a23-4837-823e-951fb62b9007",
-    "temporary": true
-  },
-  {
-    "id": "mb-work-bae289e6-5680-4af8-8cba-0186549f57b3",
-    "category": "song",
-    "work_title": null,
-    "track_title": "アキハバラ☆だんす☆なう!!",
-    "artist": "高坂桐乃 / 竹達彩奈 / 黒猫 / 花澤香菜 / 沙織・バジーナ / 生天目仁美",
-    "year": 2011,
-    "release_date": "2011-05-25",
-    "roles": [
-      "ミックス"
-    ],
-    "credit_note": "",
-    "official_url": "",
-    "apple_music": "",
-    "spotify": "",
-    "youtube": "",
-    "featured": false,
-    "image": "",
-    "source_url": "https://musicbrainz.org/work/bae289e6-5680-4af8-8cba-0186549f57b3",
-    "temporary": true
-  },
-  {
-    "id": "mb-work-667c4959-451d-497c-b4ec-dcdb5f53a283",
-    "category": "song",
-    "work_title": null,
-    "track_title": "ただいま。",
-    "artist": "高坂桐乃 / 竹達彩奈",
-    "year": 2011,
-    "release_date": "2011-05-25",
-    "roles": [
-      "ミックス"
-    ],
-    "credit_note": "",
-    "official_url": "",
-    "apple_music": "",
-    "spotify": "",
-    "youtube": "",
-    "featured": false,
-    "image": "",
-    "source_url": "https://musicbrainz.org/work/667c4959-451d-497c-b4ec-dcdb5f53a283",
-    "temporary": true
-  },
-  {
-    "id": "mb-work-da1e65ed-0179-4aa3-a85c-e168c454d3ab",
-    "category": "song",
-    "work_title": null,
-    "track_title": "いいえ、トムは妹に対して性的な興奮を覚えています",
-    "artist": "来栖加奈子 / 田村ゆかり",
-    "year": 2011,
-    "release_date": "2011-04-27",
-    "roles": [
-      "ミックス"
-    ],
-    "credit_note": "",
-    "official_url": "",
-    "apple_music": "",
-    "spotify": "",
-    "youtube": "",
-    "featured": false,
-    "image": "",
-    "source_url": "https://musicbrainz.org/work/da1e65ed-0179-4aa3-a85c-e168c454d3ab",
-    "temporary": true
-  },
-  {
-    "id": "mb-work-f90f5640-739a-4df7-af24-af232624254d",
-    "category": "song",
-    "work_title": null,
-    "track_title": "好きなんだもん！",
-    "artist": "高坂桐乃 / 竹達彩奈",
-    "year": 2011,
-    "release_date": "2011-04-27",
-    "roles": [
-      "ミックス"
-    ],
-    "credit_note": "",
-    "official_url": "",
-    "apple_music": "",
-    "spotify": "",
-    "youtube": "",
-    "featured": false,
-    "image": "",
-    "source_url": "https://musicbrainz.org/work/f90f5640-739a-4df7-af24-af232624254d",
-    "temporary": true
-  },
-  {
-    "id": "mb-work-5a034b65-64ae-4f73-bd89-b1d441eb6338",
-    "category": "song",
-    "work_title": null,
-    "track_title": "Masquerade!",
-    "artist": "黒猫 / 花澤香菜",
-    "year": 2011,
-    "release_date": "2011-03-23",
-    "roles": [
-      "ミックス"
-    ],
-    "credit_note": "",
-    "official_url": "",
-    "apple_music": "",
-    "spotify": "",
-    "youtube": "",
-    "featured": false,
-    "image": "",
-    "source_url": "https://musicbrainz.org/work/5a034b65-64ae-4f73-bd89-b1d441eb6338",
-    "temporary": true
-  },
-  {
-    "id": "mb-work-e04177f7-dd56-4d22-9e57-82db16dcdb63",
-    "category": "song",
-    "work_title": null,
-    "track_title": "カメレオンドーター",
-    "artist": "沙織・バジーナ / 生天目仁美",
-    "year": 2011,
-    "release_date": "2011-03-23",
-    "roles": [
-      "ミックス"
-    ],
-    "credit_note": "",
-    "official_url": "",
-    "apple_music": "",
-    "spotify": "",
-    "youtube": "",
-    "featured": false,
-    "image": "",
-    "source_url": "https://musicbrainz.org/work/e04177f7-dd56-4d22-9e57-82db16dcdb63",
-    "temporary": true
+    "temporary": true,
+    "release_id": "itunes-687625667"
   },
   {
     "id": "mb-work-53a17010-6854-4d25-bde4-54fe8b25ed8b",
@@ -2072,27 +1926,6 @@
     "featured": false,
     "image": "",
     "source_url": "https://musicbrainz.org/work/53a17010-6854-4d25-bde4-54fe8b25ed8b",
-    "temporary": true
-  },
-  {
-    "id": "mb-work-3d127e62-5b99-4de4-854e-83cf90759f62",
-    "category": "song",
-    "work_title": null,
-    "track_title": "マエガミ☆",
-    "artist": "田村麻奈実 / 佐藤聡美",
-    "year": 2011,
-    "release_date": "2011-02-03",
-    "roles": [
-      "ミックス"
-    ],
-    "credit_note": "",
-    "official_url": "",
-    "apple_music": "",
-    "spotify": "",
-    "youtube": "",
-    "featured": false,
-    "image": "",
-    "source_url": "https://musicbrainz.org/work/3d127e62-5b99-4de4-854e-83cf90759f62",
     "temporary": true
   },
   {
@@ -2118,27 +1951,6 @@
     "temporary": true
   },
   {
-    "id": "mb-work-0f70e50e-aa53-3bb3-8a9b-1fbba3631f43",
-    "category": "song",
-    "work_title": null,
-    "track_title": "白いココロ",
-    "artist": "新垣あやせ / 早見沙織",
-    "year": 2011,
-    "release_date": "2011-01-26",
-    "roles": [
-      "ミックス"
-    ],
-    "credit_note": "",
-    "official_url": "",
-    "apple_music": "",
-    "spotify": "",
-    "youtube": "",
-    "featured": false,
-    "image": "",
-    "source_url": "https://musicbrainz.org/work/0f70e50e-aa53-3bb3-8a9b-1fbba3631f43",
-    "temporary": true
-  },
-  {
     "id": "mb-work-3524262b-4665-3862-9e52-ae9625762691",
     "category": "song",
     "work_title": null,
@@ -2158,27 +1970,6 @@
     "featured": false,
     "image": "",
     "source_url": "https://musicbrainz.org/work/3524262b-4665-3862-9e52-ae9625762691",
-    "temporary": true
-  },
-  {
-    "id": "mb-work-992f1520-4da8-314c-8c79-2e82e6f77773",
-    "category": "song",
-    "work_title": null,
-    "track_title": "妹プリ～ズ!",
-    "artist": "高坂桐乃 / 竹達彩奈",
-    "year": 2010,
-    "release_date": "2010-12-22",
-    "roles": [
-      "ミックス"
-    ],
-    "credit_note": "",
-    "official_url": "",
-    "apple_music": "",
-    "spotify": "",
-    "youtube": "",
-    "featured": false,
-    "image": "",
-    "source_url": "https://musicbrainz.org/work/992f1520-4da8-314c-8c79-2e82e6f77773",
     "temporary": true
   },
   {
@@ -2203,7 +1994,8 @@
     "featured": false,
     "image": "",
     "source_url": "https://musicbrainz.org/work/09457a79-30da-355e-ab79-7a47f3817e4c",
-    "temporary": true
+    "temporary": true,
+    "release_id": "itunes-1128629966"
   },
   {
     "id": "legacy-001",
@@ -2245,7 +2037,8 @@
     "featured": false,
     "image": "",
     "source_url": "https://www.yamazo.jp/works",
-    "temporary": true
+    "temporary": true,
+    "release_id": "artwork-legacy-015-572cac36a2b8"
   },
   {
     "id": "legacy-016",
@@ -2266,7 +2059,8 @@
     "featured": false,
     "image": "",
     "source_url": "https://www.yamazo.jp/works",
-    "temporary": true
+    "temporary": true,
+    "release_id": "artwork-legacy-016-3f243e24dc8e"
   },
   {
     "id": "legacy-017",
@@ -2308,7 +2102,8 @@
     "featured": false,
     "image": "",
     "source_url": "https://www.yamazo.jp/works",
-    "temporary": true
+    "temporary": true,
+    "release_id": "artwork-legacy-019-cedec0be193c"
   },
   {
     "id": "legacy-022",
@@ -2329,7 +2124,8 @@
     "featured": false,
     "image": "",
     "source_url": "https://www.yamazo.jp/works",
-    "temporary": true
+    "temporary": true,
+    "release_id": "artwork-legacy-022-b28589d5647a"
   },
   {
     "id": "legacy-023",
@@ -2350,7 +2146,8 @@
     "featured": false,
     "image": "",
     "source_url": "https://www.yamazo.jp/works",
-    "temporary": true
+    "temporary": true,
+    "release_id": "artwork-legacy-023-3f243e24dc8e"
   },
   {
     "id": "legacy-024",
@@ -2371,7 +2168,8 @@
     "featured": false,
     "image": "",
     "source_url": "https://www.yamazo.jp/works",
-    "temporary": true
+    "temporary": true,
+    "release_id": "artwork-legacy-024-5a2d0e3575dc"
   },
   {
     "id": "legacy-025",
@@ -2413,6 +2211,7 @@
     "featured": false,
     "image": "",
     "source_url": "https://www.yamazo.jp/works",
-    "temporary": true
+    "temporary": true,
+    "release_id": "artwork-legacy-027-5461632ac5bd"
   }
 ]

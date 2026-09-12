@@ -1,0 +1,39 @@
+name: Collect artwork candidates
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '47 21 * * 0'
+permissions:
+  contents: read
+concurrency:
+  group: yamazo-artwork
+  cancel-in-progress: false
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: node --test *.test.mjs
+      - uses: actions/cache@v4
+        with:
+          path: .artwork-cache
+          key: artwork-v2-${{ github.run_id }}
+          restore-keys: artwork-v2-
+      - run: node find-artwork.mjs
+      - run: node validate-artwork.mjs
+      - run: node review-artwork.mjs
+      - name: Verify published inputs are untouched
+        run: git diff --exit-code -- yamazo_works_master.json releases.json
+      - uses: actions/upload-artifact@v4
+        with:
+          name: yamazo-artwork-review
+          path: |
+            artwork_candidates.json
+            artwork-review.html
+          retention-days: 90
+      - name: Summarize collection
+        run: node -e 'const fs=require("fs");const d=JSON.parse(fs.readFileSync("artwork_candidates.json"));fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY,JSON.stringify(d.summary,null,2));'

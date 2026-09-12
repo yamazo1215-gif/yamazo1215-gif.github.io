@@ -1,3 +1,7 @@
 dist/
 node_modules/
 *.tmp
+.artwork-cache/
+.artwork-backups/
+artwork-review.html
+artwork_candidates.progress.json

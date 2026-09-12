@@ -1,91 +1,48 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
-
-const ROOT = path.dirname(new URL(import.meta.url).pathname);
-const CANDIDATES_FILE = path.join(ROOT, 'artwork_candidates.json');
-const CATALOG_FILE = path.join(ROOT, 'releases.json');
-const WORKS_FILE = path.join(ROOT, 'yamazo_works_master.json');
-
-const safe = (name) => String(name ?? '').trim();
-
-async function readJSON(file, fallback = null) {
-  try {
-    const data = await fs.readFile(file, 'utf8');
-    return JSON.parse(data);
-  } catch (error) {
-    if (fallback !== null) return fallback;
-    throw error;
+import { fileURLToPath } from 'node:url';
+import { fingerprint, hasArtwork, httpsURL, hash } from './artwork/matching.mjs';
+const ROOT=path.dirname(fileURLToPath(import.meta.url));
+export function planApproval(works,catalog,candidates,decisions) {
+  if(candidates.schema_version!==2||candidates.incomplete) throw Error('Regenerate candidates with Artwork Resolver v2');
+  if(!Array.isArray(decisions)) throw Error('Decisions must be an array');
+  const nextWorks=structuredClone(works),nextCatalog=structuredClone(catalog),seen=new Set(),applied=[];
+  for(const d of decisions) {
+    if(!d.work_id||seen.has(d.work_id)) throw Error(`Missing/duplicate work decision: ${d.work_id}`);seen.add(d.work_id);
+    if(!['accept','reject','hold'].includes(d.decision)) throw Error(`Unknown decision: ${d.decision}`);
+    const work=nextWorks.find(w=>w.id===d.work_id); if(!work) throw Error(`Unknown work: ${d.work_id}`);
+    if(d.decision!=='accept') continue;
+    const item=candidates.items.find(i=>i.work_id===d.work_id),s=item?.suggestions.find(s=>s.id===d.suggestion_id);
+    if(!s) throw Error(`Unknown suggestion: ${d.work_id}/${d.suggestion_id}`);
+    if(item.work_fingerprint!==fingerprint(work)) throw Error(`Stale candidate: ${work.id}`);
+    if(hasArtwork(work,catalog)) throw Error(`Artwork already confirmed: ${work.id}; replacement requires a separate reviewed edit`);
+    if(s.image_validation?.ok===false) throw Error('Candidate image is unavailable; revalidate before approval');
+    if(!httpsURL(s.artwork?.src)||!httpsURL(s.source_url)) throw Error('Invalid artwork/source URL');
+    if(d.mode==='auto'&&(s.confidence<95||s.status!=='auto_eligible'||s.blockers?.length||!s.image_validation?.ok||Date.now()-Date.parse(s.image_validation.checked_at)>7*86400000||!Number.isFinite(Date.parse(s.image_validation.checked_at)))) throw Error('Candidate is not auto eligible');
+    const releaseId=s.release_id;
+    if(!/^[a-zA-Z0-9_-]+$/.test(releaseId)) throw Error('Invalid release ID');
+    const existing=nextCatalog.find(r=>r.id===releaseId);
+    if(existing?.artwork?.src&&existing.artwork.src!==s.artwork.src) throw Error(`Conflicting artwork for ${releaseId}`);
+    const artwork={...s.artwork,approval:{approved_at:new Date().toISOString(),mode:d.mode==='auto'?'auto':'human',candidate_id:s.id,confidence:s.confidence,evidence:s.evidence,blockers:s.blockers,work_fingerprint:item.work_fingerprint}};
+    if(!existing) nextCatalog.push({id:releaseId,release_title:s.release_title||s.title,release_type:item.category,release_date:s.year?String(s.year):'',artwork});
+    else if(!existing.artwork?.src) existing.artwork=artwork;
+    work.release_id=releaseId;applied.push({work_id:work.id,suggestion_id:s.id,release_id:releaseId});
   }
+  return {works:nextWorks,catalog:nextCatalog,applied};
 }
-
-async function run() {
-  const [, , selectionPath] = process.argv;
-  if (!selectionPath) {
-    throw new Error('Usage: node approve-artwork.mjs artwork_decisions.json');
-  }
-
-  const decisions = await readJSON(path.join(ROOT, selectionPath));
-  const candidates = await readJSON(CANDIDATES_FILE, { items: [] });
-  const catalog = await readJSON(CATALOG_FILE, []);
-  const works = await readJSON(WORKS_FILE);
-
-  if (!Array.isArray(decisions)) {
-    throw new Error('artwork_decisions.json should be an array of {work_id,decision,release_id}.');
-  }
-
-  const decisionMap = new Map(
-    decisions
-      .filter((item) => item?.work_id)
-      .map((item) => [safe(item.work_id), item]),
-  );
-
-  const candidateMap = new Map((candidates?.items || []).map((item) => [safe(item.work_id), item]));
-  const catalogMap = new Map(catalog.map((r) => [safe(r.id), r]));
-
-  let updated = 0;
-  const nextCatalog = [...catalog];
-
-  const nextWorks = works.map((work) => {
-    const decision = decisionMap.get(safe(work.id));
-    if (!decision || decision.decision !== 'accept') return work;
-
-    const item = candidateMap.get(safe(work.id));
-    const suggestion = (item?.suggestions || []).find((s) => safe(s.id) === safe(decision.suggestion_id));
-    if (!suggestion) {
-      console.warn(`No matching suggestion: ${safe(work.id)} (${safe(decision.suggestion_id)})`);
-      return work;
-    }
-
-    const releaseId = safe(suggestion.release_id || `release-${work.id}`);
-    const artwork = {
-      src: safe(suggestion.artwork?.src),
-      alt: safe(suggestion.artwork?.alt || `${safe(work.track_title || work.work_title)} ジャケット`),
-      provider: safe(suggestion.artwork?.provider),
-      source_url: safe(suggestion.artwork?.source_url),
-      checked_at: safe(suggestion.artwork?.checked_at || new Date().toISOString().slice(0, 10)),
-    };
-
-    if (!catalogMap.has(releaseId)) {
-      nextCatalog.push({
-        id: releaseId,
-        release_title: safe(item.title),
-        release_type: safe(item.category),
-        release_date: safe(item.year ? String(item.year) : ''),
-        artwork,
-      });
-      catalogMap.set(releaseId, nextCatalog.at(-1));
-    }
-
-    updated += 1;
-    return { ...work, release_id: releaseId };
-  });
-
-  await fs.writeFile(WORKS_FILE, `${JSON.stringify(nextWorks, null, 2)}\n`);
-  await fs.writeFile(CATALOG_FILE, `${JSON.stringify(nextCatalog, null, 2)}\n`);
-  console.log(`Applied artwork approval to ${updated} works`);
+export async function approve(root,selection,{apply=false}={}) {
+  const read=async name=>JSON.parse(await fs.readFile(path.resolve(root,name),'utf8'));
+  const [works,catalog,candidates,decisions]=await Promise.all(['yamazo_works_master.json','releases.json','artwork_candidates.json',selection].map(read));
+  const plan=planApproval(works,catalog,candidates,decisions);
+  console.log(JSON.stringify({mode:apply?'apply':'dry-run',changes:plan.applied},null,2));
+  if(!apply||!plan.applied.length) return plan;
+  // Back up the pair before writing. Catalog first: a stray unused release is safer than a dangling work link.
+  const backup=path.join(root,'.artwork-backups',`${Date.now()}-${hash(decisions).slice(0,8)}`);await fs.mkdir(backup,{recursive:true});
+  for(const name of ['yamazo_works_master.json','releases.json']) await fs.copyFile(path.join(root,name),path.join(backup,name));
+  for(const [name,value] of [['releases.json',plan.catalog],['yamazo_works_master.json',plan.works]]) {const file=path.join(root,name);await fs.writeFile(file+'.tmp',JSON.stringify(value,null,2)+'\n');await fs.rename(file+'.tmp',file);}
+  await fs.writeFile(path.join(backup,'decisions.json'),JSON.stringify(decisions,null,2)+'\n');return plan;
 }
-
-run().catch((error) => {
-  console.error(error?.message || error);
-  process.exitCode = 1;
-});
+if(process.argv[1]&&path.resolve(process.argv[1])===fileURLToPath(import.meta.url)) {
+  const args=process.argv.slice(2);if(!args[0]||args.slice(1).some(a=>!['--apply','--dry-run'].includes(a))) throw Error('Usage: node approve-artwork.mjs decisions.json [--apply] (default: dry-run)');
+  approve(ROOT,args[0],{apply:args.includes('--apply')&&!args.includes('--dry-run')}).catch(e=>{console.error(e.message);process.exitCode=1;});
+}

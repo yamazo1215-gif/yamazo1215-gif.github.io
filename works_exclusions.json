@@ -1,0 +1,84 @@
+{
+  "updated_at": "2026-09-12",
+  "reason": "ユーザー確認: ミックスのみの作品は誤記載のため公開Worksから除外。将来のmaster mergeでも再追加しない。",
+  "items": [
+    {
+      "work_id": "mb-work-38bded3a-5c4d-447d-b5e3-d7c53c0be070",
+      "title": "keep on runnin'",
+      "source_url": "https://musicbrainz.org/work/38bded3a-5c4d-447d-b5e3-d7c53c0be070",
+      "reason": "mix-only credit rejected by owner"
+    },
+    {
+      "work_id": "mb-work-d6637d95-8d4f-4339-ba98-8e2d564a5cd8",
+      "title": "贖罪のセレナーデ",
+      "source_url": "https://musicbrainz.org/work/d6637d95-8d4f-4339-ba98-8e2d564a5cd8",
+      "reason": "mix-only credit rejected by owner"
+    },
+    {
+      "work_id": "mb-work-59f84267-5351-4247-8c2c-9e64a6b9b6c9",
+      "title": "†命短し恋せよ乙女†",
+      "source_url": "https://musicbrainz.org/work/59f84267-5351-4247-8c2c-9e64a6b9b6c9",
+      "reason": "mix-only credit rejected by owner"
+    },
+    {
+      "work_id": "mb-work-38df7612-4a23-4837-823e-951fb62b9007",
+      "title": "READY",
+      "source_url": "https://musicbrainz.org/work/38df7612-4a23-4837-823e-951fb62b9007",
+      "reason": "mix-only credit rejected by owner"
+    },
+    {
+      "work_id": "mb-work-bae289e6-5680-4af8-8cba-0186549f57b3",
+      "title": "アキハバラ☆だんす☆なう!!",
+      "source_url": "https://musicbrainz.org/work/bae289e6-5680-4af8-8cba-0186549f57b3",
+      "reason": "mix-only credit rejected by owner"
+    },
+    {
+      "work_id": "mb-work-667c4959-451d-497c-b4ec-dcdb5f53a283",
+      "title": "ただいま。",
+      "source_url": "https://musicbrainz.org/work/667c4959-451d-497c-b4ec-dcdb5f53a283",
+      "reason": "mix-only credit rejected by owner"
+    },
+    {
+      "work_id": "mb-work-da1e65ed-0179-4aa3-a85c-e168c454d3ab",
+      "title": "いいえ、トムは妹に対して性的な興奮を覚えています",
+      "source_url": "https://musicbrainz.org/work/da1e65ed-0179-4aa3-a85c-e168c454d3ab",
+      "reason": "mix-only credit rejected by owner"
+    },
+    {
+      "work_id": "mb-work-f90f5640-739a-4df7-af24-af232624254d",
+      "title": "好きなんだもん！",
+      "source_url": "https://musicbrainz.org/work/f90f5640-739a-4df7-af24-af232624254d",
+      "reason": "mix-only credit rejected by owner"
+    },
+    {
+      "work_id": "mb-work-5a034b65-64ae-4f73-bd89-b1d441eb6338",
+      "title": "Masquerade!",
+      "source_url": "https://musicbrainz.org/work/5a034b65-64ae-4f73-bd89-b1d441eb6338",
+      "reason": "mix-only credit rejected by owner"
+    },
+    {
+      "work_id": "mb-work-e04177f7-dd56-4d22-9e57-82db16dcdb63",
+      "title": "カメレオンドーター",
+      "source_url": "https://musicbrainz.org/work/e04177f7-dd56-4d22-9e57-82db16dcdb63",
+      "reason": "mix-only credit rejected by owner"
+    },
+    {
+      "work_id": "mb-work-3d127e62-5b99-4de4-854e-83cf90759f62",
+      "title": "マエガミ☆",
+      "source_url": "https://musicbrainz.org/work/3d127e62-5b99-4de4-854e-83cf90759f62",
+      "reason": "mix-only credit rejected by owner"
+    },
+    {
+      "work_id": "mb-work-0f70e50e-aa53-3bb3-8a9b-1fbba3631f43",
+      "title": "白いココロ",
+      "source_url": "https://musicbrainz.org/work/0f70e50e-aa53-3bb3-8a9b-1fbba3631f43",
+      "reason": "mix-only credit rejected by owner"
+    },
+    {
+      "work_id": "mb-work-992f1520-4da8-314c-8c79-2e82e6f77773",
+      "title": "妹プリ～ズ!",
+      "source_url": "https://musicbrainz.org/work/992f1520-4da8-314c-8c79-2e82e6f77773",
+      "reason": "mix-only credit rejected by owner"
+    }
+  ]
+}

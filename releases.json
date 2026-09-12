@@ -73,5 +73,3133 @@
       "source_url": "https://anilist.co/anime/98238",
       "checked_at": "2026-09-11"
     }
+  },
+  {
+    "id": "artwork-verified-song-mihonouta-ichido-e52c1201c9f2",
+    "release_title": "セルフカバーアルバム「みほのうた」Release",
+    "release_type": "song",
+    "release_date": "",
+    "artwork": {
+      "src": "https://true-singer.com/s3/skiyaki/uploads/ckeditor/pictures/796424/content_JK.jpg",
+      "alt": "一度だけの恋なら 作品画像",
+      "provider": "page-ogp",
+      "source_url": "https://true-singer.com/contents/1012635",
+      "checked_at": "2026-09-12",
+      "approval": {
+        "approved_at": "2026-09-12T11:05:17.432Z",
+        "mode": "human",
+        "candidate_id": "page-ogp-50f944e4080b96c1be70",
+        "confidence": 25,
+        "evidence": [
+          {
+            "code": "title_mismatch",
+            "points": 0,
+            "detail": "一度だけの恋なら ≠ セルフカバーアルバム「みほのうた」Release"
+          },
+          {
+            "code": "category_compatible",
+            "points": 5,
+            "detail": "song"
+          },
+          {
+            "code": "stored_source_page",
+            "points": 20,
+            "detail": "https://true-singer.com/contents/1012635"
+          }
+        ],
+        "blockers": [
+          "title_mismatch",
+          "artist_unconfirmed",
+          "year_unconfirmed",
+          "ogp_requires_review",
+          "retained_previous_candidate"
+        ],
+        "work_fingerprint": "97a52d40b624457be848f175676d9d2731ab79ae2381d48b4b40bb8bb4edc6c7"
+      }
+    }
+  },
+  {
+    "id": "artwork-verified-song-mihonouta-hanazakari-e52c1201c9f2",
+    "release_title": "セルフカバーアルバム「みほのうた」Release",
+    "release_type": "song",
+    "release_date": "",
+    "artwork": {
+      "src": "https://true-singer.com/s3/skiyaki/uploads/ckeditor/pictures/796424/content_JK.jpg",
+      "alt": "花ざかりWeekend✿ 作品画像",
+      "provider": "page-ogp",
+      "source_url": "https://true-singer.com/contents/1012635",
+      "checked_at": "2026-09-12",
+      "approval": {
+        "approved_at": "2026-09-12T11:05:17.437Z",
+        "mode": "human",
+        "candidate_id": "page-ogp-50f944e4080b96c1be70",
+        "confidence": 25,
+        "evidence": [
+          {
+            "code": "title_mismatch",
+            "points": 0,
+            "detail": "花ざかりWeekend✿ ≠ セルフカバーアルバム「みほのうた」Release"
+          },
+          {
+            "code": "category_compatible",
+            "points": 5,
+            "detail": "song"
+          },
+          {
+            "code": "stored_source_page",
+            "points": 20,
+            "detail": "https://true-singer.com/contents/1012635"
+          }
+        ],
+        "blockers": [
+          "title_mismatch",
+          "artist_unconfirmed",
+          "year_unconfirmed",
+          "ogp_requires_review",
+          "retained_previous_candidate"
+        ],
+        "work_fingerprint": "0e02cae0890833012af40d56afde413f7dadfff5f4cd9db1e493bba61a35d3f7"
+      }
+    }
+  },
+  {
+    "id": "remohos-infinity",
+    "release_title": "リモホスナイン ～サマーインフィニティ～",
+    "release_type": "song",
+    "release_date": "2026",
+    "artwork": {
+      "src": "https://remohos.com/images/music/infinity/jk_001.jpg",
+      "alt": "リモホスナイン～サマーインフィニティ～ 作品画像",
+      "provider": "official-discography",
+      "source_url": "https://remohos.com/music/infinity.html",
+      "checked_at": "2026-09-12",
+      "approval": {
+        "approved_at": "2026-09-12T11:05:17.437Z",
+        "mode": "human",
+        "candidate_id": "official-discography-78d2e9e0d384eec377d3",
+        "confidence": 50,
+        "evidence": [
+          {
+            "code": "title_exact",
+            "points": 45,
+            "detail": "リモホスナイン～サマーインフィニティ～ = リモホスナイン ～サマーインフィニティ～"
+          },
+          {
+            "code": "year_mismatch",
+            "points": -20,
+            "detail": "2025 ≠ 2026"
+          },
+          {
+            "code": "category_compatible",
+            "points": 5,
+            "detail": "song"
+          },
+          {
+            "code": "stored_source_page",
+            "points": 20,
+            "detail": "https://remohos.com/music/infinity.html"
+          }
+        ],
+        "blockers": [
+          "artist_unconfirmed",
+          "year_mismatch",
+          "discography_requires_review"
+        ],
+        "work_fingerprint": "428715a9a6d8027ae21f4167fa231d6db8f207e51c12663fb6df2cdec1f66831"
+      }
+    }
+  },
+  {
+    "id": "itunes-1777974920",
+    "release_title": "洋燈 - Single",
+    "release_type": "song",
+    "release_date": "2024",
+    "artwork": {
+      "src": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/86/36/33/86363332-8fa8-210d-03b7-a2a1e3279383/4534530155689.jpg/100x100bb.jpg",
+      "alt": "洋燈 作品画像",
+      "provider": "itunes",
+      "source_url": "https://music.apple.com/jp/album/%E6%B4%8B%E7%87%88/1777974920?i=1777974921&uo=4",
+      "checked_at": "2026-09-12",
+      "approval": {
+        "approved_at": "2026-09-12T11:05:17.437Z",
+        "mode": "human",
+        "candidate_id": "itunes-3292c835c025a04be416",
+        "confidence": 75,
+        "evidence": [
+          {
+            "code": "title_exact",
+            "points": 45,
+            "detail": "洋燈"
+          },
+          {
+            "code": "artist_component_exact",
+            "points": 15,
+            "detail": "Nona*"
+          },
+          {
+            "code": "year_exact",
+            "points": 10,
+            "detail": "2024"
+          },
+          {
+            "code": "category_compatible",
+            "points": 5,
+            "detail": "song"
+          }
+        ],
+        "blockers": [
+          "partial_artist",
+          "itunes_usage_review",
+          "retained_previous_candidate"
+        ],
+        "work_fingerprint": "acdbd15609aaa20598f44ae75445da19a13d45e13de8c7ac9c4475ada530cd81"
+      }
+    }
+  },
+  {
+    "id": "remohos-rmhs",
+    "release_title": "R・M・H・S アンセム",
+    "release_type": "song",
+    "release_date": "2024",
+    "artwork": {
+      "src": "https://remohos.com/images/music/rmhs/j_001.jpg",
+      "alt": "R・M・H・S アンセム 作品画像",
+      "provider": "official-discography",
+      "source_url": "https://remohos.com/music/rmhs.html",
+      "checked_at": "2026-09-12",
+      "approval": {
+        "approved_at": "2026-09-12T11:05:17.437Z",
+        "mode": "human",
+        "candidate_id": "official-discography-80151afe01ceb650811e",
+        "confidence": 80,
+        "evidence": [
+          {
+            "code": "title_exact",
+            "points": 45,
+            "detail": "R・M・H・S アンセム = R・M・H・S アンセム"
+          },
+          {
+            "code": "year_exact",
+            "points": 10,
+            "detail": "2024"
+          },
+          {
+            "code": "category_compatible",
+            "points": 5,
+            "detail": "song"
+          },
+          {
+            "code": "stored_source_page",
+            "points": 20,
+            "detail": "https://remohos.com/music/rmhs.html"
+          }
+        ],
+        "blockers": [
+          "artist_unconfirmed",
+          "discography_requires_review"
+        ],
+        "work_fingerprint": "19122e579567549600b06db1d9103bce7644251848da4d475fa84043da61c524"
+      }
+    }
+  },
+  {
+    "id": "remohos-duet_003",
+    "release_title": "デュエットCD リモート☆ホスト デュエットCD③ 「トーキョーシティボーイズ」",
+    "release_type": "song",
+    "release_date": "2023",
+    "artwork": {
+      "src": "https://remohos.com/images/music/jk_duet/j_003.jpg",
+      "alt": "トーキョーシティボーイズ 作品画像",
+      "provider": "official-discography",
+      "source_url": "https://remohos.com/music/duet_003.html",
+      "checked_at": "2026-09-12",
+      "approval": {
+        "approved_at": "2026-09-12T11:05:17.437Z",
+        "mode": "human",
+        "candidate_id": "official-discography-93cefae50f421d28c10f",
+        "confidence": 94,
+        "evidence": [
+          {
+            "code": "title_exact",
+            "points": 45,
+            "detail": "トーキョーシティボーイズ = トーキョーシティボーイズ"
+          },
+          {
+            "code": "artist_component_exact",
+            "points": 15,
+            "detail": "夕星（CV 石井孝英）＆環珠（CV 安田陸矢）"
+          },
+          {
+            "code": "year_exact",
+            "points": 10,
+            "detail": "2023"
+          },
+          {
+            "code": "category_compatible",
+            "points": 5,
+            "detail": "song"
+          },
+          {
+            "code": "stored_source_page",
+            "points": 20,
+            "detail": "https://remohos.com/music/duet_003.html"
+          }
+        ],
+        "blockers": [
+          "partial_artist",
+          "discography_requires_review"
+        ],
+        "work_fingerprint": "c667764725e1bedca800abb759fe668aeda8b9aae18d023c450b6d367f371dba"
+      }
+    }
+  },
+  {
+    "id": "itunes-1692702349",
+    "release_title": "TVアニメ「【推しの子】」キャラクターソングCD Vol.3 - EP",
+    "release_type": "song",
+    "release_date": "2023",
+    "artwork": {
+      "src": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/9a/67/96/9a6796f3-87a2-53d9-a567-ea6dfef0214e/JK_ZMCZ-16723.jpg/100x100bb.jpg",
+      "alt": "Full moon…! 作品画像",
+      "provider": "itunes",
+      "source_url": "https://music.apple.com/jp/album/full-moon/1692702349?i=1692702353&uo=4",
+      "checked_at": "2026-09-12",
+      "approval": {
+        "approved_at": "2026-09-12T11:05:17.437Z",
+        "mode": "human",
+        "candidate_id": "itunes-48c30c152dc94097d25f",
+        "confidence": 85,
+        "evidence": [
+          {
+            "code": "title_exact",
+            "points": 45,
+            "detail": "Full moon…! = Full moon…!"
+          },
+          {
+            "code": "artist_exact",
+            "points": 25,
+            "detail": "有馬かな(CV:潘めぐみ)"
+          },
+          {
+            "code": "year_exact",
+            "points": 10,
+            "detail": "2023"
+          },
+          {
+            "code": "category_compatible",
+            "points": 5,
+            "detail": "song"
+          }
+        ],
+        "blockers": [
+          "itunes_usage_review"
+        ],
+        "work_fingerprint": "744ff08450d81d7afb425d6ef065075c658509b76cf1f82e715be134ac2e7cd6"
+      }
+    }
+  },
+  {
+    "id": "anilist-148109",
+    "release_title": "勇者が死んだ！",
+    "release_type": "score",
+    "release_date": "2023",
+    "artwork": {
+      "src": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx148109-cwAINDGwAHB2.jpg",
+      "alt": "勇者が死んだ！ 作品画像",
+      "provider": "anilist",
+      "source_url": "https://anilist.co/anime/148109",
+      "checked_at": "2026-09-12",
+      "approval": {
+        "approved_at": "2026-09-12T11:05:17.437Z",
+        "mode": "human",
+        "candidate_id": "anilist-038c61a8315eac9b75e4",
+        "confidence": 75,
+        "evidence": [
+          {
+            "code": "title_exact",
+            "points": 45,
+            "detail": "勇者が死んだ！ = 勇者が死んだ！"
+          },
+          {
+            "code": "year_exact",
+            "points": 10,
+            "detail": "2023"
+          },
+          {
+            "code": "category_compatible",
+            "points": 20,
+            "detail": "anime"
+          }
+        ],
+        "blockers": [
+          "title_only_identity"
+        ],
+        "work_fingerprint": "5a0ad2feb94aff6919abc6fffa6816c6b322fcb5a51b56e9a7395a8749ab2196"
+      }
+    }
+  },
+  {
+    "id": "remohos-saturno_s10",
+    "release_title": "リモート☆ホスト Club Saturno No.5 安曇 「KONAMON」",
+    "release_type": "song",
+    "release_date": "2022",
+    "artwork": {
+      "src": "https://remohos.com/images/music/jk_saturno/j_012.jpg",
+      "alt": "KONAMON 作品画像",
+      "provider": "official-discography",
+      "source_url": "https://remohos.com/music/saturno_s10.html",
+      "checked_at": "2026-09-12",
+      "approval": {
+        "approved_at": "2026-09-12T11:05:17.437Z",
+        "mode": "human",
+        "candidate_id": "official-discography-35e78fdd6708a69069d9",
+        "confidence": 94,
+        "evidence": [
+          {
+            "code": "title_exact",
+            "points": 45,
+            "detail": "KONAMON = KONAMON"
+          },
+          {
+            "code": "artist_component_exact",
+            "points": 15,
+            "detail": "安曇（CV 大野智敬）"
+          },
+          {
+            "code": "year_exact",
+            "points": 10,
+            "detail": "2022"
+          },
+          {
+            "code": "category_compatible",
+            "points": 5,
+            "detail": "song"
+          },
+          {
+            "code": "stored_source_page",
+            "points": 20,
+            "detail": "https://remohos.com/music/saturno_s10.html"
+          }
+        ],
+        "blockers": [
+          "partial_artist",
+          "discography_requires_review"
+        ],
+        "work_fingerprint": "43d5fdd0237e574480d1bab4c0a8e2c776ede418da7e50dcbd4c832408568453"
+      }
+    }
+  },
+  {
+    "id": "remohos-venere_s08",
+    "release_title": "リモート☆ホスト Club Venere No.3 夕星 「ビューティフル・シンパシー」",
+    "release_type": "song",
+    "release_date": "2022",
+    "artwork": {
+      "src": "https://remohos.com/images/music/jk_venere/j_009.jpg",
+      "alt": "ビューティフル・シンパシー 作品画像",
+      "provider": "official-discography",
+      "source_url": "https://remohos.com/music/venere_s08.html",
+      "checked_at": "2026-09-12",
+      "approval": {
+        "approved_at": "2026-09-12T11:05:17.438Z",
+        "mode": "human",
+        "candidate_id": "official-discography-8ea323f2224998209d1f",
+        "confidence": 94,
+        "evidence": [
+          {
+            "code": "title_exact",
+            "points": 45,
+            "detail": "ビューティフル・シンパシー = ビューティフル・シンパシー"
+          },
+          {
+            "code": "artist_component_exact",
+            "points": 15,
+            "detail": "夕星（CV 石井孝英）"
+          },
+          {
+            "code": "year_exact",
+            "points": 10,
+            "detail": "2022"
+          },
+          {
+            "code": "category_compatible",
+            "points": 5,
+            "detail": "song"
+          },
+          {
+            "code": "stored_source_page",
+            "points": 20,
+            "detail": "https://remohos.com/music/venere_s08.html"
+          }
+        ],
+        "blockers": [
+          "partial_artist",
+          "discography_requires_review"
+        ],
+        "work_fingerprint": "9cb01a388af2aaa1080cf9f82407de3811c267bb4ecab3d991da260ff9719ece"
+      }
+    }
+  },
+  {
+    "id": "itunes-1647486149",
+    "release_title": "想いのち晴れ/とびらを開けてベルを鳴らそう",
+    "release_type": "song",
+    "release_date": "2022",
+    "artwork": {
+      "src": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/5e/e0/2d/5ee02db2-822c-b005-ba53-f668a4351b90/NOPA-3297.jpg/100x100bb.jpg",
+      "alt": "はなうた*ステップ 作品画像",
+      "provider": "itunes",
+      "source_url": "https://music.apple.com/jp/album/%E3%81%AF%E3%81%AA%E3%81%86%E3%81%9F-%E3%82%B9%E3%83%86%E3%83%83%E3%83%97/1647486149?i=1647486152&uo=4",
+      "checked_at": "2026-09-12",
+      "approval": {
+        "approved_at": "2026-09-12T11:05:17.438Z",
+        "mode": "human",
+        "candidate_id": "itunes-ad20ac29abd9678333cf",
+        "confidence": 85,
+        "evidence": [
+          {
+            "code": "title_exact",
+            "points": 45,
+            "detail": "はなうた*ステップ = はなうた*ステップ"
+          },
+          {
+            "code": "artist_exact",
+            "points": 25,
+            "detail": "あおい(CV.井口裕香) & ひなた(CV.阿澄佳奈)"
+          },
+          {
+            "code": "year_exact",
+            "points": 10,
+            "detail": "2022"
+          },
+          {
+            "code": "category_compatible",
+            "points": 5,
+            "detail": "song"
+          }
+        ],
+        "blockers": [
+          "itunes_usage_review"
+        ],
+        "work_fingerprint": "c6e6d92f9269b8812d9dcded8329d52e1659cdd4bc53298cc20989c0e49bcf19"
+      }
+    }
+  },
+  {
+    "id": "anilist-131182",
+    "release_title": "ヤマノススメ Next Summit",
+    "release_type": "score",
+    "release_date": "2022",
+    "artwork": {
+      "src": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx131182-NYATKomnS2RQ.jpg",
+      "alt": "ヤマノススメ Next Summit 作品画像",
+      "provider": "anilist",
+      "source_url": "https://anilist.co/anime/131182",
+      "checked_at": "2026-09-12",
+      "approval": {
+        "approved_at": "2026-09-12T11:05:17.438Z",
+        "mode": "human",
+        "candidate_id": "anilist-e7777b004f8ca7094b98",
+        "confidence": 75,
+        "evidence": [
+          {
+            "code": "title_exact",
+            "points": 45,
+            "detail": "ヤマノススメ Next Summit = ヤマノススメ Next Summit"
+          },
+          {
+            "code": "year_exact",
+            "points": 10,
+            "detail": "2022"
+          },
+          {
+            "code": "category_compatible",
+            "points": 20,
+            "detail": "anime"
+          }
+        ],
+        "blockers": [
+          "title_only_identity"
+        ],
+        "work_fingerprint": "7bdfc281d6587cfc157a260e70a55264a2f98d7c805748a6b26956aeabe9de57"
+      }
+    }
+  },
+  {
+    "id": "artwork-verified-song-remohos-king-3f20c0c8dec6",
+    "release_title": "ミュージック | 「リモートホスト」公式サイト",
+    "release_type": "song",
+    "release_date": "",
+    "artwork": {
+      "src": "https://remohos.com/ogp.jpg",
+      "alt": "King of the night‼ 作品画像",
+      "provider": "page-ogp",
+      "source_url": "https://remohos.com/music/venere_n01.html",
+      "checked_at": "2026-09-12",
+      "approval": {
+        "approved_at": "2026-09-12T11:05:17.438Z",
+        "mode": "human",
+        "candidate_id": "page-ogp-6f75de3a6cae7daae4d6",
+        "confidence": 25,
+        "evidence": [
+          {
+            "code": "title_mismatch",
+            "points": 0,
+            "detail": "King of the night‼ ≠ ミュージック | 「リモートホスト」公式サイト"
+          },
+          {
+            "code": "category_compatible",
+            "points": 5,
+            "detail": "song"
+          },
+          {
+            "code": "stored_source_page",
+            "points": 20,
+            "detail": "https://remohos.com/music/venere_n01.html"
+          }
+        ],
+        "blockers": [
+          "title_mismatch",
+          "artist_unconfirmed",
+          "year_unconfirmed",
+          "ogp_requires_review",
+          "shared_ogp"
+        ],
+        "work_fingerprint": "5f4ea12ce58c37e698951151706b2e350e9e1192c79cee9f1351a0e615aad886"
+      }
+    }
+  },
+  {
+    "id": "remohos-saturno_a01",
+    "release_title": "リモート☆ホスト Club Saturno’s Collection",
+    "release_type": "song",
+    "release_date": "2021",
+    "artwork": {
+      "src": "https://remohos.com/images/music/jk_saturno/j_000.jpg",
+      "alt": "リモート☆ホスト / Club Saturno's Collection 作品画像",
+      "provider": "official-discography",
+      "source_url": "https://remohos.com/music/saturno_a01.html",
+      "checked_at": "2026-09-12",
+      "approval": {
+        "approved_at": "2026-09-12T11:05:17.438Z",
+        "mode": "human",
+        "candidate_id": "official-discography-af321e13a012e498f1c0",
+        "confidence": 69,
+        "evidence": [
+          {
+            "code": "title_exact",
+            "points": 45,
+            "detail": "リモート☆ホスト / Club Saturno's Collection = リモート☆ホスト Club Saturno’s Collection"
+          },
+          {
+            "code": "year_exact",
+            "points": 10,
+            "detail": "2021"
+          },
+          {
+            "code": "category_compatible",
+            "points": 5,
+            "detail": "song"
+          },
+          {
+            "code": "stored_source_page",
+            "points": 20,
+            "detail": "https://remohos.com/music/saturno_a01.html"
+          }
+        ],
+        "blockers": [
+          "artist_unconfirmed",
+          "discography_requires_review",
+          "legacy_metadata"
+        ],
+        "work_fingerprint": "6690bf37d7d6b10aa5ec9d525f253018544686b63a8a9ad1a0f6f8ddb1c6f687"
+      }
+    }
+  },
+  {
+    "id": "remohos-saturno_s01",
+    "release_title": "リモート☆ホスト Club Saturno No.1 桐野 「Noman’s Heart」",
+    "release_type": "song",
+    "release_date": "2021",
+    "artwork": {
+      "src": "https://remohos.com/images/music/jk_saturno/jk_001.jpg",
+      "alt": "リモート☆ホスト / Club Saturno No1. 桐野 作品画像",
+      "provider": "official-discography",
+      "source_url": "https://remohos.com/music/saturno_s01.html",
+      "checked_at": "2026-09-12",
+      "approval": {
+        "approved_at": "2026-09-12T11:05:17.438Z",
+        "mode": "human",
+        "candidate_id": "official-discography-b7244a1172f1bec25f42",
+        "confidence": 69,
+        "evidence": [
+          {
+            "code": "title_exact",
+            "points": 45,
+            "detail": "リモート☆ホスト / Club Saturno No1. 桐野 = リモート☆ホスト  Club Saturno No.1 桐野"
+          },
+          {
+            "code": "year_exact",
+            "points": 10,
+            "detail": "2021"
+          },
+          {
+            "code": "category_compatible",
+            "points": 5,
+            "detail": "song"
+          },
+          {
+            "code": "stored_source_page",
+            "points": 20,
+            "detail": "https://remohos.com/music/saturno_s01.html"
+          }
+        ],
+        "blockers": [
+          "artist_unconfirmed",
+          "discography_requires_review",
+          "legacy_metadata"
+        ],
+        "work_fingerprint": "0b821a8fb96bd9d6e3ad817a93f4237d04cb83a857f076956339ee48d6608005"
+      }
+    }
+  },
+  {
+    "id": "remohos-saturno_s02",
+    "release_title": "リモート☆ホスト Club Saturno No.2 環珠 「Most beautiful 俺」",
+    "release_type": "song",
+    "release_date": "2021",
+    "artwork": {
+      "src": "https://remohos.com/images/music/jk_saturno/jk_002.jpg",
+      "alt": "リモート☆ホスト / Club Saturno No2 環珠 作品画像",
+      "provider": "official-discography",
+      "source_url": "https://remohos.com/music/saturno_s02.html",
+      "checked_at": "2026-09-12",
+      "approval": {
+        "approved_at": "2026-09-12T11:05:17.438Z",
+        "mode": "human",
+        "candidate_id": "official-discography-fc3848616a94eef2ee72",
+        "confidence": 69,
+        "evidence": [
+          {
+            "code": "title_exact",
+            "points": 45,
+            "detail": "リモート☆ホスト / Club Saturno No2 環珠 = リモート☆ホスト Club Saturno No.2 環珠"
+          },
+          {
+            "code": "year_exact",
+            "points": 10,
+            "detail": "2021"
+          },
+          {
+            "code": "category_compatible",
+            "points": 5,
+            "detail": "song"
+          },
+          {
+            "code": "stored_source_page",
+            "points": 20,
+            "detail": "https://remohos.com/music/saturno_s02.html"
+          }
+        ],
+        "blockers": [
+          "artist_unconfirmed",
+          "discography_requires_review",
+          "legacy_metadata"
+        ],
+        "work_fingerprint": "a60ebd0fb6c2a05405d2951fd2db9a7be15a9621c9c822dc314ea807bdede12a"
+      }
+    }
+  },
+  {
+    "id": "remohos-saturno_s03",
+    "release_title": "リモート☆ホスト Club Saturno No.3 亜土夢 「O・T・1」",
+    "release_type": "song",
+    "release_date": "2021",
+    "artwork": {
+      "src": "https://remohos.com/images/music/jk_saturno/jk_003.jpg",
+      "alt": "リモート☆ホスト / Club Saturno No3. 亜土夢 作品画像",
+      "provider": "official-discography",
+      "source_url": "https://remohos.com/music/saturno_s03.html",
+      "checked_at": "2026-09-12",
+      "approval": {
+        "approved_at": "2026-09-12T11:05:17.438Z",
+        "mode": "human",
+        "candidate_id": "official-discography-6ad226bd39b80fb4b3c8",
+        "confidence": 69,
+        "evidence": [
+          {
+            "code": "title_exact",
+            "points": 45,
+            "detail": "リモート☆ホスト / Club Saturno No3. 亜土夢 = リモート☆ホスト Club Saturno No.3 亜土夢"
+          },
+          {
+            "code": "year_exact",
+            "points": 10,
+            "detail": "2021"
+          },
+          {
+            "code": "category_compatible",
+            "points": 5,
+            "detail": "song"
+          },
+          {
+            "code": "stored_source_page",
+            "points": 20,
+            "detail": "https://remohos.com/music/saturno_s03.html"
+          }
+        ],
+        "blockers": [
+          "artist_unconfirmed",
+          "discography_requires_review",
+          "legacy_metadata"
+        ],
+        "work_fingerprint": "6473672f6b076f52df94dcc32b4bfaeaa9d5c122adb57d0da2190c27cbdc12c5"
+      }
+    }
+  },
+  {
+    "id": "remohos-saturno_s04",
+    "release_title": "リモート☆ホスト Club Saturno No.4 蔡久良 「Love, Fever, Dream」",
+    "release_type": "song",
+    "release_date": "2021",
+    "artwork": {
+      "src": "https://remohos.com/images/music/jk_saturno/jk_004.jpg",
+      "alt": "リモート☆ホスト / Club Saturno No4. 蔡久良 作品画像",
+      "provider": "official-discography",
+      "source_url": "https://remohos.com/music/saturno_s04.html",
+      "checked_at": "2026-09-12",
+      "approval": {
+        "approved_at": "2026-09-12T11:05:17.438Z",
+        "mode": "human",
+        "candidate_id": "official-discography-a46bac063605f3cf03cd",
+        "confidence": 69,
+        "evidence": [
+          {
+            "code": "title_exact",
+            "points": 45,
+            "detail": "リモート☆ホスト / Club Saturno No4. 蔡久良 = リモート☆ホスト Club Saturno No.4 蔡久良"
+          },
+          {
+            "code": "year_exact",
+            "points": 10,
+            "detail": "2021"
+          },
+          {
+            "code": "category_compatible",
+            "points": 5,
+            "detail": "song"
+          },
+          {
+            "code": "stored_source_page",
+            "points": 20,
+            "detail": "https://remohos.com/music/saturno_s04.html"
+          }
+        ],
+        "blockers": [
+          "artist_unconfirmed",
+          "discography_requires_review",
+          "legacy_metadata"
+        ],
+        "work_fingerprint": "80c22d93d188376d1664788d64aa562fc25e1c781818623c61d518b76ea754cf"
+      }
+    }
+  },
+  {
+    "id": "remohos-saturno_s05",
+    "release_title": "リモート☆ホスト Club Saturno No.5 てん星 「旋律のFate」",
+    "release_type": "song",
+    "release_date": "2021",
+    "artwork": {
+      "src": "https://remohos.com/images/music/jk_saturno/jk_005.jpg",
+      "alt": "リモート☆ホスト / Club Saturno No5. てん星 作品画像",
+      "provider": "official-discography",
+      "source_url": "https://remohos.com/music/saturno_s05.html",
+      "checked_at": "2026-09-12",
+      "approval": {
+        "approved_at": "2026-09-12T11:05:17.438Z",
+        "mode": "human",
+        "candidate_id": "official-discography-f4561e323833e16adcbd",
+        "confidence": 69,
+        "evidence": [
+          {
+            "code": "title_exact",
+            "points": 45,
+            "detail": "リモート☆ホスト / Club Saturno No5. てん星 = リモート☆ホスト Club Saturno No.5 てん星"
+          },
+          {
+            "code": "year_exact",
+            "points": 10,
+            "detail": "2021"
+          },
+          {
+            "code": "category_compatible",
+            "points": 5,
+            "detail": "song"
+          },
+          {
+            "code": "stored_source_page",
+            "points": 20,
+            "detail": "https://remohos.com/music/saturno_s05.html"
+          }
+        ],
+        "blockers": [
+          "artist_unconfirmed",
+          "discography_requires_review",
+          "legacy_metadata"
+        ],
+        "work_fingerprint": "39770f6584b8546c7bf25480e5e2244149ce7aee8be6f32989810e4f1620aee3"
+      }
+    }
+  },
+  {
+    "id": "remohos-venere_a01",
+    "release_title": "リモート☆ホスト Club Venere’s Collection",
+    "release_type": "song",
+    "release_date": "2021",
+    "artwork": {
+      "src": "https://remohos.com/images/music/jk_venere/j_000.jpg",
+      "alt": "リモート☆ホスト / Club Venere's Collection 作品画像",
+      "provider": "official-discography",
+      "source_url": "https://remohos.com/music/venere_a01.html",
+      "checked_at": "2026-09-12",
+      "approval": {
+        "approved_at": "2026-09-12T11:05:17.438Z",
+        "mode": "human",
+        "candidate_id": "official-discography-5281380f7ea888a6f5e9",
+        "confidence": 69,
+        "evidence": [
+          {
+            "code": "title_exact",
+            "points": 45,
+            "detail": "リモート☆ホスト / Club Venere's Collection = リモート☆ホスト Club Venere’s Collection"
+          },
+          {
+            "code": "year_exact",
+            "points": 10,
+            "detail": "2021"
+          },
+          {
+            "code": "category_compatible",
+            "points": 5,
+            "detail": "song"
+          },
+          {
+            "code": "stored_source_page",
+            "points": 20,
+            "detail": "https://remohos.com/music/venere_a01.html"
+          }
+        ],
+        "blockers": [
+          "artist_unconfirmed",
+          "discography_requires_review",
+          "legacy_metadata"
+        ],
+        "work_fingerprint": "51509585c48acf4b03da4354f669c212d5ffb76494aa485df2937b3db262f812"
+      }
+    }
+  },
+  {
+    "id": "remohos-venere_s01",
+    "release_title": "リモート☆ホスト Club Venere No.1 輝石 「Diamond Days」",
+    "release_type": "song",
+    "release_date": "2021",
+    "artwork": {
+      "src": "https://remohos.com/images/music/jk_venere/j_001.jpg",
+      "alt": "リモート☆ホスト / Club Venere No.1 輝石 作品画像",
+      "provider": "official-discography",
+      "source_url": "https://remohos.com/music/venere_s01.html",
+      "checked_at": "2026-09-12",
+      "approval": {
+        "approved_at": "2026-09-12T11:05:17.438Z",
+        "mode": "human",
+        "candidate_id": "official-discography-4bca6abcb873604f2f99",
+        "confidence": 69,
+        "evidence": [
+          {
+            "code": "title_exact",
+            "points": 45,
+            "detail": "リモート☆ホスト / Club Venere No.1 輝石 = リモート☆ホスト Club Venere No.1 輝石"
+          },
+          {
+            "code": "year_exact",
+            "points": 10,
+            "detail": "2021"
+          },
+          {
+            "code": "category_compatible",
+            "points": 5,
+            "detail": "song"
+          },
+          {
+            "code": "stored_source_page",
+            "points": 20,
+            "detail": "https://remohos.com/music/venere_s01.html"
+          }
+        ],
+        "blockers": [
+          "artist_unconfirmed",
+          "discography_requires_review",
+          "legacy_metadata"
+        ],
+        "work_fingerprint": "021682af0eb3ffa6bb53466afc9111b24affc281a6bdeaa311a052024e6f303e"
+      }
+    }
+  },
+  {
+    "id": "remohos-venere_s02",
+    "release_title": "リモート☆ホスト Club Venere No.2 明星 「Knight in your Night」",
+    "release_type": "song",
+    "release_date": "2021",
+    "artwork": {
+      "src": "https://remohos.com/images/music/jk_venere/j_002.jpg",
+      "alt": "リモート☆ホスト / Club Venere No.2 明星 作品画像",
+      "provider": "official-discography",
+      "source_url": "https://remohos.com/music/venere_s02.html",
+      "checked_at": "2026-09-12",
+      "approval": {
+        "approved_at": "2026-09-12T11:05:17.438Z",
+        "mode": "human",
+        "candidate_id": "official-discography-6b9bd09f190bc2782b8a",
+        "confidence": 69,
+        "evidence": [
+          {
+            "code": "title_exact",
+            "points": 45,
+            "detail": "リモート☆ホスト / Club Venere No.2 明星 = リモート☆ホスト Club Venere No.2 明星"
+          },
+          {
+            "code": "year_exact",
+            "points": 10,
+            "detail": "2021"
+          },
+          {
+            "code": "category_compatible",
+            "points": 5,
+            "detail": "song"
+          },
+          {
+            "code": "stored_source_page",
+            "points": 20,
+            "detail": "https://remohos.com/music/venere_s02.html"
+          }
+        ],
+        "blockers": [
+          "artist_unconfirmed",
+          "discography_requires_review",
+          "legacy_metadata"
+        ],
+        "work_fingerprint": "63f3eddc8daf5ae0d6d812764bcbc3ebee37820520adc5757a8fd9d136438838"
+      }
+    }
+  },
+  {
+    "id": "remohos-venere_s03",
+    "release_title": "リモート☆ホスト Club Venere No.3 愛抱夢 「ウタカタ 破羅堕威巣 パラダイス 」",
+    "release_type": "song",
+    "release_date": "2021",
+    "artwork": {
+      "src": "https://remohos.com/images/music/jk_venere/j_003.jpg",
+      "alt": "リモート☆ホスト / Club Venere No.3 愛抱夢 作品画像",
+      "provider": "official-discography",
+      "source_url": "https://remohos.com/music/venere_s03.html",
+      "checked_at": "2026-09-12",
+      "approval": {
+        "approved_at": "2026-09-12T11:05:17.438Z",
+        "mode": "human",
+        "candidate_id": "official-discography-80d26f5a0871f0249569",
+        "confidence": 69,
+        "evidence": [
+          {
+            "code": "title_exact",
+            "points": 45,
+            "detail": "リモート☆ホスト / Club Venere No.3 愛抱夢 = リモート☆ホスト Club Venere No.3 愛抱夢"
+          },
+          {
+            "code": "year_exact",
+            "points": 10,
+            "detail": "2021"
+          },
+          {
+            "code": "category_compatible",
+            "points": 5,
+            "detail": "song"
+          },
+          {
+            "code": "stored_source_page",
+            "points": 20,
+            "detail": "https://remohos.com/music/venere_s03.html"
+          }
+        ],
+        "blockers": [
+          "artist_unconfirmed",
+          "discography_requires_review",
+          "legacy_metadata"
+        ],
+        "work_fingerprint": "cb2fded09a28bfff45791592734ebe067e58d4f934de7b2f2d325d661444159e"
+      }
+    }
+  },
+  {
+    "id": "remohos-venere_s04",
+    "release_title": "リモート☆ホスト Club Venere No.4 金多 「ギャンブリングデート」",
+    "release_type": "song",
+    "release_date": "2021",
+    "artwork": {
+      "src": "https://remohos.com/images/music/jk_venere/j_004.jpg",
+      "alt": "リモート☆ホスト / Club Venere No.4 金多 作品画像",
+      "provider": "official-discography",
+      "source_url": "https://remohos.com/music/venere_s04.html",
+      "checked_at": "2026-09-12",
+      "approval": {
+        "approved_at": "2026-09-12T11:05:17.438Z",
+        "mode": "human",
+        "candidate_id": "official-discography-adbebf2186b89b01aad6",
+        "confidence": 69,
+        "evidence": [
+          {
+            "code": "title_exact",
+            "points": 45,
+            "detail": "リモート☆ホスト / Club Venere No.4 金多 = リモート☆ホスト Club Venere No.4 金多"
+          },
+          {
+            "code": "year_exact",
+            "points": 10,
+            "detail": "2021"
+          },
+          {
+            "code": "category_compatible",
+            "points": 5,
+            "detail": "song"
+          },
+          {
+            "code": "stored_source_page",
+            "points": 20,
+            "detail": "https://remohos.com/music/venere_s04.html"
+          }
+        ],
+        "blockers": [
+          "artist_unconfirmed",
+          "discography_requires_review",
+          "legacy_metadata"
+        ],
+        "work_fingerprint": "63f907a098330fbd20a51e6a1795559832279df48eb6323ca7b107d4ba699552"
+      }
+    }
+  },
+  {
+    "id": "remohos-venere_s05",
+    "release_title": "リモート☆ホスト Club Venere No.5 夕星 「Secret makeup」",
+    "release_type": "song",
+    "release_date": "2021",
+    "artwork": {
+      "src": "https://remohos.com/images/music/jk_venere/j_005.jpg",
+      "alt": "リモート☆ホスト / Club Venere No.5 夕星 作品画像",
+      "provider": "official-discography",
+      "source_url": "https://remohos.com/music/venere_s05.html",
+      "checked_at": "2026-09-12",
+      "approval": {
+        "approved_at": "2026-09-12T11:05:17.438Z",
+        "mode": "human",
+        "candidate_id": "official-discography-0abf6d414e2bd2b4df2e",
+        "confidence": 69,
+        "evidence": [
+          {
+            "code": "title_exact",
+            "points": 45,
+            "detail": "リモート☆ホスト / Club Venere No.5 夕星 = リモート☆ホスト Club Venere No.5 夕星"
+          },
+          {
+            "code": "year_exact",
+            "points": 10,
+            "detail": "2021"
+          },
+          {
+            "code": "category_compatible",
+            "points": 5,
+            "detail": "song"
+          },
+          {
+            "code": "stored_source_page",
+            "points": 20,
+            "detail": "https://remohos.com/music/venere_s05.html"
+          }
+        ],
+        "blockers": [
+          "artist_unconfirmed",
+          "discography_requires_review",
+          "legacy_metadata"
+        ],
+        "work_fingerprint": "f859f2fec0fe6eca5264a6461f811206beb5d0b50363fa1aed8896596f097f24"
+      }
+    }
+  },
+  {
+    "id": "anilist-128399",
+    "release_title": "Fairy蘭丸～あなたの心お助けします～",
+    "release_type": "score",
+    "release_date": "2021",
+    "artwork": {
+      "src": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx128399-vNFzJFr7tXdZ.jpg",
+      "alt": "Fairy蘭丸～あなたの心お助けします～ 作品画像",
+      "provider": "anilist",
+      "source_url": "https://anilist.co/anime/128399",
+      "checked_at": "2026-09-12",
+      "approval": {
+        "approved_at": "2026-09-12T11:05:17.438Z",
+        "mode": "human",
+        "candidate_id": "anilist-52f439728659c2d69c60",
+        "confidence": 75,
+        "evidence": [
+          {
+            "code": "title_exact",
+            "points": 45,
+            "detail": "Fairy蘭丸～あなたの心お助けします～ = Fairy蘭丸～あなたの心お助けします～"
+          },
+          {
+            "code": "year_exact",
+            "points": 10,
+            "detail": "2021"
+          },
+          {
+            "code": "category_compatible",
+            "points": 20,
+            "detail": "anime"
+          }
+        ],
+        "blockers": [
+          "title_only_identity"
+        ],
+        "work_fingerprint": "92a44e679a8e997742cb364f67fae074644ad430d922fa0cef1d1d3c55e9d5e3"
+      }
+    }
+  },
+  {
+    "id": "itunes-1535742124",
+    "release_title": "太陽とレインボー - EP",
+    "release_type": "song",
+    "release_date": "2020",
+    "artwork": {
+      "src": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/35/fe/5d/35fe5d3e-3eb3-8372-77cd-57094ab4efc6/091478_J.jpg/100x100bb.jpg",
+      "alt": "太陽とレインボー 作品画像",
+      "provider": "itunes",
+      "source_url": "https://music.apple.com/jp/album/%E5%A4%AA%E9%99%BD%E3%81%A8%E3%83%AC%E3%82%A4%E3%83%B3%E3%83%9C%E3%83%BC/1535742124?i=1535742366&uo=4",
+      "checked_at": "2026-09-12",
+      "approval": {
+        "approved_at": "2026-09-12T11:05:17.438Z",
+        "mode": "human",
+        "candidate_id": "itunes-a1f55670a636167406d5",
+        "confidence": 85,
+        "evidence": [
+          {
+            "code": "title_exact",
+            "points": 45,
+            "detail": "太陽とレインボー = 太陽とレインボー"
+          },
+          {
+            "code": "artist_exact",
+            "points": 25,
+            "detail": "琴川晶(CV:富田美憂)"
+          },
+          {
+            "code": "year_exact",
+            "points": 10,
+            "detail": "2020"
+          },
+          {
+            "code": "category_compatible",
+            "points": 5,
+            "detail": "song"
+          }
+        ],
+        "blockers": [
+          "itunes_usage_review"
+        ],
+        "work_fingerprint": "02195f26e201a203f73962751ed636b64d9cc5f1dcfec15087ea4e57a1cbc063"
+      }
+    }
+  },
+  {
+    "id": "anilist-116147",
+    "release_title": "One Room サードシーズン",
+    "release_type": "score",
+    "release_date": "2020",
+    "artwork": {
+      "src": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx116147-ihwpyRJMuFKx.png",
+      "alt": "One Room サードシーズン 作品画像",
+      "provider": "anilist",
+      "source_url": "https://anilist.co/anime/116147",
+      "checked_at": "2026-09-12",
+      "approval": {
+        "approved_at": "2026-09-12T11:05:17.438Z",
+        "mode": "human",
+        "candidate_id": "anilist-6c923cfab08f9bdaf190",
+        "confidence": 75,
+        "evidence": [
+          {
+            "code": "title_exact",
+            "points": 45,
+            "detail": "One Room サードシーズン = One Room サードシーズン"
+          },
+          {
+            "code": "year_exact",
+            "points": 10,
+            "detail": "2020"
+          },
+          {
+            "code": "category_compatible",
+            "points": 20,
+            "detail": "anime"
+          }
+        ],
+        "blockers": [
+          "title_only_identity"
+        ],
+        "work_fingerprint": "4eb6dfb9b791484c932b011d47cc79d536c95e6351dd63ad0307c89005cab113"
+      }
+    }
+  },
+  {
+    "id": "itunes-1458324782",
+    "release_title": "Dancing to Night ~君への最短ワープ航路~[TVsize] [feat. Yang(CV:杉田智和)] - Single",
+    "release_type": "song",
+    "release_date": "2019",
+    "artwork": {
+      "src": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/0e/7f/62/0e7f6299-b5db-c40d-28db-4c0220045ca6/PCSP_02655.jpg/100x100bb.jpg",
+      "alt": "Dancing to Night ～君への最短ワープ航路～ 作品画像",
+      "provider": "itunes",
+      "source_url": "https://music.apple.com/jp/album/dancing-to-night-%E5%90%9B%E3%81%B8%E3%81%AE%E6%9C%80%E7%9F%AD%E3%83%AF%E3%83%BC%E3%83%97%E8%88%AA%E8%B7%AF-tvsize-feat-yang-cv-%E6%9D%89%E7%94%B0%E6%99%BA%E5%92%8C/1458324782?i=1458324792&uo=4",
+      "checked_at": "2026-09-12",
+      "approval": {
+        "approved_at": "2026-09-12T11:05:17.438Z",
+        "mode": "human",
+        "candidate_id": "itunes-bc7d26db065ab5ec9037",
+        "confidence": 15,
+        "evidence": [
+          {
+            "code": "title_mismatch",
+            "points": 0,
+            "detail": "Dancing to Night ～君への最短ワープ航路～ ≠ Dancing to Night ~君への最短ワープ航路~[TVsize] [feat. Yang(CV:杉田智和)]"
+          },
+          {
+            "code": "year_exact",
+            "points": 10,
+            "detail": "2019"
+          },
+          {
+            "code": "category_compatible",
+            "points": 5,
+            "detail": "song"
+          }
+        ],
+        "blockers": [
+          "title_mismatch",
+          "artist_unconfirmed",
+          "itunes_usage_review",
+          "retained_previous_candidate"
+        ],
+        "work_fingerprint": "d03b9de9946ce12a4930b320926cb4670c918ad47fdf6fa7360a0f1f6d24029c"
+      }
+    }
+  },
+  {
+    "id": "anilist-105928",
+    "release_title": "RobiHachi",
+    "release_type": "score",
+    "release_date": "2019",
+    "artwork": {
+      "src": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx105928-9lm74ot8tTj6.jpg",
+      "alt": "RobiHachi 作品画像",
+      "provider": "anilist",
+      "source_url": "https://anilist.co/anime/105928",
+      "checked_at": "2026-09-12",
+      "approval": {
+        "approved_at": "2026-09-12T11:05:17.438Z",
+        "mode": "human",
+        "candidate_id": "anilist-01e0cda5eee8b931b1d6",
+        "confidence": 100,
+        "evidence": [
+          {
+            "code": "title_exact",
+            "points": 45,
+            "detail": "RobiHachi = RobiHachi"
+          },
+          {
+            "code": "year_exact",
+            "points": 10,
+            "detail": "2019"
+          },
+          {
+            "code": "category_compatible",
+            "points": 20,
+            "detail": "anime"
+          },
+          {
+            "code": "explicit_identity",
+            "points": 40,
+            "detail": "AniList ID 105928"
+          }
+        ],
+        "blockers": [],
+        "work_fingerprint": "cdd81f85f7d0d1c772901c25897d159db8742630d930ac1a4b9cfa4a0ea624b7"
+      }
+    }
+  },
+  {
+    "id": "itunes-1424120710",
+    "release_title": "TVアニメ「ヤマノススメ サードシーズン」 キャラクターソングミニアルバム",
+    "release_type": "song",
+    "release_date": "2018",
+    "artwork": {
+      "src": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/1e/4e/04/1e4e0410-9fa6-4ac0-2918-0adeb054f002/20180824_3rd.jpg/100x100bb.jpg",
+      "alt": "てっぺん目指し隊 作品画像",
+      "provider": "itunes",
+      "source_url": "https://music.apple.com/jp/album/%E3%81%A6%E3%81%A3%E3%81%BA%E3%82%93%E7%9B%AE%E6%8C%87%E3%81%97%E9%9A%8A/1424120710?i=1424121103&uo=4",
+      "checked_at": "2026-09-12",
+      "approval": {
+        "approved_at": "2026-09-12T11:05:17.438Z",
+        "mode": "human",
+        "candidate_id": "itunes-771e85773e8705514332",
+        "confidence": 85,
+        "evidence": [
+          {
+            "code": "title_exact",
+            "points": 45,
+            "detail": "てっぺん目指し隊 = てっぺん目指し隊"
+          },
+          {
+            "code": "artist_exact",
+            "points": 25,
+            "detail": "ひなた(CV.阿澄佳奈)"
+          },
+          {
+            "code": "year_exact",
+            "points": 10,
+            "detail": "2018"
+          },
+          {
+            "code": "category_compatible",
+            "points": 5,
+            "detail": "song"
+          }
+        ],
+        "blockers": [
+          "itunes_usage_review"
+        ],
+        "work_fingerprint": "65ad65ebcc182e3a93023daa8e9bfb584e0e84f3e7cfa79e7de0514d06e9655d"
+      }
+    }
+  },
+  {
+    "id": "itunes-1524588371",
+    "release_title": "TVアニメ「刀使ノ巫女」エンディングテーマ「心のメモリア」 - EP",
+    "release_type": "song",
+    "release_date": "2018",
+    "artwork": {
+      "src": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/34/b0/51/34b05121-fa47-e591-40f5-5fc842108935/JK_ZMCZ-11837.jpg/100x100bb.jpg",
+      "alt": "青空パレード 作品画像",
+      "provider": "itunes",
+      "source_url": "https://music.apple.com/jp/album/%E9%9D%92%E7%A9%BA%E3%83%91%E3%83%AC%E3%83%BC%E3%83%89/1524588371?i=1524588373&uo=4",
+      "checked_at": "2026-09-12",
+      "approval": {
+        "approved_at": "2026-09-12T11:05:17.438Z",
+        "mode": "human",
+        "candidate_id": "itunes-d7175807f2bed70867b3",
+        "confidence": 85,
+        "evidence": [
+          {
+            "code": "title_exact",
+            "points": 45,
+            "detail": "青空パレード = 青空パレード"
+          },
+          {
+            "code": "artist_exact",
+            "points": 25,
+            "detail": "柳瀬舞衣(CV:和氣あず未)、糸見沙耶香(CV:木野日菜)"
+          },
+          {
+            "code": "year_exact",
+            "points": 10,
+            "detail": "2018"
+          },
+          {
+            "code": "category_compatible",
+            "points": 5,
+            "detail": "song"
+          }
+        ],
+        "blockers": [
+          "itunes_usage_review"
+        ],
+        "work_fingerprint": "689733bf87d298cc991f51960f94cf1f0d01905f1fc8ea558fea73732464a3a1"
+      }
+    }
+  },
+  {
+    "id": "anilist-98866",
+    "release_title": "ヤマノススメ サードシーズン",
+    "release_type": "score",
+    "release_date": "2018",
+    "artwork": {
+      "src": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/nx98866-S9BGReBVRkt1.jpg",
+      "alt": "ヤマノススメ サードシーズン 作品画像",
+      "provider": "anilist",
+      "source_url": "https://anilist.co/anime/98866",
+      "checked_at": "2026-09-12",
+      "approval": {
+        "approved_at": "2026-09-12T11:05:17.438Z",
+        "mode": "human",
+        "candidate_id": "anilist-5d9683728a01ec72bc2c",
+        "confidence": 75,
+        "evidence": [
+          {
+            "code": "title_exact",
+            "points": 45,
+            "detail": "ヤマノススメ サードシーズン = ヤマノススメ サードシーズン"
+          },
+          {
+            "code": "year_exact",
+            "points": 10,
+            "detail": "2018"
+          },
+          {
+            "code": "category_compatible",
+            "points": 20,
+            "detail": "anime"
+          }
+        ],
+        "blockers": [
+          "title_only_identity"
+        ],
+        "work_fingerprint": "a103610c2346dc747c49ee147c0f5dcd75bfd47c0a7b067d541de66316b616cc"
+      }
+    }
+  },
+  {
+    "id": "anilist-101046",
+    "release_title": "美男高校地球防衛部HAPPY KISS！",
+    "release_type": "score",
+    "release_date": "2018",
+    "artwork": {
+      "src": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/nx101046-lM7UmLBeV94k.jpg",
+      "alt": "美男高校地球防衛部HAPPY KISS! 作品画像",
+      "provider": "anilist",
+      "source_url": "https://anilist.co/anime/101046",
+      "checked_at": "2026-09-12",
+      "approval": {
+        "approved_at": "2026-09-12T11:05:17.438Z",
+        "mode": "human",
+        "candidate_id": "anilist-a0fd92ca5ff42f4e9368",
+        "confidence": 75,
+        "evidence": [
+          {
+            "code": "title_exact",
+            "points": 45,
+            "detail": "美男高校地球防衛部HAPPY KISS! = 美男高校地球防衛部HAPPY KISS！"
+          },
+          {
+            "code": "year_exact",
+            "points": 10,
+            "detail": "2018"
+          },
+          {
+            "code": "category_compatible",
+            "points": 20,
+            "detail": "anime"
+          }
+        ],
+        "blockers": [
+          "title_only_identity"
+        ],
+        "work_fingerprint": "899c41503ae3dfe2f614527690af830a1d5d2fcce708c2782fb92a2f91d26920"
+      }
+    }
+  },
+  {
+    "id": "anilist-100133",
+    "release_title": "One Room セカンドシーズン",
+    "release_type": "score",
+    "release_date": "2018",
+    "artwork": {
+      "src": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/nx100133-ON96W9oFFvZL.jpg",
+      "alt": "One Room セカンドシーズン 作品画像",
+      "provider": "anilist",
+      "source_url": "https://anilist.co/anime/100133",
+      "checked_at": "2026-09-12",
+      "approval": {
+        "approved_at": "2026-09-12T11:05:17.438Z",
+        "mode": "human",
+        "candidate_id": "anilist-168d94edb28a76f2fbfe",
+        "confidence": 100,
+        "evidence": [
+          {
+            "code": "title_exact",
+            "points": 45,
+            "detail": "One Room セカンドシーズン = One Room セカンドシーズン"
+          },
+          {
+            "code": "year_exact",
+            "points": 10,
+            "detail": "2018"
+          },
+          {
+            "code": "category_compatible",
+            "points": 20,
+            "detail": "anime"
+          },
+          {
+            "code": "explicit_identity",
+            "points": 40,
+            "detail": "AniList ID 100133"
+          }
+        ],
+        "blockers": [],
+        "work_fingerprint": "8032de7189d599ddeb8aaba30fe1c11ddbe1cb67753fb0a2e6bc1d8f89d8a8c8"
+      }
+    }
+  },
+  {
+    "id": "itunes-1537899093",
+    "release_title": "夜明けはまだ/ヒカリ断ツ雨 - EP",
+    "release_type": "song",
+    "release_date": "2017",
+    "artwork": {
+      "src": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/fb/d3/c1/fbd3c125-b621-30d7-2ff0-49adb74ac40c/jacket_VVCL01090B00Z_550.jpg/100x100bb.jpg",
+      "alt": "ヒカリ断ツ雨 作品画像",
+      "provider": "itunes",
+      "source_url": "https://music.apple.com/jp/album/%E3%83%92%E3%82%AB%E3%83%AA%E6%96%AD%E3%83%84%E9%9B%A8/1537899093?i=1537899246&uo=4",
+      "checked_at": "2026-09-12",
+      "approval": {
+        "approved_at": "2026-09-12T11:05:17.438Z",
+        "mode": "human",
+        "candidate_id": "itunes-a03f7a7e3d6fe1358b9e",
+        "confidence": 85,
+        "evidence": [
+          {
+            "code": "title_exact",
+            "points": 45,
+            "detail": "ヒカリ断ツ雨"
+          },
+          {
+            "code": "artist_exact",
+            "points": 25,
+            "detail": "斉藤壮馬"
+          },
+          {
+            "code": "year_exact",
+            "points": 10,
+            "detail": "2017"
+          },
+          {
+            "code": "category_compatible",
+            "points": 5,
+            "detail": "song"
+          }
+        ],
+        "blockers": [
+          "itunes_usage_review",
+          "retained_previous_candidate"
+        ],
+        "work_fingerprint": "344abc3b8946f29b415f6ccd5081e3f66406f6cdbf88f0913b890a91d0f7da39"
+      }
+    }
+  },
+  {
+    "id": "itunes-1198080442",
+    "release_title": "TVアニメ「NEW GAME!」キャラクターソングミニアルバム「Now Singing♪♪♪♪」 - EP",
+    "release_type": "song",
+    "release_date": "2017",
+    "artwork": {
+      "src": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/6b/c2/13/6bc213e0-007a-f6c8-5457-ac2a8f6e3b3a/JK_ZMCZ-10927.jpg/100x100bb.jpg",
+      "alt": "It's OK!! 作品画像",
+      "provider": "itunes",
+      "source_url": "https://music.apple.com/jp/album/its-ok/1198080442?i=1198080469&uo=4",
+      "checked_at": "2026-09-12",
+      "approval": {
+        "approved_at": "2026-09-12T11:05:17.438Z",
+        "mode": "human",
+        "candidate_id": "itunes-b270d83af59b9194a72a",
+        "confidence": 85,
+        "evidence": [
+          {
+            "code": "title_exact",
+            "points": 45,
+            "detail": "It's OK!! = It's OK!!"
+          },
+          {
+            "code": "artist_exact",
+            "points": 25,
+            "detail": "篠田はじめ(CV:戸田めぐみ)"
+          },
+          {
+            "code": "year_exact",
+            "points": 10,
+            "detail": "2017"
+          },
+          {
+            "code": "category_compatible",
+            "points": 5,
+            "detail": "song"
+          }
+        ],
+        "blockers": [
+          "itunes_usage_review"
+        ],
+        "work_fingerprint": "d809d687ccac6e6623f1c21a7b0408e90d066f1f5eed2c14ef252736f1511960"
+      }
+    }
+  },
+  {
+    "id": "anilist-97857",
+    "release_title": "One Room",
+    "release_type": "score",
+    "release_date": "2017",
+    "artwork": {
+      "src": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx97857-ICKs86L2ymjU.jpg",
+      "alt": "One Room 作品画像",
+      "provider": "anilist",
+      "source_url": "https://anilist.co/anime/97857",
+      "checked_at": "2026-09-12",
+      "approval": {
+        "approved_at": "2026-09-12T11:05:17.438Z",
+        "mode": "human",
+        "candidate_id": "anilist-58bbc38843c5087e8e0b",
+        "confidence": 75,
+        "evidence": [
+          {
+            "code": "title_exact",
+            "points": 45,
+            "detail": "One Room = One Room"
+          },
+          {
+            "code": "year_exact",
+            "points": 10,
+            "detail": "2017"
+          },
+          {
+            "code": "category_compatible",
+            "points": 20,
+            "detail": "anime"
+          }
+        ],
+        "blockers": [
+          "title_only_identity"
+        ],
+        "work_fingerprint": "08e287dc5503c23b2fa8c85a752cfbbf514dacbbb26f87d4fe030c6306321df2"
+      }
+    }
+  },
+  {
+    "id": "anilist-98868",
+    "release_title": "ヤマノススメ おもいでプレゼント",
+    "release_type": "score",
+    "release_date": "2017",
+    "artwork": {
+      "src": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx98868-65Vw0ZWuQ3J4.png",
+      "alt": "ヤマノススメ おもいでプレゼント 作品画像",
+      "provider": "anilist",
+      "source_url": "https://anilist.co/anime/98868",
+      "checked_at": "2026-09-12",
+      "approval": {
+        "approved_at": "2026-09-12T11:05:17.438Z",
+        "mode": "human",
+        "candidate_id": "anilist-43967b01d94af5333870",
+        "confidence": 75,
+        "evidence": [
+          {
+            "code": "title_exact",
+            "points": 45,
+            "detail": "ヤマノススメ おもいでプレゼント = ヤマノススメ おもいでプレゼント"
+          },
+          {
+            "code": "year_exact",
+            "points": 10,
+            "detail": "2017"
+          },
+          {
+            "code": "category_compatible",
+            "points": 20,
+            "detail": "anime"
+          }
+        ],
+        "blockers": [
+          "title_only_identity"
+        ],
+        "work_fingerprint": "76ce7d9ea18abc5775eebaa3fa658cfa3427fa1ba5e01f428aa8121c59f01a25"
+      }
+    }
+  },
+  {
+    "id": "anilist-98599",
+    "release_title": "美男高校地球防衛部LOVE!LOVE!LOVE!",
+    "release_type": "score",
+    "release_date": "2017",
+    "artwork": {
+      "src": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b98599-654VImY7AOpy.jpg",
+      "alt": "美男高校地球防衛部LOVE! LOVE! LOVE! 作品画像",
+      "provider": "anilist",
+      "source_url": "https://anilist.co/anime/98599",
+      "checked_at": "2026-09-12",
+      "approval": {
+        "approved_at": "2026-09-12T11:05:17.438Z",
+        "mode": "human",
+        "candidate_id": "anilist-66f507395e5e6e02416d",
+        "confidence": 75,
+        "evidence": [
+          {
+            "code": "title_exact",
+            "points": 45,
+            "detail": "美男高校地球防衛部LOVE! LOVE! LOVE! = 美男高校地球防衛部LOVE!LOVE!LOVE!"
+          },
+          {
+            "code": "year_exact",
+            "points": 10,
+            "detail": "2017"
+          },
+          {
+            "code": "category_compatible",
+            "points": 20,
+            "detail": "anime"
+          }
+        ],
+        "blockers": [
+          "title_only_identity"
+        ],
+        "work_fingerprint": "70877706fe2504b3120b7fbeac2dca1c846d060f832a5fa16a35cb35edcf2bf5"
+      }
+    }
+  },
+  {
+    "id": "anilist-21293",
+    "release_title": "美男高校地球防衛部LOVE！LOVE！",
+    "release_type": "score",
+    "release_date": "2016",
+    "artwork": {
+      "src": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b21293-oW3CwgLAO6LC.png",
+      "alt": "美男高校地球防衛部LOVE! LOVE! 作品画像",
+      "provider": "anilist",
+      "source_url": "https://anilist.co/anime/21293",
+      "checked_at": "2026-09-12",
+      "approval": {
+        "approved_at": "2026-09-12T11:05:17.438Z",
+        "mode": "human",
+        "candidate_id": "anilist-0ffdae84fc0a3bab798d",
+        "confidence": 75,
+        "evidence": [
+          {
+            "code": "title_exact",
+            "points": 45,
+            "detail": "美男高校地球防衛部LOVE! LOVE! = 美男高校地球防衛部LOVE！LOVE！"
+          },
+          {
+            "code": "year_exact",
+            "points": 10,
+            "detail": "2016"
+          },
+          {
+            "code": "category_compatible",
+            "points": 20,
+            "detail": "anime"
+          }
+        ],
+        "blockers": [
+          "title_only_identity"
+        ],
+        "work_fingerprint": "5f2def668879bf8e1f4c017d166b6ba50d7fee2c60bf9e5af33ace89793190e2"
+      }
+    }
+  },
+  {
+    "id": "anilist-21321",
+    "release_title": "少年メイド",
+    "release_type": "score",
+    "release_date": "2016",
+    "artwork": {
+      "src": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21321-1WCJBmHhPqf3.jpg",
+      "alt": "少年メイド 作品画像",
+      "provider": "anilist",
+      "source_url": "https://anilist.co/anime/21321",
+      "checked_at": "2026-09-12",
+      "approval": {
+        "approved_at": "2026-09-12T11:05:17.438Z",
+        "mode": "human",
+        "candidate_id": "anilist-2db34238aede19cccb0e",
+        "confidence": 100,
+        "evidence": [
+          {
+            "code": "title_exact",
+            "points": 45,
+            "detail": "少年メイド = 少年メイド"
+          },
+          {
+            "code": "year_exact",
+            "points": 10,
+            "detail": "2016"
+          },
+          {
+            "code": "category_compatible",
+            "points": 20,
+            "detail": "anime"
+          },
+          {
+            "code": "explicit_identity",
+            "points": 40,
+            "detail": "AniList ID 21321"
+          }
+        ],
+        "blockers": [],
+        "work_fingerprint": "3cc97bcadbce80ecddb3ed3839659ec44e56aed4c43f9683b69c839e6a3bbbe2"
+      }
+    }
+  },
+  {
+    "id": "itunes-961540313",
+    "release_title": "TVアニメ「ダイヤのA」キャラクターソングシリーズVOL.8 伊佐敷純 \"FIGHTING SPIRIT\" - EP",
+    "release_type": "song",
+    "release_date": "2015",
+    "artwork": {
+      "src": "https://is1-ssl.mzstatic.com/image/thumb/Music5/v4/7e/91/8e/7e918ee0-dc3a-5b65-064d-e8cc3113d4ab/PCCG_70244_itunes.png/100x100bb.jpg",
+      "alt": "FIGHTING SPIRIT 作品画像",
+      "provider": "itunes",
+      "source_url": "https://music.apple.com/jp/album/fighting-spirit/961540313?i=961540626&uo=4",
+      "checked_at": "2026-09-12",
+      "approval": {
+        "approved_at": "2026-09-12T11:05:17.438Z",
+        "mode": "human",
+        "candidate_id": "itunes-06c56d2215faad805767",
+        "confidence": 85,
+        "evidence": [
+          {
+            "code": "title_exact",
+            "points": 45,
+            "detail": "FIGHTING SPIRIT = FIGHTING SPIRIT"
+          },
+          {
+            "code": "artist_exact",
+            "points": 25,
+            "detail": "伊佐敷純(CV:小野友樹)"
+          },
+          {
+            "code": "year_exact",
+            "points": 10,
+            "detail": "2015"
+          },
+          {
+            "code": "category_compatible",
+            "points": 5,
+            "detail": "song"
+          }
+        ],
+        "blockers": [
+          "itunes_usage_review"
+        ],
+        "work_fingerprint": "78fe957c974c3c893be16b8ea56558648670fd103325cb98c4af40456bbec496"
+      }
+    }
+  },
+  {
+    "id": "anilist-20877",
+    "release_title": "美男高校地球防衛部LOVE!",
+    "release_type": "score",
+    "release_date": "2015",
+    "artwork": {
+      "src": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx20877-srsNSu9Y9CGU.png",
+      "alt": "美男高校地球防衛部LOVE! 作品画像",
+      "provider": "anilist",
+      "source_url": "https://anilist.co/anime/20877",
+      "checked_at": "2026-09-12",
+      "approval": {
+        "approved_at": "2026-09-12T11:05:17.438Z",
+        "mode": "human",
+        "candidate_id": "anilist-4801a4e339d05c8068fe",
+        "confidence": 75,
+        "evidence": [
+          {
+            "code": "title_exact",
+            "points": 45,
+            "detail": "美男高校地球防衛部LOVE! = 美男高校地球防衛部LOVE!"
+          },
+          {
+            "code": "year_exact",
+            "points": 10,
+            "detail": "2015"
+          },
+          {
+            "code": "category_compatible",
+            "points": 20,
+            "detail": "anime"
+          }
+        ],
+        "blockers": [
+          "title_only_identity"
+        ],
+        "work_fingerprint": "43565dfd690148fb9d356db4449f70ff704108d0acfd0c00b8b9b1357891f754"
+      }
+    }
+  },
+  {
+    "id": "anilist-21044",
+    "release_title": "ミリオンドール",
+    "release_type": "score",
+    "release_date": "2015",
+    "artwork": {
+      "src": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21044-F1ymQPtaPa51.png",
+      "alt": "ミリオンドール 作品画像",
+      "provider": "anilist",
+      "source_url": "https://anilist.co/anime/21044",
+      "checked_at": "2026-09-12",
+      "approval": {
+        "approved_at": "2026-09-12T11:05:17.438Z",
+        "mode": "human",
+        "candidate_id": "anilist-f8c2dfd17a8064178af7",
+        "confidence": 75,
+        "evidence": [
+          {
+            "code": "title_exact",
+            "points": 45,
+            "detail": "ミリオンドール = ミリオンドール"
+          },
+          {
+            "code": "year_exact",
+            "points": 10,
+            "detail": "2015"
+          },
+          {
+            "code": "category_compatible",
+            "points": 20,
+            "detail": "anime"
+          }
+        ],
+        "blockers": [
+          "title_only_identity"
+        ],
+        "work_fingerprint": "635d9d13f53595e65b2b578739e8bc3fad1dac7ea6f454039a260114422d2fb6"
+      }
+    }
+  },
+  {
+    "id": "itunes-931355581",
+    "release_title": "PROMISED FIELD - EP",
+    "release_type": "song",
+    "release_date": "2014",
+    "artwork": {
+      "src": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/d0/9e/3f/d09e3f15-d230-b4fe-da69-a4d98ee6fc93/PCCG_70224_itunes.png/100x100bb.jpg",
+      "alt": "PROMISED FIELD 作品画像",
+      "provider": "itunes",
+      "source_url": "https://music.apple.com/jp/album/promised-field/931355581?i=931355582&uo=4",
+      "checked_at": "2026-09-12",
+      "approval": {
+        "approved_at": "2026-09-12T11:05:17.438Z",
+        "mode": "human",
+        "candidate_id": "itunes-509b4ce2f7d520a35555",
+        "confidence": 60,
+        "evidence": [
+          {
+            "code": "title_exact",
+            "points": 45,
+            "detail": "PROMISED FIELD"
+          },
+          {
+            "code": "year_exact",
+            "points": 10,
+            "detail": "2014"
+          },
+          {
+            "code": "category_compatible",
+            "points": 5,
+            "detail": "song"
+          }
+        ],
+        "blockers": [
+          "artist_unconfirmed",
+          "itunes_usage_review",
+          "retained_previous_candidate"
+        ],
+        "work_fingerprint": "86ed9381d9b5d68ea4b210e13ca763e28076c2fd1b849da3dbf5d1e6ff6534c2"
+      }
+    }
+  },
+  {
+    "id": "itunes-912413985",
+    "release_title": "TVアニメ「ダイヤのA」キャラクターソングシリーズVOL.1 沢村栄純 \"GROW STRONGER\" - EP",
+    "release_type": "song",
+    "release_date": "2014",
+    "artwork": {
+      "src": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/52/cf/3a/52cf3aa3-73a8-aca6-bea6-826432057767/PCCG_70219_itunes.png/100x100bb.jpg",
+      "alt": "GROW STRONGER 作品画像",
+      "provider": "itunes",
+      "source_url": "https://music.apple.com/jp/album/grow-stronger/912413985?i=912413996&uo=4",
+      "checked_at": "2026-09-12",
+      "approval": {
+        "approved_at": "2026-09-12T11:05:17.438Z",
+        "mode": "human",
+        "candidate_id": "itunes-2e7fae60eb42d59c077b",
+        "confidence": 85,
+        "evidence": [
+          {
+            "code": "title_exact",
+            "points": 45,
+            "detail": "GROW STRONGER = GROW STRONGER"
+          },
+          {
+            "code": "artist_exact",
+            "points": 25,
+            "detail": "沢村栄純(CV:逢坂良太)"
+          },
+          {
+            "code": "year_exact",
+            "points": 10,
+            "detail": "2014"
+          },
+          {
+            "code": "category_compatible",
+            "points": 5,
+            "detail": "song"
+          }
+        ],
+        "blockers": [
+          "itunes_usage_review"
+        ],
+        "work_fingerprint": "c71e3fc8a17dd06dd27c7b0fa0364efbb0f89bc39b535a2a73c5ec4a1b7deb35"
+      }
+    }
+  },
+  {
+    "id": "itunes-1535788651",
+    "release_title": "ソードアート・オンライン キャラクターソングコレクション",
+    "release_type": "song",
+    "release_date": "2012",
+    "artwork": {
+      "src": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/a2/b9/50/a2b95070-01db-c91a-7b72-ff1dccf5e182/jacket_ANXX00550B00Z_550.jpg/100x100bb.jpg",
+      "alt": "Memory Heart Message 作品画像",
+      "provider": "itunes",
+      "source_url": "https://music.apple.com/jp/album/memory-heart-message/1535788651?i=1535788654&uo=4",
+      "checked_at": "2026-09-12",
+      "approval": {
+        "approved_at": "2026-09-12T11:05:17.438Z",
+        "mode": "human",
+        "candidate_id": "itunes-439774faa97fe1968e76",
+        "confidence": 55,
+        "evidence": [
+          {
+            "code": "title_exact",
+            "points": 45,
+            "detail": "Memory Heart Message = Memory Heart Message"
+          },
+          {
+            "code": "artist_exact",
+            "points": 25,
+            "detail": "サチ (CV:早見沙織)"
+          },
+          {
+            "code": "year_mismatch",
+            "points": -20,
+            "detail": "2014 ≠ 2012"
+          },
+          {
+            "code": "category_compatible",
+            "points": 5,
+            "detail": "song"
+          }
+        ],
+        "blockers": [
+          "year_mismatch",
+          "itunes_usage_review"
+        ],
+        "work_fingerprint": "8e92909bc010c8845d6815a60dc9753ee14e565de8807b1973f5bf8bd643e372"
+      }
+    }
+  },
+  {
+    "id": "itunes-1629368692",
+    "release_title": "TVアニメ「デート・ア・ライブII」ミュージック・セレクション DATE A “EXTREME” MUSIC",
+    "release_type": "song",
+    "release_date": "2014",
+    "artwork": {
+      "src": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/32/c8/da/32c8da3a-0c22-aafd-47fb-f9ea0c9a4f92/COCX-38576.jpg/100x100bb.jpg",
+      "alt": "DOUBLE PUNCH LOVE 作品画像",
+      "provider": "itunes",
+      "source_url": "https://music.apple.com/jp/album/double-punch-love/1629368692?i=1629368697&uo=4",
+      "checked_at": "2026-09-12",
+      "approval": {
+        "approved_at": "2026-09-12T11:05:17.438Z",
+        "mode": "human",
+        "candidate_id": "itunes-00e6027ff514defb0a85",
+        "confidence": 85,
+        "evidence": [
+          {
+            "code": "title_exact",
+            "points": 45,
+            "detail": "DOUBLE PUNCH LOVE = DOUBLE PUNCH LOVE"
+          },
+          {
+            "code": "artist_exact",
+            "points": 25,
+            "detail": "八舞耶倶矢 (CV: 内田真礼) & 八舞夕弦 (CV: ブリドカットセーラ恵美)"
+          },
+          {
+            "code": "year_exact",
+            "points": 10,
+            "detail": "2014"
+          },
+          {
+            "code": "category_compatible",
+            "points": 5,
+            "detail": "song"
+          }
+        ],
+        "blockers": [
+          "itunes_usage_review"
+        ],
+        "work_fingerprint": "5c1fba1a561721b017375897deee8e01952607b7efa5112b340f6f33e5312609"
+      }
+    }
+  },
+  {
+    "id": "itunes-897450663",
+    "release_title": "TVアニメ「精霊使いの剣舞」オープニングテーマ「共鳴のTrue Force」 - EP",
+    "release_type": "song",
+    "release_date": "2014",
+    "artwork": {
+      "src": "https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/e4/96/3f/e4963f9d-7074-5c50-6102-c10584ddf949/ZMCZ-9539.jpg/100x100bb.jpg",
+      "alt": "夜明け星 作品画像",
+      "provider": "itunes",
+      "source_url": "https://music.apple.com/jp/album/%E5%A4%9C%E6%98%8E%E3%81%91%E6%98%9F/897450663?i=897450665&uo=4",
+      "checked_at": "2026-09-12",
+      "approval": {
+        "approved_at": "2026-09-12T11:05:17.438Z",
+        "mode": "human",
+        "candidate_id": "itunes-11e2e3aa6f87f88d8dfb",
+        "confidence": 85,
+        "evidence": [
+          {
+            "code": "title_exact",
+            "points": 45,
+            "detail": "夜明け星"
+          },
+          {
+            "code": "artist_exact",
+            "points": 25,
+            "detail": "原田ひとみ"
+          },
+          {
+            "code": "year_exact",
+            "points": 10,
+            "detail": "2014"
+          },
+          {
+            "code": "category_compatible",
+            "points": 5,
+            "detail": "song"
+          }
+        ],
+        "blockers": [
+          "itunes_usage_review",
+          "retained_previous_candidate"
+        ],
+        "work_fingerprint": "900857506bf926b0a796d2dff2efed6ef127a8fdb85cca0e287cbfb9ad397c35"
+      }
+    }
+  },
+  {
+    "id": "anilist-21003",
+    "release_title": "ヤマノススメ セカンドシーズン",
+    "release_type": "score",
+    "release_date": "2014",
+    "artwork": {
+      "src": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/nx21003-PzoNo7cztKPJ.jpg",
+      "alt": "ヤマノススメ セカンドシーズン 作品画像",
+      "provider": "anilist",
+      "source_url": "https://anilist.co/anime/21003",
+      "checked_at": "2026-09-12",
+      "approval": {
+        "approved_at": "2026-09-12T11:05:17.438Z",
+        "mode": "human",
+        "candidate_id": "anilist-77988097baecf421da3f",
+        "confidence": 75,
+        "evidence": [
+          {
+            "code": "title_exact",
+            "points": 45,
+            "detail": "ヤマノススメ セカンドシーズン = ヤマノススメ セカンドシーズン"
+          },
+          {
+            "code": "year_exact",
+            "points": 10,
+            "detail": "2014"
+          },
+          {
+            "code": "category_compatible",
+            "points": 20,
+            "detail": "anime"
+          }
+        ],
+        "blockers": [
+          "title_only_identity"
+        ],
+        "work_fingerprint": "2548eb25f96fceaf1114659f8ac24130952fae8665edbb724c70f4a6a80fe059"
+      }
+    }
+  },
+  {
+    "id": "itunes-730900174",
+    "release_title": "ビューティフル・ドリーマー(TVアニメ「世界でいちばん強くなりたい!」オープニングテーマ) - EP",
+    "release_type": "song",
+    "release_date": "2013",
+    "artwork": {
+      "src": "https://is1-ssl.mzstatic.com/image/thumb/Music6/v4/f1/87/07/f1870700-816f-5748-0155-f0041097e730/ESER00.jpg/100x100bb.jpg",
+      "alt": "空色モノローグ 作品画像",
+      "provider": "itunes",
+      "source_url": "https://music.apple.com/jp/album/%E7%A9%BA%E8%89%B2%E3%83%A2%E3%83%8E%E3%83%AD%E3%83%BC%E3%82%B0/730900174?i=730900430&uo=4",
+      "checked_at": "2026-09-12",
+      "approval": {
+        "approved_at": "2026-09-12T11:05:17.438Z",
+        "mode": "human",
+        "candidate_id": "itunes-90770157655c8e89fee8",
+        "confidence": 85,
+        "evidence": [
+          {
+            "code": "title_exact",
+            "points": 45,
+            "detail": "空色モノローグ"
+          },
+          {
+            "code": "artist_exact",
+            "points": 25,
+            "detail": "鳴海杏子"
+          },
+          {
+            "code": "year_exact",
+            "points": 10,
+            "detail": "2013"
+          },
+          {
+            "code": "category_compatible",
+            "points": 5,
+            "detail": "song"
+          }
+        ],
+        "blockers": [
+          "itunes_usage_review",
+          "retained_previous_candidate"
+        ],
+        "work_fingerprint": "8a57906f1007e2ccd00594ec46f5afd040aaa9eb8f7e1dfba52ea7e1b6c001ba"
+      }
+    }
+  },
+  {
+    "id": "itunes-668864666",
+    "release_title": "Glamorous Songs (通常盤)",
+    "release_type": "song",
+    "release_date": "2013",
+    "artwork": {
+      "src": "https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/11/f9/1e/11f91e8f-0b5f-235f-d118-c34cc82e8a43/PCCG_01346_itunes.png/100x100bb.jpg",
+      "alt": "Neo Image 作品画像",
+      "provider": "itunes",
+      "source_url": "https://music.apple.com/jp/album/neo-image/668864666?i=668864923&uo=4",
+      "checked_at": "2026-09-12",
+      "approval": {
+        "approved_at": "2026-09-12T11:05:17.438Z",
+        "mode": "human",
+        "candidate_id": "itunes-042416b8e9f9ded4b529",
+        "confidence": 85,
+        "evidence": [
+          {
+            "code": "title_exact",
+            "points": 45,
+            "detail": "Neo Image = Neo Image"
+          },
+          {
+            "code": "artist_exact",
+            "points": 25,
+            "detail": "日笠陽子"
+          },
+          {
+            "code": "year_exact",
+            "points": 10,
+            "detail": "2013"
+          },
+          {
+            "code": "category_compatible",
+            "points": 5,
+            "detail": "song"
+          }
+        ],
+        "blockers": [
+          "itunes_usage_review"
+        ],
+        "work_fingerprint": "c5a7fbeee3c7927b6698df188589b95adb38e0fa814f39782c3a628122ccd279"
+      }
+    }
+  },
+  {
+    "id": "itunes-651978343",
+    "release_title": "終わらない詩 - EP (通常盤)",
+    "release_type": "song",
+    "release_date": "2013",
+    "artwork": {
+      "src": "https://is1-ssl.mzstatic.com/image/thumb/Music2/v4/e7/0a/b1/e70ab1fc-e876-f849-1dbd-a79a176fa4aa/PCCG_70181_itunes.png/100x100bb.jpg",
+      "alt": "イノセント 作品画像",
+      "provider": "itunes",
+      "source_url": "https://music.apple.com/jp/album/%E3%82%A4%E3%83%8E%E3%82%BB%E3%83%B3%E3%83%88/651978343?i=651978775&uo=4",
+      "checked_at": "2026-09-12",
+      "approval": {
+        "approved_at": "2026-09-12T11:05:17.438Z",
+        "mode": "human",
+        "candidate_id": "itunes-fe5013ad4a2d776a709d",
+        "confidence": 85,
+        "evidence": [
+          {
+            "code": "title_exact",
+            "points": 45,
+            "detail": "イノセント"
+          },
+          {
+            "code": "artist_exact",
+            "points": 25,
+            "detail": "日笠陽子"
+          },
+          {
+            "code": "year_exact",
+            "points": 10,
+            "detail": "2013"
+          },
+          {
+            "code": "category_compatible",
+            "points": 5,
+            "detail": "song"
+          }
+        ],
+        "blockers": [
+          "itunes_usage_review",
+          "retained_previous_candidate"
+        ],
+        "work_fingerprint": "b0dfb84a765422d0365bde89662fbb374c804fd2493a3315e90a28884de4e75a"
+      }
+    }
+  },
+  {
+    "id": "itunes-910555991",
+    "release_title": "Couleur 通常盤",
+    "release_type": "song",
+    "release_date": "2013",
+    "artwork": {
+      "src": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/37/8a/b1/378ab14c-1405-818f-33fc-09ddb43ce987/4988013022089.jpg/100x100bb.jpg",
+      "alt": "終わらない詩 作品画像",
+      "provider": "itunes",
+      "source_url": "https://music.apple.com/jp/album/%E7%B5%82%E3%82%8F%E3%82%89%E3%81%AA%E3%81%84%E8%A9%A9/910555991?i=910556014&uo=4",
+      "checked_at": "2026-09-12",
+      "approval": {
+        "approved_at": "2026-09-12T11:05:17.438Z",
+        "mode": "human",
+        "candidate_id": "itunes-9baf82acb0d928d71120",
+        "confidence": 85,
+        "evidence": [
+          {
+            "code": "title_exact",
+            "points": 45,
+            "detail": "終わらない詩"
+          },
+          {
+            "code": "artist_exact",
+            "points": 25,
+            "detail": "日笠陽子"
+          },
+          {
+            "code": "year_exact",
+            "points": 10,
+            "detail": "2013"
+          },
+          {
+            "code": "category_compatible",
+            "points": 5,
+            "detail": "song"
+          }
+        ],
+        "blockers": [
+          "itunes_usage_review",
+          "retained_previous_candidate"
+        ],
+        "work_fingerprint": "c6bab1e752b413bf46a4b8c5edec8286e22cff5e73b89e3bb642395934a032e1"
+      }
+    }
+  },
+  {
+    "id": "itunes-619537929",
+    "release_title": "スタッカート・デイズ(TVアニメ「ヤマノススメ」) - EP",
+    "release_type": "song",
+    "release_date": "2013",
+    "artwork": {
+      "src": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/33/db/f8/33dbf844-4476-8857-c8bb-7fa910f948f4/2.jpg/100x100bb.jpg",
+      "alt": "スタッカート・デイズ 作品画像",
+      "provider": "itunes",
+      "source_url": "https://music.apple.com/jp/album/%E3%82%B9%E3%82%BF%E3%83%83%E3%82%AB%E3%83%BC%E3%83%88-%E3%83%87%E3%82%A4%E3%82%BA/619537929?i=619538086&uo=4",
+      "checked_at": "2026-09-12",
+      "approval": {
+        "approved_at": "2026-09-12T11:05:17.438Z",
+        "mode": "human",
+        "candidate_id": "itunes-23a637dea7a7a275ad03",
+        "confidence": 85,
+        "evidence": [
+          {
+            "code": "title_exact",
+            "points": 45,
+            "detail": "スタッカート・デイズ = スタッカート・デイズ"
+          },
+          {
+            "code": "artist_exact",
+            "points": 25,
+            "detail": "あおい(CV:井口裕香) ひなた(CV:阿澄佳奈)"
+          },
+          {
+            "code": "year_exact",
+            "points": 10,
+            "detail": "2013"
+          },
+          {
+            "code": "category_compatible",
+            "points": 5,
+            "detail": "song"
+          }
+        ],
+        "blockers": [
+          "itunes_usage_review"
+        ],
+        "work_fingerprint": "6749534ef233a904a7656499fe8eda6ff970c2a25993f50f9b48384a0f316d99"
+      }
+    }
+  },
+  {
+    "id": "itunes-595588912",
+    "release_title": "TVアニメ『僕は友達が少ないNEXT』 エンディング・テーマ「僕らの翼」- EP",
+    "release_type": "song",
+    "release_date": "2013",
+    "artwork": {
+      "src": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/87/b2/9a/87b29a05-a58e-2e9c-0372-55625dd66681/02.jpg/100x100bb.jpg",
+      "alt": "思い出シュノーケル 作品画像",
+      "provider": "itunes",
+      "source_url": "https://music.apple.com/jp/album/%E6%80%9D%E3%81%84%E5%87%BA%E3%82%B7%E3%83%A5%E3%83%8E%E3%83%BC%E3%82%B1%E3%83%AB/595588912?i=595588918&uo=4",
+      "checked_at": "2026-09-12",
+      "approval": {
+        "approved_at": "2026-09-12T11:05:17.438Z",
+        "mode": "human",
+        "candidate_id": "itunes-80431144f3c1e4b40c8a",
+        "confidence": 85,
+        "evidence": [
+          {
+            "code": "title_exact",
+            "points": 45,
+            "detail": "思い出シュノーケル = 思い出シュノーケル"
+          },
+          {
+            "code": "artist_exact",
+            "points": 25,
+            "detail": "羽瀬川小鷹(CV:木村良平)"
+          },
+          {
+            "code": "year_exact",
+            "points": 10,
+            "detail": "2013"
+          },
+          {
+            "code": "category_compatible",
+            "points": 5,
+            "detail": "song"
+          }
+        ],
+        "blockers": [
+          "itunes_usage_review"
+        ],
+        "work_fingerprint": "de45feeafa9b7ff71d9628f67fbb614f3c7cc5d533585b3bfbadc4cd64a0500d"
+      }
+    }
+  },
+  {
+    "id": "itunes-576675801",
+    "release_title": "TVアニメ「さくら荘のペットな彼女」オープニングテーマ「君が夢を連れてきた」 - EP",
+    "release_type": "song",
+    "release_date": "2012",
+    "artwork": {
+      "src": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/03/d1/c6/03d1c6c1-e84d-014b-4456-62972cb28765/sakurasou_CD-OP_book_H1.jpg/100x100bb.jpg",
+      "alt": "君が夢を連れてきた 作品画像",
+      "provider": "itunes",
+      "source_url": "https://music.apple.com/jp/album/%E5%90%9B%E3%81%8C%E5%A4%A2%E3%82%92%E9%80%A3%E3%82%8C%E3%81%A6%E3%81%8D%E3%81%9F/576675801?i=576675807&uo=4",
+      "checked_at": "2026-09-12",
+      "approval": {
+        "approved_at": "2026-09-12T11:05:17.438Z",
+        "mode": "human",
+        "candidate_id": "itunes-7ce68047e1b385c04bc2",
+        "confidence": 60,
+        "evidence": [
+          {
+            "code": "title_exact",
+            "points": 45,
+            "detail": "君が夢を連れてきた"
+          },
+          {
+            "code": "year_exact",
+            "points": 10,
+            "detail": "2012"
+          },
+          {
+            "code": "category_compatible",
+            "points": 5,
+            "detail": "song"
+          }
+        ],
+        "blockers": [
+          "artist_unconfirmed",
+          "itunes_usage_review",
+          "retained_previous_candidate"
+        ],
+        "work_fingerprint": "5901ba8d1a89dd096951aedabcdd5564270ddf13aedfef63236422837b2fe427"
+      }
+    }
+  },
+  {
+    "id": "itunes-551582892",
+    "release_title": "TVアニメ「僕は友達が少ない」『小鳩のうたってみた!』 アニメ「鉄の死霊術師(くろがねのねくろまんさー)」カバーソング - EP",
+    "release_type": "song",
+    "release_date": "2012",
+    "artwork": {
+      "src": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/f0/0d/05/f00d058a-e319-9a08-60b6-f51dd045b2b4/haganaikobato.jpg/100x100bb.jpg",
+      "alt": "戦けよ、冥闇の王は降りた 作品画像",
+      "provider": "itunes",
+      "source_url": "https://music.apple.com/jp/album/%E6%88%A6%E3%81%91%E3%82%88-%E5%86%A5%E9%97%87%E3%81%AE%E7%8E%8B%E3%81%AF%E9%99%8D%E3%82%8A%E3%81%9F-%E3%81%8A%E3%81%AE%E3%81%AE%E3%81%91%E3%82%88-%E3%82%81%E3%81%84%E3%81%82%E3%82%93%E3%81%AE%E3%81%8A%E3%81%86%E3%81%AF%E3%81%8A%E3%82%8A%E3%81%9F-off-vocal/551582892?i=551582897&uo=4",
+      "checked_at": "2026-09-12",
+      "approval": {
+        "approved_at": "2026-09-12T11:05:17.438Z",
+        "mode": "human",
+        "candidate_id": "itunes-133663b6bd9bc30e5018",
+        "confidence": 40,
+        "evidence": [
+          {
+            "code": "title_mismatch",
+            "points": 0,
+            "detail": "戦けよ、冥闇の王は降りた ≠ 『戦けよ、冥闇の王は降りた(おののけよ、めいあんのおうはおりた)』(off vocal)"
+          },
+          {
+            "code": "artist_exact",
+            "points": 25,
+            "detail": "羽瀬川小鳩(CV:花澤香菜)"
+          },
+          {
+            "code": "year_exact",
+            "points": 10,
+            "detail": "2012"
+          },
+          {
+            "code": "category_compatible",
+            "points": 5,
+            "detail": "song"
+          }
+        ],
+        "blockers": [
+          "title_mismatch",
+          "itunes_usage_review"
+        ],
+        "work_fingerprint": "aa910b00d5fa1c96a5568c4f698fee95cead9832c49fe4bce5e5a8ffba8a9283"
+      }
+    }
+  },
+  {
+    "id": "itunes-547890778",
+    "release_title": "「Magenta Another Sky」(TVアニメーション「アルカナ・ファミリア -La storia della Arcana Famiglia-」オープニングテーマ) - EP",
+    "release_type": "song",
+    "release_date": "2012",
+    "artwork": {
+      "src": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/7c/71/37/7c7137d8-a0f4-3c5f-e727-02366078fd70/WECT0005_rgb_1200px.jpg/100x100bb.jpg",
+      "alt": "Magenta Another Sky 作品画像",
+      "provider": "itunes",
+      "source_url": "https://music.apple.com/jp/album/magenta-another-sky/547890778?i=547890781&uo=4",
+      "checked_at": "2026-09-12",
+      "approval": {
+        "approved_at": "2026-09-12T11:05:17.438Z",
+        "mode": "human",
+        "candidate_id": "itunes-2ae9bbb4de0ea34b6ffd",
+        "confidence": 85,
+        "evidence": [
+          {
+            "code": "title_exact",
+            "points": 45,
+            "detail": "Magenta Another Sky"
+          },
+          {
+            "code": "artist_exact",
+            "points": 25,
+            "detail": "原田ひとみ"
+          },
+          {
+            "code": "year_exact",
+            "points": 10,
+            "detail": "2012"
+          },
+          {
+            "code": "category_compatible",
+            "points": 5,
+            "detail": "song"
+          }
+        ],
+        "blockers": [
+          "itunes_usage_review",
+          "retained_previous_candidate"
+        ],
+        "work_fingerprint": "08b21671f445427eb4c11020b399aa1ada7e90f46c838b33b8b239fad9a87829"
+      }
+    }
+  },
+  {
+    "id": "itunes-518215455",
+    "release_title": "TVアニメ「クイーンズブレイド リベリオン」オープニングテーマ「命のうたが聞こえる」 - EP",
+    "release_type": "song",
+    "release_date": "2012",
+    "artwork": {
+      "src": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/2a/3e/f6/2a3ef69c-0ec9-181f-6eb6-9c2888364442/QBR_OP_jacketF.jpg/100x100bb.jpg",
+      "alt": "命のうたが聞こえる 作品画像",
+      "provider": "itunes",
+      "source_url": "https://music.apple.com/jp/album/%E5%91%BD%E3%81%AE%E3%81%86%E3%81%9F%E3%81%8C%E8%81%9E%E3%81%93%E3%81%88%E3%82%8B/518215455?i=518215459&uo=4",
+      "checked_at": "2026-09-12",
+      "approval": {
+        "approved_at": "2026-09-12T11:05:17.438Z",
+        "mode": "human",
+        "candidate_id": "itunes-e6e0143756661aa22b6e",
+        "confidence": 85,
+        "evidence": [
+          {
+            "code": "title_exact",
+            "points": 45,
+            "detail": "命のうたが聞こえる"
+          },
+          {
+            "code": "artist_exact",
+            "points": 25,
+            "detail": "田村直美"
+          },
+          {
+            "code": "year_exact",
+            "points": 10,
+            "detail": "2012"
+          },
+          {
+            "code": "category_compatible",
+            "points": 5,
+            "detail": "song"
+          }
+        ],
+        "blockers": [
+          "itunes_usage_review",
+          "retained_previous_candidate"
+        ],
+        "work_fingerprint": "fb2ac4ebec11485bf143dbbfddc0d6f9f47cae28eadd067374f17d902a87c669"
+      }
+    }
+  },
+  {
+    "id": "itunes-687625667",
+    "release_title": "僕は友達が少ない 隣人部 ボーカルコレクション",
+    "release_type": "song",
+    "release_date": "2011",
+    "artwork": {
+      "src": "https://is1-ssl.mzstatic.com/image/thumb/Music6/v4/86/28/be/8628be36-1549-8846-0538-f07b35e2ebc3/H1.jpg/100x100bb.jpg",
+      "alt": "あたしのキ・モ・チ 作品画像",
+      "provider": "itunes",
+      "source_url": "https://music.apple.com/jp/album/%E3%81%82%E3%81%9F%E3%81%97%E3%81%AE%E3%82%AD-%E3%83%A2-%E3%83%81/687625667?i=687625904&uo=4",
+      "checked_at": "2026-09-12",
+      "approval": {
+        "approved_at": "2026-09-12T11:05:17.438Z",
+        "mode": "human",
+        "candidate_id": "itunes-fca2d88eaab3808e075e",
+        "confidence": 85,
+        "evidence": [
+          {
+            "code": "title_exact",
+            "points": 45,
+            "detail": "あたしのキ・モ・チ = あたしのキ・モ・チ"
+          },
+          {
+            "code": "artist_exact",
+            "points": 25,
+            "detail": "柏崎星奈(CV:伊藤かな恵)"
+          },
+          {
+            "code": "year_exact",
+            "points": 10,
+            "detail": "2011"
+          },
+          {
+            "code": "category_compatible",
+            "points": 5,
+            "detail": "song"
+          }
+        ],
+        "blockers": [
+          "itunes_usage_review"
+        ],
+        "work_fingerprint": "e37ba38f80778828955d82986d0ca9c04b2fbfb9f4a21b7369efb9ec39373e13"
+      }
+    }
+  },
+  {
+    "id": "itunes-1128629966",
+    "release_title": "Dragonfly - EP",
+    "release_type": "song",
+    "release_date": "2007",
+    "artwork": {
+      "src": "https://is1-ssl.mzstatic.com/image/thumb/Music18/v4/e6/15/2e/e6152e6e-4b26-b35d-69ca-f4ed5d021150/ANTCD-18546.jpg/100x100bb.jpg",
+      "alt": "Dragonfly 作品画像",
+      "provider": "itunes",
+      "source_url": "https://music.apple.com/jp/album/dragonfly/1128629966?i=1128629973&uo=4",
+      "checked_at": "2026-09-12",
+      "approval": {
+        "approved_at": "2026-09-12T11:05:17.438Z",
+        "mode": "human",
+        "candidate_id": "itunes-1f6f7f05c58cb3ce86d8",
+        "confidence": 85,
+        "evidence": [
+          {
+            "code": "title_exact",
+            "points": 45,
+            "detail": "Dragonfly"
+          },
+          {
+            "code": "artist_exact",
+            "points": 25,
+            "detail": "島谷ひとみ"
+          },
+          {
+            "code": "year_exact",
+            "points": 10,
+            "detail": "2007"
+          },
+          {
+            "code": "category_compatible",
+            "points": 5,
+            "detail": "song"
+          }
+        ],
+        "blockers": [
+          "itunes_usage_review",
+          "retained_previous_candidate"
+        ],
+        "work_fingerprint": "1fa70deb14afaed0d4a2eb446be79be8194cb9820f8cd833dffeccb7ed8e776c"
+      }
+    }
+  },
+  {
+    "id": "artwork-legacy-015-572cac36a2b8",
+    "release_title": "「Fairy蘭丸～あなたの心お助けします～」オリジナル・サウンドトラック-yamazo | ポニーキャニオン",
+    "release_type": "song",
+    "release_date": "",
+    "artwork": {
+      "src": "https://www.ponycanyon.co.jp/images/wcms/accessor/bin/jacket/PCCG000002029.jpg?size=3&order=1",
+      "alt": "Fairy 蘭丸〜あなたの心お助けします〜O.S.T 作品画像",
+      "provider": "page-ogp",
+      "source_url": "https://www.ponycanyon.co.jp/music/PCCG000002029",
+      "checked_at": "2026-09-12",
+      "approval": {
+        "approved_at": "2026-09-12T11:05:17.438Z",
+        "mode": "human",
+        "candidate_id": "page-ogp-ddc40e0ccc926b20cd22",
+        "confidence": 25,
+        "evidence": [
+          {
+            "code": "title_mismatch",
+            "points": 0,
+            "detail": "Fairy 蘭丸〜あなたの心お助けします〜O.S.T ≠ 「Fairy蘭丸～あなたの心お助けします～」オリジナル・サウンドトラック-yamazo | ポニーキャニオン"
+          },
+          {
+            "code": "category_compatible",
+            "points": 5,
+            "detail": "song"
+          },
+          {
+            "code": "stored_source_page",
+            "points": 20,
+            "detail": "https://www.ponycanyon.co.jp/music/PCCG000002029"
+          }
+        ],
+        "blockers": [
+          "title_mismatch",
+          "artist_unconfirmed",
+          "year_unconfirmed",
+          "ogp_requires_review",
+          "legacy_metadata",
+          "retained_previous_candidate"
+        ],
+        "work_fingerprint": "f12d4f6e8a48caf4fd5bdb74f73181e0bbe891f676c1a5d007ff834b5fc59b02"
+      }
+    }
+  },
+  {
+    "id": "artwork-legacy-016-3f243e24dc8e",
+    "release_title": "A3!（エースリー）DISC INFORMATION",
+    "release_type": "song",
+    "release_date": "",
+    "artwork": {
+      "src": "https://a3.ponycanyon.co.jp/shared/images/og-image.jpg",
+      "alt": "A3! ETERNA GOD EP 作品画像",
+      "provider": "page-ogp",
+      "source_url": "https://a3.ponycanyon.co.jp/a3-eternal-god-ep/",
+      "checked_at": "2026-09-12",
+      "approval": {
+        "approved_at": "2026-09-12T11:05:17.438Z",
+        "mode": "human",
+        "candidate_id": "page-ogp-406b2395cb433db6aea2",
+        "confidence": 25,
+        "evidence": [
+          {
+            "code": "title_mismatch",
+            "points": 0,
+            "detail": "A3! ETERNA GOD EP ≠ A3!（エースリー）DISC INFORMATION"
+          },
+          {
+            "code": "category_compatible",
+            "points": 5,
+            "detail": "song"
+          },
+          {
+            "code": "stored_source_page",
+            "points": 20,
+            "detail": "https://a3.ponycanyon.co.jp/a3-eternal-god-ep/"
+          }
+        ],
+        "blockers": [
+          "title_mismatch",
+          "artist_unconfirmed",
+          "year_unconfirmed",
+          "ogp_requires_review",
+          "legacy_metadata",
+          "shared_ogp",
+          "retained_previous_candidate"
+        ],
+        "work_fingerprint": "d230cb29b01d6671d64d5d83da4acc1b8e36a76e848a2c84e09cbda267dbb64b"
+      }
+    }
+  },
+  {
+    "id": "artwork-legacy-019-cedec0be193c",
+    "release_title": "THE IDOLM@STER MASTER ARTIST 4 10 如月千早 | 商品情報 | 日本コロムビアオフィシャルサイト",
+    "release_type": "song",
+    "release_date": "",
+    "artwork": {
+      "src": "https://columbia.jp/prod-info/jacket/COCX-41160.jpg",
+      "alt": "THE IDOLM@STER ARTIST4 如月千早 作品画像",
+      "provider": "page-ogp",
+      "source_url": "https://columbia.jp/prod-info/COCX-41160/",
+      "checked_at": "2026-09-12",
+      "approval": {
+        "approved_at": "2026-09-12T11:05:17.438Z",
+        "mode": "human",
+        "candidate_id": "page-ogp-aaa9e7f96b23692f078b",
+        "confidence": 25,
+        "evidence": [
+          {
+            "code": "title_mismatch",
+            "points": 0,
+            "detail": "THE IDOLM@STER ARTIST4 如月千早 ≠ THE IDOLM@STER MASTER ARTIST 4 10 如月千早 | 商品情報 | 日本コロムビアオフィシャルサイト"
+          },
+          {
+            "code": "category_compatible",
+            "points": 5,
+            "detail": "song"
+          },
+          {
+            "code": "stored_source_page",
+            "points": 20,
+            "detail": "https://columbia.jp/prod-info/COCX-41160/"
+          }
+        ],
+        "blockers": [
+          "title_mismatch",
+          "artist_unconfirmed",
+          "year_unconfirmed",
+          "ogp_requires_review",
+          "legacy_metadata",
+          "retained_previous_candidate"
+        ],
+        "work_fingerprint": "05020ffe293244b688d564cf0f596ef8cbef42c9b8d3499a4d182137b1667144"
+      }
+    }
+  },
+  {
+    "id": "artwork-legacy-022-b28589d5647a",
+    "release_title": "ソードアート・オンライン アリシゼーション War of Underworld 2 | アニメ「ソードアート・オンライン」ポータルサイト",
+    "release_type": "song",
+    "release_date": "",
+    "artwork": {
+      "src": "https://www.swordart-online.net/assets/img/common/noimg.jpg",
+      "alt": "ソードアート・オンライン アリシゼーション War of Underwold #2 作品画像",
+      "provider": "page-ogp",
+      "source_url": "https://www.swordart-online.net/bddvd/?id=4394",
+      "checked_at": "2026-09-12",
+      "approval": {
+        "approved_at": "2026-09-12T11:05:17.438Z",
+        "mode": "human",
+        "candidate_id": "page-ogp-644a08069b76a78bd20a",
+        "confidence": 25,
+        "evidence": [
+          {
+            "code": "title_mismatch",
+            "points": 0,
+            "detail": "ソードアート・オンライン アリシゼーション War of Underwold #2 ≠ ソードアート・オンライン アリシゼーション War of Underworld 2 | アニメ「ソードアート・オンライン」ポータルサイト"
+          },
+          {
+            "code": "category_compatible",
+            "points": 5,
+            "detail": "song"
+          },
+          {
+            "code": "stored_source_page",
+            "points": 20,
+            "detail": "https://www.swordart-online.net/bddvd/?id=4394"
+          }
+        ],
+        "blockers": [
+          "title_mismatch",
+          "artist_unconfirmed",
+          "year_unconfirmed",
+          "ogp_requires_review",
+          "generic_image",
+          "legacy_metadata",
+          "retained_previous_candidate"
+        ],
+        "work_fingerprint": "a65157b499080632e7f1b1fbabdb99b7fe6c50fa797b6a9e92680239f05eb264"
+      }
+    }
+  },
+  {
+    "id": "artwork-legacy-023-3f243e24dc8e",
+    "release_title": "A3!（エースリー）DISC INFORMATION",
+    "release_type": "song",
+    "release_date": "",
+    "artwork": {
+      "src": "https://a3.ponycanyon.co.jp/shared/images/og-image.jpg",
+      "alt": "A3! MIX SEASON LP 作品画像",
+      "provider": "page-ogp",
+      "source_url": "https://a3.ponycanyon.co.jp/a3-mix-seasons-lp/",
+      "checked_at": "2026-09-12",
+      "approval": {
+        "approved_at": "2026-09-12T11:05:17.438Z",
+        "mode": "human",
+        "candidate_id": "page-ogp-28bbcce9f7f350d832c2",
+        "confidence": 25,
+        "evidence": [
+          {
+            "code": "title_mismatch",
+            "points": 0,
+            "detail": "A3! MIX SEASON LP ≠ A3!（エースリー）DISC INFORMATION"
+          },
+          {
+            "code": "category_compatible",
+            "points": 5,
+            "detail": "song"
+          },
+          {
+            "code": "stored_source_page",
+            "points": 20,
+            "detail": "https://a3.ponycanyon.co.jp/a3-mix-seasons-lp/"
+          }
+        ],
+        "blockers": [
+          "title_mismatch",
+          "artist_unconfirmed",
+          "year_unconfirmed",
+          "ogp_requires_review",
+          "legacy_metadata",
+          "shared_ogp",
+          "retained_previous_candidate"
+        ],
+        "work_fingerprint": "6ff7d68409b0a4e71bc40c8b2e48c5401db8a9e3e6114dcf7025492c77c91681"
+      }
+    }
+  },
+  {
+    "id": "artwork-legacy-024-5a2d0e3575dc",
+    "release_title": "mimorin.com 三森すずこオフィシャルサイト",
+    "release_type": "song",
+    "release_date": "",
+    "artwork": {
+      "src": "https://mimorin.com/wordpress/wp-content/uploads/2019/08/mini_tsujo_H1.jpg",
+      "alt": "三森すずこ「チャンス！/夕方」 作品画像",
+      "provider": "page-ogp",
+      "source_url": "https://mimorin.com/discography/9thcd/",
+      "checked_at": "2026-09-12",
+      "approval": {
+        "approved_at": "2026-09-12T11:05:17.438Z",
+        "mode": "human",
+        "candidate_id": "page-ogp-c0bdc3354cfdbb20a069",
+        "confidence": 25,
+        "evidence": [
+          {
+            "code": "title_mismatch",
+            "points": 0,
+            "detail": "三森すずこ「チャンス！/夕方」 ≠ mimorin.com 三森すずこオフィシャルサイト"
+          },
+          {
+            "code": "category_compatible",
+            "points": 5,
+            "detail": "song"
+          },
+          {
+            "code": "stored_source_page",
+            "points": 20,
+            "detail": "https://mimorin.com/discography/9thcd/"
+          }
+        ],
+        "blockers": [
+          "title_mismatch",
+          "artist_unconfirmed",
+          "year_unconfirmed",
+          "ogp_requires_review",
+          "legacy_metadata",
+          "retained_previous_candidate"
+        ],
+        "work_fingerprint": "1d3e9414f8b58bb877b4de4e2b4873076f9b12a1deb07a93420023a707241477"
+      }
+    }
+  },
+  {
+    "id": "artwork-legacy-027-5461632ac5bd",
+    "release_title": "TVアニメ「ソードアート・オンライン アリシゼーション」オフィシャルサイト",
+    "release_type": "song",
+    "release_date": "",
+    "artwork": {
+      "src": "https://sao-alicization.net/1st/og_1909.png",
+      "alt": "ソードアート・オンライン アリシゼーション#8 作品画像",
+      "provider": "page-ogp",
+      "source_url": "https://sao-alicization.net/1st/bddvd/08.html",
+      "checked_at": "2026-09-12",
+      "approval": {
+        "approved_at": "2026-09-12T11:05:17.438Z",
+        "mode": "human",
+        "candidate_id": "page-ogp-47e8c4c773ac30fd2857",
+        "confidence": 25,
+        "evidence": [
+          {
+            "code": "title_mismatch",
+            "points": 0,
+            "detail": "ソードアート・オンライン アリシゼーション#8 ≠ TVアニメ「ソードアート・オンライン アリシゼーション」オフィシャルサイト"
+          },
+          {
+            "code": "category_compatible",
+            "points": 5,
+            "detail": "song"
+          },
+          {
+            "code": "stored_source_page",
+            "points": 20,
+            "detail": "https://sao-alicization.net/1st/bddvd/08.html"
+          }
+        ],
+        "blockers": [
+          "title_mismatch",
+          "artist_unconfirmed",
+          "year_unconfirmed",
+          "ogp_requires_review",
+          "legacy_metadata",
+          "retained_previous_candidate"
+        ],
+        "work_fingerprint": "8072d973d778f3081cbdc7b1e57a4b184514c555007fc80bb21246fcdded5292"
+      }
+    }
   }
 ]

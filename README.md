@@ -22,29 +22,29 @@ HTMLやJavaScriptの編集は最小限で、データ更新はJSON差し替え�
 
 1. `node find-artwork.mjs`
 2. `artwork_candidates.json` が作られる
-3. 内容を確認して採用情報を `artwork_decisions.json` にまとめる
+3. `node review-artwork.mjs` で画像一覧を作り、選んだ候補を `artwork_decisions.json` に保存する
 
-決定ファイル例:
+決定ファイルの構造（IDはレビュー画面から出力された値を使用）:
 
 ```json
 [
   {
-    "work_id": "anilist-188138",
+    "work_id": "対象作品のID",
     "decision": "accept",
-    "suggestion_id": "anilist-anilist-188138"
+    "suggestion_id": "候補のID"
   }
 ]
 ```
 
 ### 採用反映
 
-`node approve-artwork.mjs artwork_decisions.json`
+`node approve-artwork.mjs artwork_decisions.json` はdry-runです。確認後 `node approve-artwork.mjs artwork_decisions.json --apply` で反映します。
 
 ### 画像保存（任意）
 
 `releases.json` の外部画像を `assets/covers` に保存する場合:
 
-`node fetch-artwork.mjs`
+`node fetch-artwork.mjs` で検査、`node fetch-artwork.mjs --apply` で保存します。
 
 保存後は `dist/` 生成時に `assets/covers/*` をコピーします。
 
@@ -69,3 +69,11 @@ HTMLやJavaScriptの編集は最小限で、データ更新はJSON差し替え�
 - `release_id`（任意、推奨）
 
 `releases.json` は `id` と `artwork`（`src`, `provider`, `source_url`, `checked_at`）を持ちます。
+
+## Artwork Resolver v2
+
+詳細な設計、スコア、変更点、安全対策とWorks自動更新の接続案は [ARTWORK_RESOLVER_V2.md](ARTWORK_RESOLVER_V2.md) を参照。
+
+`node find-artwork.mjs` → `node review-artwork.mjs` で候補と画像一覧を作ります。`artwork-review.html` で画像・根拠を確認し、選択した承認JSONを保存してください。95以上も初回・週次には自動反映しません。既存画像付きWorksはスキップします。
+
+`Collect artwork candidates` Actionsは候補をArtifactsへ保存するだけです。公開masterへのWorks自動mergeは未実装です。
