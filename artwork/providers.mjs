@@ -2,6 +2,136 @@ import { candidate, titleFor, titleKey, mbEntity, normalize, httpsURL } from './
 const mb = (type,id,inc) => `https://musicbrainz.org/ws/2/${type}/${id}?fmt=json&inc=${inc}`;
 const artists = item => (item['artist-credit'] || []).map(a=>a.name||a.artist?.name).filter(Boolean);
 const year = date => /^\d{4}/.test(date||'')?Number(date.slice(0,4)):null;
+
+const AMAZON_MAX_CANDIDATES = 5;
+const AMAZON_QUERY_LIMIT = 3;
+const AMAZON_RESULT_LIMIT = 4;
+const strip = value => String(value ?? '').replace(/\s+/g, ' ').trim();
+const words = value => strip(value).split(/\s+/).filter(Boolean);
+const safeHost = value => httpsURL(value).replace(/^https:\/\//, '').split('/')[0].toLowerCase();
+
+function titleScoreForAmazon(work, text) {
+  const expected = titleKey(titleFor(work));
+  const candidate = titleKey(text);
+  if (!candidate || !expected) return 0;
+  if (candidate === expected) return 45;
+  if (candidate.includes(expected) || expected.includes(candidate)) return 20;
+  return 0;
+}
+function artistMatchForAmazon(work, text) {
+  const expected = String(work.artist || '');
+  const candidate = String(text || '');
+  if (!expected || !candidate) return 0;
+  const artists = words(expected).map(t => t.toLowerCase());
+  const candidateWords = words(candidate).map(t => t.toLowerCase());
+  let hit = 0;
+  for (const a of artists) {
+    const key = normalize(a);
+    if (!key) continue;
+    if (candidateWords.some(w => normalize(w).includes(key) || key.includes(normalize(w)))) hit += 1;
+  }
+  return Math.min(hit * 8, 16);
+}
+function extractProductType(text) {
+  const hit = strip(text).toLowerCase();
+  if (!hit) return null;
+  if (/(?:blu.?ray|bd-r|bluray|blu.?ray\b)/i.test(hit)) return 'Blu-ray';
+  if (/\bdvd\b/i.test(hit)) return 'DVD';
+  if (/character|charactar/i.test(hit)) return 'character';
+  if (/\bost\b|サントラ|サウンドトラック/i.test(hit)) return 'OST';
+  if (/(?:シングル|single)/i.test(hit)) return 'single';
+  if (/(?:アルバム|album)/i.test(hit)) return 'album';
+  return null;
+}
+function buildAmazonQueries(work) {
+  const title = titleFor(work);
+  const base = strip(`${title} ${work.artist || ''}`).trim();
+  const parent = work.category === 'song' && work.work_title ? String(work.work_title).trim() : '';
+  const yearHint = work.year ? ` ${work.year}` : '';
+  const terms = new Set();
+  const add = value => {
+    const next = strip(value);
+    if (next.length >= 4) terms.add(next);
+  };
+  add(title);
+  add(`${title} 公式ジャケット`);
+  add(`${title} ${work.artist || ''}`);
+  add(`${title}${yearHint}`);
+  if (parent) add(`${title} ${parent}`);
+  if (parent && work.artist) add(`${parent} ${work.artist}`);
+  if (work.category === 'song') {
+    add(`${title} OST`);
+    add(`${title} キャラクターソング`);
+    add(`${title} シングル`);
+  }
+  if (work.category === 'score') add(`${title} オリジナルサウンドトラック`);
+  if (work.category === 'song' && !work.id.startsWith('legacy-')) add(`「${title}」CD`);
+  return [...terms].slice(0, AMAZON_QUERY_LIMIT);
+}
+function parseAmazonMeta(text) {
+  const normalized = strip(text);
+  const releaseYear = normalized.match(/(19|20)\d{2}/)?.[0] ? Number(normalized.match(/(19|20)\d{2}/)?.[0]) : null;
+  return {
+    title: normalized,
+    artists: [],
+    year: releaseYear,
+    format: extractProductType(normalized),
+  };
+}
+function parseAmazonCandidates(html, baseUrl, work) {
+  const candidates = [];
+  const seen = new Set();
+  const searchArea = strip(html).slice(0, 2000000);
+  const pattern = /<a\b[^>]*href="([^"]+)"[^>]*>([\s\S]{0,420}?)<\/a>/gi;
+  for (const match of searchArea.matchAll(pattern)) {
+    const href = match[1];
+    const block = `${match[2] || ''}`.replace(/<img\b[^>]*>/gi, ' ').replace(/<[^>]+>/g, ' ');
+    if (!/\/dp\/[A-Z0-9]{10}\b/.test(href)) continue;
+    if (/\/s\?/.test(href) || /\/s?[^a-z]{0,5}k\=/.test(href) || /primevideo|music-search|help|cart|signin|ap_|\/gp\//i.test(href)) continue;
+    const absolute = /^https?:\/\//i.test(href) ? href : `https://www.amazon.co.jp${href}`;
+    let asin;
+    try { asin = new URL(absolute).pathname.match(/\/dp\/([A-Z0-9]{10})/i)?.[1]?.toUpperCase(); } catch { continue; }
+    if (!asin || seen.has(asin)) continue;
+    let rawTitle = strip(block).replace(/\s+/g, ' ');
+    try { rawTitle = decodeURIComponent(rawTitle); } catch {}
+    const title = rawTitle || titleFor(work);
+    if (!title || /amazon\.\w+/i.test(title) || /^画像|ページ|カテゴリ$/.test(title)) continue;
+    const score = titleScoreForAmazon(work, title) + artistMatchForAmazon(work, block) + artistMatchForAmazon(work, titleFor(work)) + (work.year === year(strip(block).match(/(19|20)\d{2}/)?.[0]) ? 10 : 0);
+    const meta = parseAmazonMeta(block);
+    candidates.push({
+      asin,
+      title,
+      source_url: absolute,
+      source_host: safeHost(absolute),
+      year: meta.year,
+      format: meta.format,
+      artist: meta.artists.join(' / ') || work.artist || '',
+      category: work.category,
+      search_term: baseUrl,
+      source: 'amazon-search',
+      confidence_hint: Math.min(98, Math.max(18, score)),
+      match_reason: score >= 30 ? 'title_or_artist_similarity' : 'candidate_only',
+    });
+    seen.add(asin);
+    if (candidates.length >= AMAZON_RESULT_LIMIT) break;
+  }
+  return candidates.sort((a, b) => b.confidence_hint - a.confidence_hint).slice(0, AMAZON_MAX_CANDIDATES);
+}
+
+async function enrichAmazonCandidates(work, candidates) {
+  const out = [];
+  for (const item of candidates) {
+    if (!item.source_url) continue;
+    if (!['OST', 'album', 'single', 'character', 'Blu-ray', 'DVD'].includes(item.format) && !item.confidence_hint) {
+      continue;
+    }
+    const matchedTitle = titleKey(item.title);
+    if (!matchedTitle || !titleKey(titleFor(work))) out.push(item);
+    else if (titleKey(item.title).length >= 4) out.push({...item, match_reason: titleKey(item.title) === titleKey(titleFor(work)) ? 'title_exact' : 'title_similarity'});
+    if (out.length >= AMAZON_RESULT_LIMIT) break;
+  }
+  return out;
+}
 export function localAnime(work, records) {
   if (!['score','anime'].includes(work.category)) return [];
   return records.filter(a=>a.id===work.id || [a.title,a.titleEn].filter(Boolean).some(t=>titleKey(t)===titleKey(titleFor(work))))
@@ -25,7 +155,7 @@ async function cover(work,client,entity,meta) {
     return candidate(work,{...meta,image:front.thumbnails?.['500']||front.thumbnails?.['500x500']||front.image,provider:'cover-art-archive',source_url:`https://musicbrainz.org/${entity.type}/${entity.id}`,release_id:`mb-${entity.type}-${entity.id}`});
   } catch(e) { if(e.status===404) return null; throw e; }
 }
-export async function musicbrainz(work,records,client) {
+export async function musicbrainz(work,records,client,hints=[]) {
   const out=[], errors=[];
   const attempt=async fn=>{try{return await fn();}catch(e){errors.push(e.message);return null;}};
   const stored=records.find(r=>r.id===work.id);
@@ -36,10 +166,26 @@ export async function musicbrainz(work,records,client) {
   }
   let recordings=entities.filter(e=>e.type==='recording').slice(0,3).map(e=>({...e,linked:true}));
   if(!recordings.length && work.category==='song' && !work.id.startsWith('legacy-')) {
-    const query=`recording:"${titleFor(work).replace(/["\\]/g,' ')}"${work.artist?` AND artist:"${work.artist.split(' / ')[0].replace(/["\\]/g,' ')}"`:''}`;
-    const data=await attempt(()=>client.get(`https://musicbrainz.org/ws/2/recording?query=${encodeURIComponent(query)}&fmt=json&limit=5`));
-    recordings=(data?.recordings||[]).filter(r=>titleKey(r.title)===titleKey(titleFor(work))).slice(0,3).map(r=>({id:r.id,linked:false}));
+    const uniqueQueries= new Set([titleFor(work), ...(hints||[]).map(h=>h.title).filter(Boolean)]);
+    const querySources=[...uniqueQueries].slice(0,3).map(q=>`recording:\"${q.replace(/[\"\\\\]/g,' ')}\"${work.artist?` AND artist:\"${work.artist.split(' / ')[0].replace(/[\"\\\\]/g,' ')}\"`:''}`);
+    for (const q of querySources) {
+      const data=await attempt(()=>client.get(`https://musicbrainz.org/ws/2/recording?query=${encodeURIComponent(q)}&fmt=json&limit=5`));
+      const next=(data?.recordings||[]).filter(r=>titleKey(r.title)===titleKey(titleFor(work))).slice(0,3).map(r=>({id:r.id,linked:false}));
+      if(next.length) recordings.push(...next); 
+      if (recordings.length>=3) break;
+    }
+    recordings=recordings.slice(0,3);
+  } else if (!recordings.length) {
+    const titleQuery = hints?.map(h=>h.title).filter(Boolean);
+    for (const alt of new Set(titleQuery || [])) {
+      const query=`recording:"${String(alt).replace(/[\"\\\\]/g,' ')}"${work.artist?` AND artist:"${work.artist.split(' / ')[0].replace(/[\"\\\\]/g,' ')}"`:''}`;
+      const data=await attempt(()=>client.get(`https://musicbrainz.org/ws/2/recording?query=${encodeURIComponent(query)}&fmt=json&limit=5`));
+      recordings.push(...(data?.recordings||[]).filter(r=>titleKey(r.title)===titleKey(titleFor(work))).slice(0,3).map(r=>({id:r.id,linked:false})));
+      if (recordings.length>=3) break;
+    }
+    recordings = recordings.slice(0,3);
   }
+  
   for(const rec of recordings) {
     const data=await attempt(()=>client.get(mb('recording',rec.id,'releases+artist-credits'))); if(!data) continue;
     if(data.id!==rec.id) {errors.push('Recording identity mismatch');continue;}
@@ -79,11 +225,48 @@ export function discography(html,base,work) {
   const artistNames=[...new Set([...html.matchAll(/歌：([^<]+)/g)].map(m=>plain(m[1])))];
   return candidate(work,{title,aliases,artists:artistNames,year:date?Number(date[1]):null,category:work.category,image:new URL(picture[1],base).href,provider:'official-discography',source_url:base,release_id:'remohos-'+new URL(base).pathname.split('/').pop().replace(/\.html$/,''),release_title:title});
 }
+export async function amazonAssist(work, client) {
+  const candidates = [];
+  const errors = [];
+  const queries = buildAmazonQueries(work).filter(Boolean);
+  if (!queries.length) return {suggestions:[],errors:[],amazon_candidates:[]};
+  const seen = new Set();
+  for (const query of queries) {
+    const url = `https://www.amazon.co.jp/s?k=${encodeURIComponent(query)}`;
+    try {
+      const page = await client.get(url, { json: false, body: null });
+      const parsed = parseAmazonCandidates(page.html, query, work)
+        .filter(item => item && !seen.has(item.asin))
+        .map(item => ({ ...item, query }));
+      if (!parsed.length) {
+        errors.push(`No candidate: ${query}`);
+        continue;
+      }
+      for (const item of parsed) seen.add(item.asin);
+      candidates.push(...parsed);
+    } catch (e) {
+      errors.push(`${query}: ${e.message}`);
+    }
+  }
+  const enriched = await enrichAmazonCandidates(work, candidates.slice(0, AMAZON_MAX_CANDIDATES));
+  return {
+    suggestions:[],
+    errors,
+    amazon_candidates: enriched,
+    hints: enriched.map((item) => ({
+      title: item.title,
+      artist: item.artist,
+      year: item.year,
+      format: item.format,
+      asin: item.asin,
+    })),
+  };
+}
 export async function officialPages(work,client) {
   const suggestions=[],errors=[];
   for(const url of new Set([work.official_url,work.source_url].filter(httpsURL))) {
     // Third-party credit aggregators and video pages produce generic artwork; no agency crawling.
-    if(/(?:musicbrainz\.org|anilist\.co|anisil\.com|uta-net\.com|youtube\.com|youtu\.be)/i.test(new URL(url).hostname)) continue;
+    if(/(?:musicbrainz\.org|anilist\.co|anisil\.com|uta-net\.com|youtube\.com|youtu\.be|amazon\.co\.jp)/i.test(new URL(url).hostname)) continue;
     try { const page=await client.get(url,{json:false}),meta=ogp(page.html,page.url);
       const product=discography(page.html,page.url,work);if(product)suggestions.push(product);
       if(meta.image) suggestions.push(candidate(work,{...meta,category:work.category,provider:'page-ogp',source_url:page.url}));

@@ -31,3 +31,15 @@ buttons.forEach((button) => button.addEventListener('click', () => {
 }));
 more?.addEventListener('click', () => { expanded = !expanded; render(); });
 render();
+
+// A failed external image must not leave a broken icon or an empty column.
+document.querySelectorAll('.work-card-image, .featured-image').forEach((img) => {
+  const hideUnavailable = () => {
+    img.parentElement.hidden = true;
+    const card = img.closest('article');
+    card.classList.remove('has-image');
+    card.classList.add('image-unavailable');
+  };
+  img.addEventListener('error', hideUnavailable, { once: true });
+  if (img.complete && img.naturalWidth === 0) hideUnavailable();
+});

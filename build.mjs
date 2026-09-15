@@ -25,10 +25,13 @@ const artworkFor = (work) => {
   const src = safeImage(release.artwork.src);
   return src ? { src, source: release.artwork.provider || 'release' } : null;
 };
-const workImage = (work, className = '') => {
+const workImage = (work, className = '', loading = 'lazy') => {
   const image = artworkFor(work);
   if (!image?.src) return '';
-  return `<img class="${esc(className)}" src="${image.src}" alt="" loading="lazy" referrerpolicy="no-referrer">`;
+  const title = titleFor(work);
+  const label = `${title}${work.artist ? ` ${work.artist}` : ''} 作品画像`;
+  const normalizedLoading = loading === 'eager' ? 'eager' : 'lazy';
+  return `<img class="${esc(className)}" src="${image.src}" alt="${esc(label)}" loading="${normalizedLoading}" referrerpolicy="no-referrer" decoding="async">`;
 };
 
 const card = (work, index) => {
@@ -54,7 +57,7 @@ const featuredHtml = featured.length ? `<div class="featured-grid">${featured.ma
   const title = titleFor(work);
   const image = workImage(work, 'featured-image');
   return `<article class="featured-card">
-    <div class="featured-visual">${image ? image : `<span>${String(index + 1).padStart(2, '0')}</span>`}</div>
+      <div class="featured-visual">${image ? workImage(work, 'featured-image', 'eager') : `<span>${String(index + 1).padStart(2, '0')}</span>`}</div>
     <div class="featured-copy">
       <p>${esc(categoryLabel[work.category] || work.category)}${work.year ? ` · ${esc(work.year)}` : ''}</p>
       ${title ? `<h3>${esc(title)}</h3>` : ''}${work.artist ? `<p class="artist">${esc(work.artist)}</p>` : ''}${work.roles?.length ? `<p class="roles">${esc(work.roles.join(' / '))}</p>` : ''}
@@ -73,6 +76,12 @@ const worksHtml = `<div class="works-toolbar" aria-label="Worksを絞り込む">
 
 let html = await fs.readFile('template.html', 'utf8');
 html = html.replace('{{FEATURED}}', featuredHtml).replace('{{WORKS}}', worksHtml).replace('{{YEAR}}', String(new Date().getFullYear()));
+const missing = works.filter((work) => !artworkFor(work));
+console.log(`Missing artwork: ${missing.length} / ${works.length}`);
+for (const work of missing) {
+  const title = titleFor(work);
+  console.log(`- ${work.id} / ${title || '未設定'} / ${work.artist || 'artistなし'} / ${work.year || 'yearなし'}`);
+}
 await fs.mkdir('dist', { recursive: true });
 await fs.writeFile('dist/index.html', html);
 await Promise.all(['styles.css', 'app.js', 'favicon.svg', 'yamazo.jpg', 'yamazo_works_master.json', 'releases.json'].map((file) => fs.copyFile(file, `dist/${file}`)));
