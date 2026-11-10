@@ -1,5 +1,6 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
+import { soundtrackFormats, renderSoundtrackEditions } from './soundtrack-editions.mjs';
 
 const works = JSON.parse(await fs.readFile('yamazo_works_master.json', 'utf8')).sort(
   (a, b) => (b.year ?? 0) - (a.year ?? 0) || (b.release_date ?? '').localeCompare(a.release_date ?? '') || (a.work_title ?? a.track_title ?? '').localeCompare(b.work_title ?? b.track_title ?? '', 'ja'),
@@ -39,15 +40,18 @@ const card = (work, index) => {
   const links = [['Official', work.official_url], ['Apple Music', work.apple_music], ['Spotify', work.spotify], ['YouTube', work.youtube]].filter(([, url]) => safe(url));
   const image = workImage(work, 'work-card-image');
   const date = work.release_date || String(work.year || '');
-  return `<article class="work-card${image ? ' has-image' : ''}" data-category="${esc(work.category)}" data-roles="${esc((work.roles || []).join(' '))}" data-year="${esc(work.year)}" data-search="${esc([title, work.work_title, work.artist, work.credit_note, categoryLabel[work.category], ...(work.roles || [])].filter(Boolean).join(' '))}">
+  const formats = work.category === 'soundtrack' ? soundtrackFormats(work) : [];
+  const editionsHtml = renderSoundtrackEditions(work, esc, safe) + (work.related_releases?.length ? `<p class="related-release-heading">関連する特典盤</p>${renderSoundtrackEditions({...work, release_editions: work.related_releases}, esc, safe)}` : '');
+  return `<article class="work-card${image ? ' has-image' : ''}" data-category="${esc(work.category)}" data-roles="${esc((work.roles || []).join(' '))}" data-year="${esc(work.year)}" data-search="${esc([title, work.work_title, work.artist, work.credit_note, categoryLabel[work.category], ...formats, ...(work.release_editions || []).map(e => [e.title, e.note, e.catalog_number].filter(Boolean).join(' ')), ...(work.roles || [])].filter(Boolean).join(' '))}">
     <div class="work-card-visual">${image || `<span aria-hidden="true">${work.category === 'soundtrack' ? 'OST' : work.category === 'score' ? 'SC' : work.category === 'song' ? 'SG' : 'YM'}</span>`}</div>
     <div class="work-card-main">
       <div class="work-card-top"><span>${esc(categoryLabel[work.category] || work.category)}</span>${date ? `<time datetime="${esc(date)}">${esc(date.replaceAll('-', '.'))}</time>` : ''}</div>
       ${title ? `<h3>${esc(title)}</h3>` : ''}
       ${work.artist ? `<p class="artist">${esc(work.artist)}</p>` : ''}
+      ${formats.length ? `<p class="release-formats">${formats.map(format => `<span>${esc(format)}</span>`).join('')}</p>` : ''}
       <div class="work-card-bottom">${work.roles?.length ? `<p class="roles">${esc(work.roles.join(' / '))}</p>` : ''}
       ${links.length ? `<a class="work-primary-link" href="${safe(links[0][1])}" target="_blank" rel="noreferrer" aria-label="${esc(title)} ${esc(links[0][0])}（新しいタブ）">${esc(links[0][0])} ↗</a>` : ''}</div>
-      ${(work.work_title && work.category === 'song') || work.credit_note || links.length > 1 ? `<details class="work-details"><summary>作品詳細 <span aria-hidden="true">＋</span></summary><div>${work.category === 'song' && work.work_title ? `<p class="work-parent">${esc(work.work_title)}</p>` : ''}${work.credit_note ? `<p class="credit-note">${esc(work.credit_note)}</p>` : ''}${links.length > 1 ? `<nav class="work-links" aria-label="${esc(title || 'Work')} の関連リンク">${links.slice(1).map(([label, url]) => `<a href="${safe(url)}" target="_blank" rel="noreferrer">${label} ↗</a>`).join('')}</nav>` : ''}</div></details>` : ''}
+      ${(work.work_title && work.category === 'song') || work.credit_note || editionsHtml || links.length > 1 ? `<details class="work-details"><summary>作品詳細 <span aria-hidden="true">＋</span></summary><div>${work.category === 'song' && work.work_title ? `<p class="work-parent">${esc(work.work_title)}</p>` : ''}${work.credit_note ? `<p class="credit-note">${esc(work.credit_note)}</p>` : ''}${editionsHtml}${links.length > 1 ? `<nav class="work-links" aria-label="${esc(title || 'Work')} の関連リンク">${links.slice(1).map(([label, url]) => `<a href="${safe(url)}" target="_blank" rel="noreferrer">${label} ↗</a>`).join('')}</nav>` : ''}</div></details>` : ''}
     </div>
   </article>`;
 };

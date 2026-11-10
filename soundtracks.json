@@ -1,24 +1,373 @@
 [
   {
-    "id": "soundtrack-haikara-ost",
-    "title": "美男高校地球防衛部ハイカラ！O.S.T.",
-    "year": 2025,
+    "id": "soundtrack-nine-rulers-crown",
+    "title": "「9-nine- Ruler’s Crown」オリジナル・サウンドトラック",
+    "artist": "yamazo",
+    "related_work_id": "anilist-177761",
+    "sources": [
+      "https://www.fmf-music.com/feat-works/アニメ「9-nine-rulers-crown」/",
+      "https://music.apple.com/us/album/another-world/1872349825?i=1872349936"
+    ],
+    "note": "",
     "category": "soundtrack",
+    "release_date": "2026-02-25",
+    "release_editions": [
+      {
+        "format": "配信",
+        "url": "https://music.apple.com/us/album/another-world/1872349825?i=1872349936",
+        "note": "全50曲。",
+        "catalog_number": "",
+        "title": "",
+        "release_date": "2026-02-25"
+      }
+    ],
+    "source": "official-and-distributor",
     "role": "音楽",
-    "detail": "TVアニメ『美男高校地球防衛部ハイカラ！』オリジナルサウンドトラック",
-    "url": "https://www.ponycanyon.co.jp/music/PCCG000002458",
-    "sources": ["https://www.ponycanyon.co.jp/music/PCCG000002458"],
-    "source": "official"
+    "url": "https://www.fmf-music.com/feat-works/アニメ「9-nine-rulers-crown」/"
   },
   {
     "id": "soundtrack-hananoi-ost",
     "title": "花野井くんと恋の病 オリジナルサウンドトラック",
-    "year": 2024,
+    "artist": "yamazo",
+    "related_work_id": "anilist-165855",
+    "sources": [
+      "https://hananoikun-pr.com/291/",
+      "https://hananoikun-pr.com/297/"
+    ],
+    "note": "",
     "category": "soundtrack",
+    "release_date": "2024-09-25",
+    "release_editions": [
+      {
+        "format": "CD",
+        "url": "https://hananoikun-pr.com/291/",
+        "note": "32曲",
+        "catalog_number": "WAGE-13010",
+        "title": "",
+        "release_date": "2024-09-25"
+      },
+      {
+        "format": "配信",
+        "url": "https://lnk.to/FMmprx",
+        "note": "CDに12曲を加えた44曲完全版。",
+        "catalog_number": "",
+        "title": "花野井くんと恋の病 オリジナルサウンドトラック（Complete Edition）",
+        "release_date": "2024-09-25"
+      }
+    ],
+    "source": "official-and-distributor",
     "role": "音楽",
-    "detail": "TVアニメ『花野井くんと恋の病』オリジナルサウンドトラック",
-    "url": "https://tower.jp/item/6422159",
-    "sources": ["https://tower.jp/item/6422159"],
-    "source": "official"
+    "url": "https://hananoikun-pr.com/291/"
+  },
+  {
+    "id": "soundtrack-robihachi-ost",
+    "title": "RobiHachi ORIGINAL SOUNDTRACK",
+    "artist": "山田知広",
+    "related_work_id": "anilist-105928",
+    "sources": [
+      "https://robihachi.jp/product/cd/soundtrack.php",
+      "https://music.apple.com/gb/album/robihachi-original-soundtrack/1469167252"
+    ],
+    "note": "",
+    "category": "soundtrack",
+    "release_date": "2019-07-03",
+    "release_editions": [
+      {
+        "format": "CD",
+        "url": "https://robihachi.jp/product/cd/soundtrack.php",
+        "note": "全47曲",
+        "catalog_number": "PCCG-01799",
+        "title": "",
+        "release_date": "2019-07-03"
+      },
+      {
+        "format": "配信",
+        "url": "https://music.apple.com/gb/album/robihachi-original-soundtrack/1469167252",
+        "note": "全47曲。日付は配信ストアのリリース表記。",
+        "catalog_number": "",
+        "title": "",
+        "release_date": "2019-07-03"
+      }
+    ],
+    "source": "official-and-distributor",
+    "role": "音楽",
+    "url": "https://robihachi.jp/product/cd/soundtrack.php"
+  },
+  {
+    "id": "soundtrack-boueibu-love-ost",
+    "title": "美男高校地球防衛部LOVE！O.S.T！",
+    "artist": "yamazo",
+    "related_work_id": "seed-anime-14",
+    "sources": [
+      "https://boueibu.com/1st/news.html",
+      "https://boueibu.com/1st/music.html",
+      "https://boueibu.com/2nd/music03.html",
+      "https://music.apple.com/us/album/kyou-mo-ikken-rakuchaku/973551798?i=973552137"
+    ],
+    "note": "",
+    "category": "soundtrack",
+    "release_date": "2015-03-18",
+    "release_editions": [
+      {
+        "format": "配信",
+        "url": "https://boueibu.com/1st/music.html",
+        "note": "31曲。2016年の特典CD「LOVEぜぇ～んぶ！」45曲版とは収録内容が異なる。",
+        "catalog_number": "",
+        "title": "",
+        "release_date": "2015-03-18"
+      },
+      {
+        "format": "CD同梱特典",
+        "url": "https://boueibu.com/2nd/music03.html",
+        "note": "LOVE FOREVERの同梱特典CD。未配信曲を含む全45曲。単売盤ではない。",
+        "catalog_number": "PCCG-01565（親商品）",
+        "title": "美男高校地球防衛部LOVE！O.S.T LOVEぜぇ～んぶ！",
+        "release_date": "2016-11-30"
+      }
+    ],
+    "source": "official-and-distributor",
+    "role": "音楽",
+    "url": "https://boueibu.com/1st/news.html"
+  },
+  {
+    "id": "soundtrack-boueibu-love-forever",
+    "title": "美男高校地球防衛部LOVE！LOVE！ O.S.T「LOVE FOREVER」",
+    "artist": "yamazo",
+    "related_work_id": "seed-anime-13",
+    "sources": [
+      "https://boueibu.com/2nd/music03.html",
+      "https://books.rakuten.co.jp/rb/14484045/",
+      "https://music.apple.com/id/album/love-forever/1175331975"
+    ],
+    "note": "",
+    "category": "soundtrack",
+    "release_date": "2016-11-30",
+    "release_editions": [
+      {
+        "format": "CD",
+        "url": "https://boueibu.com/2nd/music03.html",
+        "note": "本編42曲＋第1期特典CD45曲の2枚組。",
+        "catalog_number": "PCCG-01565",
+        "title": "",
+        "release_date": "2016-11-30"
+      },
+      {
+        "format": "配信",
+        "url": "https://music.apple.com/id/album/love-forever/1175331975",
+        "note": "42曲。CD同梱の第1期特典45曲を含まない。日付は配信ストアのリリース表記。",
+        "catalog_number": "",
+        "title": "",
+        "release_date": "2016-11-30"
+      }
+    ],
+    "source": "official-and-distributor",
+    "role": "音楽",
+    "url": "https://boueibu.com/2nd/music03.html"
+  },
+  {
+    "id": "soundtrack-haikara-ost",
+    "title": "美男高校地球防衛部ハイカラ！O.S.T.",
+    "artist": "yamazo",
+    "related_work_id": "anilist-188138",
+    "sources": [
+      "https://boueibu.com/hc/music/ost.html",
+      "https://www.ponycanyon.co.jp/music/PCSP000006703"
+    ],
+    "note": "劇場版「美男高校地球防衛部ETERNAL LOVE！」の劇伴6曲も収録。",
+    "category": "soundtrack",
+    "release_date": "2025-09-03",
+    "release_editions": [
+      {
+        "format": "CD",
+        "url": "https://boueibu.com/hc/music/ost.html",
+        "note": "2枚組56曲。Disc2にはETERNAL LOVE！のサントラ6曲も収録。",
+        "catalog_number": "PCCG-02458",
+        "title": "",
+        "release_date": "2025-09-03"
+      },
+      {
+        "format": "配信",
+        "url": "https://lnk.to/bouieubu_ost",
+        "note": "",
+        "catalog_number": "PCSP-06703",
+        "title": "",
+        "release_date": "2025-09-03"
+      }
+    ],
+    "source": "official-and-distributor",
+    "role": "音楽",
+    "url": "https://boueibu.com/hc/music/ost.html"
+  },
+  {
+    "id": "soundtrack-fairy-ranmaru",
+    "title": "「Fairy蘭丸～あなたの心お助けします～」オリジナル・サウンドトラック",
+    "artist": "yamazo",
+    "related_work_id": "seed-anime-6",
+    "sources": [
+      "https://www.ponycanyon.co.jp/music/PCCG000002029",
+      "https://f-ran.jp/music04.html"
+    ],
+    "note": "",
+    "category": "soundtrack",
+    "release_date": "2021-06-23",
+    "release_editions": [
+      {
+        "format": "CD",
+        "url": "https://www.ponycanyon.co.jp/music/PCCG000002029",
+        "note": "",
+        "catalog_number": "PCCG-02029",
+        "title": "",
+        "release_date": "2021-06-23"
+      },
+      {
+        "format": "配信",
+        "url": "https://lnk.to/FairyRanmaru_OSTWE",
+        "note": "",
+        "catalog_number": "",
+        "title": "",
+        "release_date": "2021-06-23"
+      }
+    ],
+    "source": "official-and-distributor",
+    "role": "音楽",
+    "url": "https://www.ponycanyon.co.jp/music/PCCG000002029"
+  },
+  {
+    "id": "soundtrack-yamanosusume-ost",
+    "title": "ヤマノススメ オリジナルサウンドトラック",
+    "artist": "Tom-H@ck、yamazo",
+    "related_work_id": "seed-anime-15",
+    "sources": [
+      "https://yamanosusume.com/bluraydvd/",
+      "https://tower.jp/item/4731051",
+      "https://www.neowing.co.jp/product/SMRR-12"
+    ],
+    "related_work_ids": [
+      "seed-anime-15",
+      "seed-anime-11"
+    ],
+    "note": "第1期・セカンドシーズン・おもいでプレゼントの音楽を集成。",
+    "category": "soundtrack",
+    "release_date": "2018-07-18",
+    "release_editions": [
+      {
+        "format": "CD",
+        "catalog_number": "SMRR-012",
+        "title": "3枚組CD",
+        "note": "第1期・セカンドシーズン・おもいでプレゼントのBGM全62曲を収録。",
+        "url": "https://yamanosusume.com/bluraydvd/",
+        "release_date": "2018-07-18"
+      }
+    ],
+    "source": "official-and-distributor",
+    "role": "音楽",
+    "url": "https://yamanosusume.com/bluraydvd/",
+    "related_releases": [
+      {
+        "title": "オリジナル・サウンドトラックVol.1",
+        "format": "特典CD",
+        "release_date": "2014-11-28",
+        "note": "ヤマノススメ セカンドシーズン 第3巻 特典CD。親商品品番はBlu-ray: EAAB016、DVD: EAAD-014。 2018年の3枚組CDとは別パッケージの封入特典。",
+        "url": "https://yamanosusume.com/bluraydvd/"
+      },
+      {
+        "title": "オリジナル・サウンドトラックVol.2",
+        "format": "特典CD",
+        "release_date": "2014-12-26",
+        "note": "ヤマノススメ セカンドシーズン 第4巻 特典CD。親商品品番はBlu-ray: EAAB017、DVD: EAAD-015。 2018年の3枚組CDとは別パッケージの封入特典。",
+        "url": "https://yamanosusume.com/bluraydvd/"
+      },
+      {
+        "title": "オリジナルサウンドトラックCD",
+        "format": "特典CD",
+        "release_date": "2017-10-28",
+        "note": "ヤマノススメ おもいでプレゼント Blu-ray劇場先行限定版〈数量限定〉特典。 2018年の3枚組CDとは別パッケージの封入特典。",
+        "url": "https://www.yamanosusume.com/special/20170922.php"
+      }
+    ]
+  },
+  {
+    "id": "soundtrack-yamanosusume-third-ost",
+    "title": "ヤマノススメ サードシーズン オリジナルサウンドトラック",
+    "artist": "yamazo",
+    "related_work_id": "seed-anime-7",
+    "sources": [
+      "https://books.rakuten.co.jp/rb/17259824/",
+      "https://ototoy.jp/_/default/p/1604044",
+      "https://ototoy.jp/newreleases/20230412"
+    ],
+    "category": "soundtrack",
+    "release_date": "2022-10-12",
+    "release_editions": [
+      {
+        "format": "CD",
+        "catalog_number": "WAGE-13006",
+        "title": "CD",
+        "note": "1枚組、20曲。FLYINGPAN RECORD。",
+        "url": "https://books.rakuten.co.jp/rb/17259824/",
+        "release_date": "2022-10-12"
+      },
+      {
+        "format": "配信",
+        "catalog_number": "WAGE13006B00Z",
+        "title": "配信版",
+        "note": "20曲。販売ページの2022-10-12は原盤発売日表記。配信開始日は不明。",
+        "url": "https://ototoy.jp/_/default/p/1604044",
+        "release_date": null
+      }
+    ],
+    "source": "official-and-distributor",
+    "role": "音楽",
+    "url": "https://books.rakuten.co.jp/rb/17259824/"
+  },
+  {
+    "id": "soundtrack-yamanosusume-next-summit-ost",
+    "title": "ヤマノススメ Next Summit オリジナルサウンドトラック",
+    "artist": "yamazo",
+    "related_work_id": "seed-anime-5",
+    "sources": [
+      "https://yamanosusume-ns.com/bd/"
+    ],
+    "note": "作曲：yamazo。M20のみyamazo／高尾奏之介。Blu-rayだけでなくDVDにも同特典が付属。",
+    "category": "soundtrack",
+    "release_date": "2023-02-03",
+    "release_editions": [
+      {
+        "format": "BD/DVD特典CD",
+        "catalog_number": null,
+        "title": "Blu-ray／DVD 第1巻 初回生産特典CD",
+        "note": "31曲。親商品品番はBlu-ray: KAXA-8481、DVD: KABA-11271（サントラ単体品番ではない）。",
+        "url": "https://yamanosusume-ns.com/bd/",
+        "release_date": "2023-02-03"
+      }
+    ],
+    "source": "official-and-distributor",
+    "role": "音楽",
+    "url": "https://yamanosusume-ns.com/bd/"
+  },
+  {
+    "id": "soundtrack-shonen-maid-ost",
+    "title": "TVアニメ「少年メイド」音楽集",
+    "artist": "山田知広",
+    "related_work_id": "anilist-21321",
+    "sources": [
+      "https://columbia.jp/shonenmaid/release02.html",
+      "https://www.tbs.co.jp/anime/meido/cd/"
+    ],
+    "category": "soundtrack",
+    "release_date": "2016-06-22",
+    "release_editions": [
+      {
+        "format": "CD",
+        "catalog_number": "COCX-39565",
+        "title": "CD",
+        "note": "全38曲。",
+        "url": "https://columbia.jp/shonenmaid/release02.html",
+        "release_date": "2016-06-22"
+      }
+    ],
+    "source": "official-and-distributor",
+    "role": "音楽",
+    "url": "https://columbia.jp/shonenmaid/release02.html"
   }
 ]
