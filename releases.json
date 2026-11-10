@@ -3201,5 +3201,518 @@
         "work_fingerprint": "8072d973d778f3081cbdc7b1e57a4b184514c555007fc80bb21246fcdded5292"
       }
     }
+  },
+  {
+    "id": "manual-verified-song-toumei-startline",
+    "release_title": "透明スタートライン",
+    "release_type": "song",
+    "release_date": "2026-02-09",
+    "edition": "2026-02-09 配信シングル",
+    "artwork": {
+      "src": "assets/covers/manual-verified-song-toumei-startline.jpg",
+      "provider": "official-manual-review",
+      "source_url": "https://linkco.re/YyGSFQDP?lang=ja",
+      "original_url": "https://www.tunecore.co.jp/s3pna/tcj-image-production/u81454/r1636758/itd1636758.jpg",
+      "checked_at": "2026-11-11",
+      "alt": "透明スタートライン ジャケット",
+      "review": {
+        "method": "official-release-and-visual-review",
+        "edition": "2026-02-09 配信シングル"
+      }
+    }
+  },
+  {
+    "id": "manual-verified-song-natsu-ga-kita-kara",
+    "release_title": "夏が来たから",
+    "release_type": "song",
+    "release_date": "2024-08-28",
+    "edition": "Type A / KIZM-803〜4",
+    "artwork": {
+      "src": "assets/covers/manual-verified-song-natsu-ga-kita-kara.jpg",
+      "provider": "official-manual-review",
+      "source_url": "https://not-equal-me.jp/feature/specialsite_9thsingle",
+      "original_url": "https://not-equal-me.jp/static/notequalme/official/feature/9th_single/image/ph_jacket_01_0a8t0f8W.jpg",
+      "checked_at": "2026-11-11",
+      "alt": "夏が来たから ジャケット",
+      "review": {
+        "method": "official-release-and-visual-review",
+        "edition": "Type A / KIZM-803〜4"
+      }
+    }
+  },
+  {
+    "id": "manual-verified-song-chant-2024-live",
+    "release_title": "不屈のチャント（Four Seasons LIVE 2024 Ver.）",
+    "release_type": "song",
+    "release_date": "2026-01-28",
+    "edition": "MANKAI STAGE A3! Four Seasons LIVE 2024 MIX COLLECTION / PCCG-02475 / 2026-01-28",
+    "artwork": {
+      "src": "assets/covers/manual-verified-song-chant-2024-live.jpg",
+      "provider": "manual-source-review",
+      "source_url": "https://www.ponycanyon.co.jp/music/PCCG000002475",
+      "original_url": "https://www.ponycanyon.co.jp/images/wcms/accessor/bin/jacket/PCCG000002475.jpg?size=4&order=1",
+      "checked_at": "2026-11-11",
+      "alt": "不屈のチャント（Four Seasons LIVE 2024 Ver.） ジャケット",
+      "review": {
+        "method": "release-page-and-visual-review",
+        "edition": "MANKAI STAGE A3! Four Seasons LIVE 2024 MIX COLLECTION / PCCG-02475 / 2026-01-28"
+      }
+    }
+  },
+  {
+    "id": "manual-soundtrack-haikara-ost",
+    "release_title": "美男高校地球防衛部ハイカラ！O.S.T.",
+    "release_type": "score",
+    "release_date": "",
+    "edition": "美男高校地球防衛部ハイカラ！O.S.T. / PCCG-02458",
+    "artwork": {
+      "src": "assets/covers/manual-soundtrack-haikara-ost.jpg",
+      "provider": "manual-source-review",
+      "source_url": "https://boueibu.com/hc/music/ost.html",
+      "original_url": "https://boueibu.com/hc/images/music/jk_004.jpg",
+      "checked_at": "2026-11-11",
+      "alt": "美男高校地球防衛部ハイカラ！O.S.T. ジャケット",
+      "review": {
+        "method": "release-page-and-visual-review",
+        "edition": "美男高校地球防衛部ハイカラ！O.S.T. / PCCG-02458"
+      }
+    }
+  },
+  {
+    "id": "manual-soundtrack-hananoi-ost",
+    "release_title": "花野井くんと恋の病 オリジナルサウンドトラック",
+    "release_type": "score",
+    "release_date": "",
+    "edition": "花野井くんと恋の病 ORIGINAL SOUND TRACK; WAGE-13010 CD and digital Complete Edition share artwork. Do not silently change entry to Complete Edition.",
+    "artwork": {
+      "src": "assets/covers/manual-soundtrack-hananoi-ost.jpg",
+      "provider": "manual-source-review",
+      "source_url": "https://hananoikun-pr.com/291/",
+      "original_url": "https://hananoikun-pr.com/wp/wp-content/uploads/2024/07/hni_haisin_jp.jpg",
+      "checked_at": "2026-11-11",
+      "alt": "花野井くんと恋の病 オリジナルサウンドトラック ジャケット",
+      "review": {
+        "method": "release-page-and-visual-review",
+        "edition": "花野井くんと恋の病 ORIGINAL SOUND TRACK; WAGE-13010 CD and digital Complete Edition share artwork. Do not silently change entry to Complete Edition."
+      }
+    }
+  },
+  {
+    "id": "manual-legacy-001",
+    "release_title": "ハート（あいみょん cover）",
+    "release_type": "song",
+    "release_date": "2022-01-06",
+    "edition": "あいみょん「ハート」Full cover by Lefty Hand Cream / official YouTube video okXLVnPEbpU",
+    "artwork": {
+      "src": "assets/covers/manual-legacy-001.jpg",
+      "provider": "manual-source-review",
+      "source_url": "https://www.youtube.com/watch?v=okXLVnPEbpU",
+      "original_url": "https://i.ytimg.com/vi/okXLVnPEbpU/hqdefault.jpg",
+      "checked_at": "2026-11-11",
+      "alt": "ハート（あいみょん cover） 動画サムネイル",
+      "review": {
+        "method": "release-page-and-visual-review",
+        "edition": "あいみょん「ハート」Full cover by Lefty Hand Cream / official YouTube video okXLVnPEbpU"
+      }
+    }
+  },
+  {
+    "id": "manual-legacy-016",
+    "release_title": "A3! ETERNAL GOD EP",
+    "release_type": "song",
+    "release_date": "2021-06-23",
+    "edition": "A3! ETERNAL GOD EP / PCCG-02019",
+    "artwork": {
+      "src": "assets/covers/manual-legacy-016.jpg",
+      "provider": "manual-source-review",
+      "source_url": "https://www.ponycanyon.co.jp/music/PCCG000002019",
+      "original_url": "https://www.ponycanyon.co.jp/images/wcms/accessor/bin/jacket/PCCG000002019.jpg?size=4&order=1",
+      "checked_at": "2026-11-11",
+      "alt": "A3! ETERNAL GOD EP ジャケット",
+      "review": {
+        "method": "release-page-and-visual-review",
+        "edition": "A3! ETERNAL GOD EP / PCCG-02019"
+      }
+    }
+  },
+  {
+    "id": "manual-legacy-017",
+    "release_title": "HEAVENS DOOR",
+    "release_type": "song",
+    "release_date": "2021-06-16",
+    "edition": "HEAVENS DOOR / PCCG-02022 / 2021-06-16",
+    "artwork": {
+      "src": "assets/covers/manual-legacy-017.jpg",
+      "provider": "manual-source-review",
+      "source_url": "https://f-ran.jp/music03.html",
+      "original_url": "https://f-ran.jp/images/music/j_003.jpg",
+      "checked_at": "2026-11-11",
+      "alt": "HEAVENS DOOR ジャケット",
+      "review": {
+        "method": "release-page-and-visual-review",
+        "edition": "HEAVENS DOOR / PCCG-02022 / 2021-06-16"
+      }
+    }
+  },
+  {
+    "id": "manual-legacy-023",
+    "release_title": "A3! MIX SEASONS LP",
+    "release_type": "song",
+    "release_date": "2019-12-18",
+    "edition": "A3! MIX SEASONS LP / PCCG-01851 / 2019-12-18",
+    "artwork": {
+      "src": "assets/covers/manual-legacy-023.jpg",
+      "provider": "manual-source-review",
+      "source_url": "https://www.ponycanyon.co.jp/music/PCCG000001851",
+      "original_url": "https://www.ponycanyon.co.jp/images/wcms/accessor/bin/jacket/PCCG000001851.jpg?size=4&order=1",
+      "checked_at": "2026-11-11",
+      "alt": "A3! MIX SEASONS LP ジャケット",
+      "review": {
+        "method": "release-page-and-visual-review",
+        "edition": "A3! MIX SEASONS LP / PCCG-01851 / 2019-12-18"
+      }
+    }
+  },
+  {
+    "id": "manual-verified-song-remohos-king",
+    "release_title": "King of the night‼",
+    "release_type": "song",
+    "release_date": "2022-06-15",
+    "edition": "King of the night‼ / Venere 5 / digital-only / 2022-06-15",
+    "artwork": {
+      "src": "assets/covers/manual-verified-song-remohos-king.jpg",
+      "provider": "manual-source-review",
+      "source_url": "https://remohos.com/music/venere_n01.html",
+      "original_url": "https://remohos.com/images/music/jk_venere/j_006.jpg",
+      "checked_at": "2026-11-11",
+      "alt": "King of the night‼ ジャケット",
+      "review": {
+        "method": "release-page-and-visual-review",
+        "edition": "King of the night‼ / Venere 5 / digital-only / 2022-06-15"
+      }
+    }
+  },
+  {
+    "id": "manual-verified-song-nest-camp",
+    "release_title": "NesT CAMP",
+    "release_type": "song",
+    "release_date": "2026-06-28",
+    "edition": "NesT CAMP / TRUE / GLEAN / 2026-09-15 / 1-track single, 3:39; Qobuz credits yamazo composer/arranger",
+    "artwork": {
+      "src": "assets/covers/manual-verified-song-nest-camp.jpg",
+      "provider": "manual-source-review",
+      "source_url": "https://www.qobuz.com/us-en/album/nest-camp-true-/zx8soey933ros",
+      "original_url": "https://static.qobuz.com/images/covers/os/3r/zx8soey933ros_600.jpg",
+      "checked_at": "2026-11-11",
+      "alt": "NesT CAMP ジャケット",
+      "review": {
+        "method": "release-page-and-visual-review",
+        "edition": "NesT CAMP / TRUE / GLEAN / 2026-09-15 / 1-track single, 3:39; Qobuz credits yamazo composer/arranger"
+      }
+    }
+  },
+  {
+    "id": "manual-mb-work-c7a6c8ad-4325-3623-b3ff-83605d72369f",
+    "release_title": "冴えない彼女の育てかた 3 完全生産限定版 ANZX-11485〜11486",
+    "release_type": "song",
+    "release_date": "2015-05-13",
+    "edition": "冴えない彼女の育てかた 3 完全生産限定版 ANZX-11485〜11486",
+    "artwork": {
+      "src": "assets/covers/reviewed-c7e3d150c02b5bae.jpg",
+      "provider": "manual-source-review",
+      "source_url": "https://www.saenai.tv/1st/bd-dvd/pkg03.html",
+      "original_url": "https://www.saenai.tv/1st/img/bd-dvd/pkg/3/jk_1.jpg",
+      "checked_at": "2026-11-11",
+      "alt": "冴えない彼女の育てかた 3 完全生産限定版 ANZX-11485〜11486 ジャケット",
+      "review": {
+        "method": "release-page-and-visual-review",
+        "edition": "冴えない彼女の育てかた 3 完全生産限定版 ANZX-11485〜11486"
+      }
+    }
+  },
+  {
+    "id": "manual-mb-work-aab80454-cd23-4cdd-9155-b2d141d7a41d",
+    "release_title": "冴えない彼女の育てかた 2 完全生産限定版 ANZX-11483〜11484",
+    "release_type": "song",
+    "release_date": "2015-04-01",
+    "edition": "冴えない彼女の育てかた 2 完全生産限定版 ANZX-11483〜11484",
+    "artwork": {
+      "src": "assets/covers/reviewed-8b5828b4c7c87927.jpg",
+      "provider": "manual-source-review",
+      "source_url": "https://www.saenai.tv/1st/bd-dvd/pkg02.html",
+      "original_url": "https://www.saenai.tv/1st/img/bd-dvd/pkg/2/jk_1.jpg",
+      "checked_at": "2026-11-11",
+      "alt": "冴えない彼女の育てかた 2 完全生産限定版 ANZX-11483〜11484 ジャケット",
+      "review": {
+        "method": "release-page-and-visual-review",
+        "edition": "冴えない彼女の育てかた 2 完全生産限定版 ANZX-11483〜11484"
+      }
+    }
+  },
+  {
+    "id": "manual-mb-work-4e0afd19-3970-4232-96d6-912e29cc5eea",
+    "release_title": "僕らの翼 ZMCZ-8372",
+    "release_type": "song",
+    "release_date": "2013-02-06",
+    "edition": "僕らの翼 ZMCZ-8372",
+    "artwork": {
+      "src": "assets/covers/reviewed-7b296375aaeba221.jpg",
+      "provider": "manual-source-review",
+      "source_url": "https://www.tbs.co.jp/anime/haganai/goods/cd_1.html",
+      "original_url": "https://www.tbs.co.jp/anime/haganai/goods/images/cd2.jpg",
+      "checked_at": "2026-11-11",
+      "alt": "僕らの翼 ZMCZ-8372 ジャケット",
+      "review": {
+        "method": "release-page-and-visual-review",
+        "edition": "僕らの翼 ZMCZ-8372"
+      }
+    }
+  },
+  {
+    "id": "manual-mb-work-ef99166c-56c6-4a2f-971a-65103ef5e721",
+    "release_title": "俺の妹がこんなに可愛いわけがない Complete Collection＋ SVWC-7805〜7806",
+    "release_type": "song",
+    "release_date": "2011-12-07",
+    "edition": "俺の妹がこんなに可愛いわけがない Complete Collection＋ SVWC-7805〜7806",
+    "artwork": {
+      "src": "assets/covers/reviewed-3e6faf38f54fd968.jpg",
+      "provider": "manual-source-review",
+      "source_url": "https://www.cdjapan.co.jp/product/SVWC-7805",
+      "original_url": "https://st.cdjapan.co.jp/pictures/l/03/12/SVWC-7805.jpg?v=1",
+      "checked_at": "2026-11-11",
+      "alt": "俺の妹がこんなに可愛いわけがない Complete Collection＋ SVWC-7805〜7806 ジャケット",
+      "review": {
+        "method": "release-page-and-visual-review",
+        "edition": "俺の妹がこんなに可愛いわけがない Complete Collection＋ SVWC-7805〜7806"
+      }
+    }
+  },
+  {
+    "id": "manual-mb-work-53a17010-6854-4d25-bde4-54fe8b25ed8b",
+    "release_title": "俺の妹がこんなに可愛いわけがない 3 完全生産限定版 ANZX-9755",
+    "release_type": "song",
+    "release_date": "2011-02-23",
+    "edition": "俺の妹がこんなに可愛いわけがない 3 完全生産限定版 ANZX-9755",
+    "artwork": {
+      "src": "assets/covers/reviewed-e8d700ffe206e4cf.jpg",
+      "provider": "manual-source-review",
+      "source_url": "https://www.cdjapan.co.jp/product/ANZX-9755",
+      "original_url": "https://st.cdjapan.co.jp/pictures/l/08/19/ANZX-9755.jpg?v=1",
+      "checked_at": "2026-11-11",
+      "alt": "俺の妹がこんなに可愛いわけがない 3 完全生産限定版 ANZX-9755 ジャケット",
+      "review": {
+        "method": "release-page-and-visual-review",
+        "edition": "俺の妹がこんなに可愛いわけがない 3 完全生産限定版 ANZX-9755"
+      }
+    }
+  },
+  {
+    "id": "manual-mb-work-04692a59-f536-30d5-b0ac-d50fb114055a",
+    "release_title": "俺の妹がこんなに可愛いわけがない 2 完全生産限定版 ANZX-9753",
+    "release_type": "song",
+    "release_date": "2011-01-26",
+    "edition": "俺の妹がこんなに可愛いわけがない 2 完全生産限定版 ANZX-9753",
+    "artwork": {
+      "src": "assets/covers/reviewed-70e5346f0aaa277e.jpg",
+      "provider": "manual-source-review",
+      "source_url": "https://www.cdjapan.co.jp/product/ANZX-9753",
+      "original_url": "https://st.cdjapan.co.jp/pictures/l/08/17/ANZX-9753.jpg?v=1",
+      "checked_at": "2026-11-11",
+      "alt": "俺の妹がこんなに可愛いわけがない 2 完全生産限定版 ANZX-9753 ジャケット",
+      "review": {
+        "method": "release-page-and-visual-review",
+        "edition": "俺の妹がこんなに可愛いわけがない 2 完全生産限定版 ANZX-9753"
+      }
+    }
+  },
+  {
+    "id": "manual-mb-work-3524262b-4665-3862-9e52-ae9625762691",
+    "release_title": "俺の妹がこんなに可愛いわけがない 1 完全生産限定版 ANZX-9751",
+    "release_type": "song",
+    "release_date": "2010-12-22",
+    "edition": "俺の妹がこんなに可愛いわけがない 1 完全生産限定版 ANZX-9751",
+    "artwork": {
+      "src": "assets/covers/reviewed-abb1ceb54d9cbd48.jpg",
+      "provider": "manual-source-review",
+      "source_url": "https://www.cdjapan.co.jp/product/ANZX-9751",
+      "original_url": "https://st.cdjapan.co.jp/pictures/l/08/15/ANZX-9751.jpg?v=1",
+      "checked_at": "2026-11-11",
+      "alt": "俺の妹がこんなに可愛いわけがない 1 完全生産限定版 ANZX-9751 ジャケット",
+      "review": {
+        "method": "release-page-and-visual-review",
+        "edition": "俺の妹がこんなに可愛いわけがない 1 完全生産限定版 ANZX-9751"
+      }
+    }
+  },
+  {
+    "id": "manual-mb-work-8838e274-ad11-4515-82d5-5b0b4d665f5d",
+    "release_title": "Aチャンネル Blu-ray Disc BOX 完全生産限定版 ANZX-12081〜12086",
+    "release_type": "song",
+    "release_date": "2017-09-27",
+    "edition": "Aチャンネル Blu-ray Disc BOX 完全生産限定版 ANZX-12081〜12086",
+    "artwork": {
+      "src": "assets/covers/reviewed-6b90ca7b56494e69.jpg",
+      "provider": "manual-source-review",
+      "source_url": "https://www.cdjapan.co.jp/product/ANZX-12081",
+      "original_url": "https://st.cdjapan.co.jp/pictures/l/13/20/ANZX-12081.jpg?v=2",
+      "checked_at": "2026-11-11",
+      "alt": "Aチャンネル Blu-ray Disc BOX 完全生産限定版 ANZX-12081〜12086 ジャケット",
+      "review": {
+        "method": "release-page-and-visual-review",
+        "edition": "Aチャンネル Blu-ray Disc BOX 完全生産限定版 ANZX-12081〜12086"
+      }
+    }
+  },
+  {
+    "id": "manual-mb-work-14810093-d744-4ade-9579-ba025ea44fc1",
+    "release_title": "Aチャンネル Blu-ray Disc BOX 完全生産限定版 ANZX-12081〜12086",
+    "release_type": "song",
+    "release_date": "2017-09-27",
+    "edition": "Aチャンネル Blu-ray Disc BOX 完全生産限定版 ANZX-12081〜12086",
+    "artwork": {
+      "src": "assets/covers/reviewed-6b90ca7b56494e69.jpg",
+      "provider": "manual-source-review",
+      "source_url": "https://www.cdjapan.co.jp/product/ANZX-12081",
+      "original_url": "https://st.cdjapan.co.jp/pictures/l/13/20/ANZX-12081.jpg?v=2",
+      "checked_at": "2026-11-11",
+      "alt": "Aチャンネル Blu-ray Disc BOX 完全生産限定版 ANZX-12081〜12086 ジャケット",
+      "review": {
+        "method": "release-page-and-visual-review",
+        "edition": "Aチャンネル Blu-ray Disc BOX 完全生産限定版 ANZX-12081〜12086"
+      }
+    }
+  },
+  {
+    "id": "manual-mb-work-1bc12c06-df3d-4917-b92f-99b7a9439fa7",
+    "release_title": "Aチャンネル Blu-ray Disc BOX 完全生産限定版 ANZX-12081〜12086",
+    "release_type": "song",
+    "release_date": "2017-09-27",
+    "edition": "Aチャンネル Blu-ray Disc BOX 完全生産限定版 ANZX-12081〜12086",
+    "artwork": {
+      "src": "assets/covers/reviewed-6b90ca7b56494e69.jpg",
+      "provider": "manual-source-review",
+      "source_url": "https://www.cdjapan.co.jp/product/ANZX-12081",
+      "original_url": "https://st.cdjapan.co.jp/pictures/l/13/20/ANZX-12081.jpg?v=2",
+      "checked_at": "2026-11-11",
+      "alt": "Aチャンネル Blu-ray Disc BOX 完全生産限定版 ANZX-12081〜12086 ジャケット",
+      "review": {
+        "method": "release-page-and-visual-review",
+        "edition": "Aチャンネル Blu-ray Disc BOX 完全生産限定版 ANZX-12081〜12086"
+      }
+    }
+  },
+  {
+    "id": "manual-mb-work-12d8f313-b66a-46f4-935b-63c001bee868",
+    "release_title": "Aチャンネル Blu-ray Disc BOX 完全生産限定版 ANZX-12081〜12086",
+    "release_type": "song",
+    "release_date": "2017-09-27",
+    "edition": "Aチャンネル Blu-ray Disc BOX 完全生産限定版 ANZX-12081〜12086",
+    "artwork": {
+      "src": "assets/covers/reviewed-6b90ca7b56494e69.jpg",
+      "provider": "manual-source-review",
+      "source_url": "https://www.cdjapan.co.jp/product/ANZX-12081",
+      "original_url": "https://st.cdjapan.co.jp/pictures/l/13/20/ANZX-12081.jpg?v=2",
+      "checked_at": "2026-11-11",
+      "alt": "Aチャンネル Blu-ray Disc BOX 完全生産限定版 ANZX-12081〜12086 ジャケット",
+      "review": {
+        "method": "release-page-and-visual-review",
+        "edition": "Aチャンネル Blu-ray Disc BOX 完全生産限定版 ANZX-12081〜12086"
+      }
+    }
+  },
+  {
+    "id": "manual-mb-work-e2e8480c-ebaf-4237-8be1-967af1939bda",
+    "release_title": "Aチャンネル Blu-ray Disc BOX 完全生産限定版 ANZX-12081〜12086",
+    "release_type": "song",
+    "release_date": "2017-09-27",
+    "edition": "Aチャンネル Blu-ray Disc BOX 完全生産限定版 ANZX-12081〜12086",
+    "artwork": {
+      "src": "assets/covers/reviewed-6b90ca7b56494e69.jpg",
+      "provider": "manual-source-review",
+      "source_url": "https://www.cdjapan.co.jp/product/ANZX-12081",
+      "original_url": "https://st.cdjapan.co.jp/pictures/l/13/20/ANZX-12081.jpg?v=2",
+      "checked_at": "2026-11-11",
+      "alt": "Aチャンネル Blu-ray Disc BOX 完全生産限定版 ANZX-12081〜12086 ジャケット",
+      "review": {
+        "method": "release-page-and-visual-review",
+        "edition": "Aチャンネル Blu-ray Disc BOX 完全生産限定版 ANZX-12081〜12086"
+      }
+    }
+  },
+  {
+    "id": "manual-mb-work-74aabcf8-528b-3d1b-b774-7388b3686d0f",
+    "release_title": "冴えない彼女の育てかた♭ 3 完全生産限定版 ANZX-13385〜13386",
+    "release_type": "song",
+    "release_date": "2017-09-27",
+    "edition": "冴えない彼女の育てかた♭ 3 完全生産限定版 ANZX-13385〜13386",
+    "artwork": {
+      "src": "assets/covers/reviewed-77c459d0b9fe84bf.jpg",
+      "provider": "manual-source-review",
+      "source_url": "https://www.cdjapan.co.jp/product/ANZX-13385",
+      "original_url": "https://st.cdjapan.co.jp/pictures/l/13/44/ANZX-13385.jpg?v=2",
+      "checked_at": "2026-11-11",
+      "alt": "冴えない彼女の育てかた♭ 3 完全生産限定版 ANZX-13385〜13386 ジャケット",
+      "review": {
+        "method": "release-page-and-visual-review",
+        "edition": "冴えない彼女の育てかた♭ 3 完全生産限定版 ANZX-13385〜13386"
+      }
+    }
+  },
+  {
+    "id": "manual-mb-work-bfbc3836-0598-4a92-8f3a-c6f0440f5881",
+    "release_title": "KANAight～花澤香菜キャラソン ハイパークロニクルミックス～ SVWC-70189〜70190",
+    "release_type": "song",
+    "release_date": "2016-08-31",
+    "edition": "KANAight～花澤香菜キャラソン ハイパークロニクルミックス～ SVWC-70189〜70190",
+    "artwork": {
+      "src": "assets/covers/reviewed-c258a718542fa5e5.jpg",
+      "provider": "manual-source-review",
+      "source_url": "https://www.cdjapan.co.jp/product/SVWC-70189",
+      "original_url": "https://st.cdjapan.co.jp/pictures/l/05/44/SVWC-70189.jpg?v=2",
+      "checked_at": "2026-11-11",
+      "alt": "KANAight～花澤香菜キャラソン ハイパークロニクルミックス～ SVWC-70189〜70190 ジャケット",
+      "review": {
+        "method": "release-page-and-visual-review",
+        "edition": "KANAight～花澤香菜キャラソン ハイパークロニクルミックス～ SVWC-70189〜70190"
+      }
+    }
+  },
+  {
+    "id": "manual-mb-work-54c6eb5d-c5c4-494c-97a4-6f7672461de9",
+    "release_title": "冴えない彼女の育てかた ギャルゲーカバーソングコレクション SVWC-70409〜70410",
+    "release_type": "song",
+    "release_date": "2019-09-25",
+    "edition": "冴えない彼女の育てかた ギャルゲーカバーソングコレクション SVWC-70409〜70410",
+    "artwork": {
+      "src": "assets/covers/reviewed-dcaae42f73dcaf3a.jpg",
+      "provider": "manual-source-review",
+      "source_url": "https://online.aniplex.co.jp/itemNuIUCdmg.html",
+      "original_url": "https://online.aniplex.co.jp/on/demandware.static/-/Sites-all-master-catalog/ja_JP/dw365629e2/items/items3000/3967/contents/15155.jpg",
+      "checked_at": "2026-11-11",
+      "alt": "冴えない彼女の育てかた ギャルゲーカバーソングコレクション SVWC-70409〜70410 ジャケット",
+      "review": {
+        "method": "release-page-and-visual-review",
+        "edition": "冴えない彼女の育てかた ギャルゲーカバーソングコレクション SVWC-70409〜70410"
+      }
+    }
+  },
+  {
+    "id": "manual-legacy-025",
+    "release_title": "ハイスクール・フリート 5.1ch Blu-ray Disc BOX ANZX-13441",
+    "release_type": "song",
+    "release_date": "2019-12-04",
+    "edition": "ハイスクール・フリート 5.1ch Blu-ray Disc BOX ANZX-13441",
+    "artwork": {
+      "src": "assets/covers/reviewed-b4f2970e20780671.jpg",
+      "provider": "manual-source-review",
+      "source_url": "https://online.aniplex.co.jp/itemcgVeRDZA.html",
+      "original_url": "https://online.aniplex.co.jp/on/demandware.static/-/Sites-all-master-catalog/ja_JP/dwa25762be/items/items4000/4000/contents/14375.jpg",
+      "checked_at": "2026-11-11",
+      "alt": "ハイスクール・フリート 5.1ch Blu-ray Disc BOX ANZX-13441 ジャケット",
+      "review": {
+        "method": "release-page-and-visual-review",
+        "edition": "ハイスクール・フリート 5.1ch Blu-ray Disc BOX ANZX-13441"
+      }
+    }
   }
 ]

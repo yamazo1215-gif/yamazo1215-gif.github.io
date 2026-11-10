@@ -18,7 +18,8 @@
     "featured": false,
     "image": "",
     "source_url": "https://true-singer.com/contents/1087046",
-    "temporary": true
+    "temporary": true,
+    "release_id": "manual-verified-song-nest-camp"
   },
   {
     "id": "verified-song-emoria",
@@ -59,7 +60,8 @@
     "youtube": "",
     "featured": false,
     "image": "",
-    "source_url": "https://linkco.re/YyGSFQDP?lang=ja"
+    "source_url": "https://linkco.re/YyGSFQDP?lang=ja",
+    "release_id": "manual-verified-song-toumei-startline"
   },
   {
     "id": "verified-song-chant-2024-live",
@@ -73,14 +75,15 @@
       "作詞・作曲・編曲"
     ],
     "credit_note": "",
-    "official_url": "https://www.uta-net.com/song/387134/",
+    "official_url": "https://www.ponycanyon.co.jp/music/PCCG000002475",
     "apple_music": "",
     "spotify": "",
     "youtube": "",
     "featured": false,
     "image": "",
     "source_url": "https://www.uta-net.com/song/387134/",
-    "temporary": true
+    "temporary": true,
+    "release_id": "manual-verified-song-chant-2024-live"
   },
   {
     "id": "verified-song-mihonouta-ichido",
@@ -233,7 +236,8 @@
     "featured": false,
     "image": "",
     "source_url": "https://www.ponycanyon.co.jp/music/PCCG000002458",
-    "temporary": true
+    "temporary": true,
+    "release_id": "manual-soundtrack-haikara-ost"
   },
   {
     "id": "verified-song-youtou",
@@ -282,7 +286,7 @@
   {
     "id": "verified-song-natsu-ga-kita-kara",
     "category": "song",
-    "work_title": "夏が来たから - Single",
+    "work_title": "夏が来たから（Type A）",
     "track_title": "夏が来たから",
     "artist": "≠ME",
     "year": 2024,
@@ -297,7 +301,8 @@
     "youtube": "",
     "featured": false,
     "image": "",
-    "source_url": "https://news.kingrecords.co.jp/2024/07/30626/"
+    "source_url": "https://news.kingrecords.co.jp/2024/07/30626/",
+    "release_id": "manual-verified-song-natsu-ga-kita-kara"
   },
   {
     "id": "anilist-165855",
@@ -340,7 +345,8 @@
     "featured": false,
     "image": "",
     "source_url": "https://tower.jp/item/6422159",
-    "temporary": true
+    "temporary": true,
+    "release_id": "manual-soundtrack-hananoi-ost"
   },
   {
     "id": "verified-song-remohos-tokyo",
@@ -495,7 +501,7 @@
     "image": "",
     "source_url": "https://remohos.com/music/venere_n01.html",
     "temporary": true,
-    "release_id": "artwork-verified-song-remohos-king-3f20c0c8dec6"
+    "release_id": "manual-verified-song-remohos-king"
   },
   {
     "id": "seed-anime-5",
@@ -854,7 +860,7 @@
   {
     "id": "mb-work-54c6eb5d-c5c4-494c-97a4-6f7672461de9",
     "category": "song",
-    "work_title": null,
+    "work_title": "冴えない彼女の育てかた ギャルゲーカバーソングコレクション SVWC-70409〜70410",
     "track_title": "未来への咆哮",
     "artist": "安芸倫也 / 松岡禎丞",
     "year": 2019,
@@ -870,7 +876,8 @@
     "featured": false,
     "image": "",
     "source_url": "https://musicbrainz.org/work/54c6eb5d-c5c4-494c-97a4-6f7672461de9",
-    "temporary": true
+    "temporary": true,
+    "release_id": "manual-mb-work-54c6eb5d-c5c4-494c-97a4-6f7672461de9"
   },
   {
     "id": "mb-work-2801e74c-1167-4a9d-854e-771e4266ff5d",
@@ -1059,7 +1066,7 @@
   {
     "id": "mb-work-8838e274-ad11-4515-82d5-5b0b4d665f5d",
     "category": "song",
-    "work_title": null,
+    "work_title": "Aチャンネル Blu-ray Disc BOX 完全生産限定版 ANZX-12081〜12086",
     "track_title": "Happy Snow",
     "artist": "るん / 福原香織 / トオル / 悠木碧 / ナギ / 内山夕実 / ユー子 / 寿美菜子",
     "year": 2017,
@@ -1077,12 +1084,13 @@
     "featured": false,
     "image": "",
     "source_url": "https://musicbrainz.org/work/8838e274-ad11-4515-82d5-5b0b4d665f5d",
-    "temporary": true
+    "temporary": true,
+    "release_id": "manual-mb-work-8838e274-ad11-4515-82d5-5b0b4d665f5d"
   },
   {
     "id": "mb-work-14810093-d744-4ade-9579-ba025ea44fc1",
     "category": "song",
-    "work_title": null,
+    "work_title": "Aチャンネル Blu-ray Disc BOX 完全生産限定版 ANZX-12081〜12086",
     "track_title": "Start",
     "artist": "るん / 福原香織 / トオル / 悠木碧 / ナギ / 内山夕実 / ユー子 / 寿美菜子",
     "year": 2017,
@@ -1100,12 +1108,13 @@
     "featured": false,
     "image": "",
     "source_url": "https://musicbrainz.org/work/14810093-d744-4ade-9579-ba025ea44fc1",
-    "temporary": true
+    "temporary": true,
+    "release_id": "manual-mb-work-14810093-d744-4ade-9579-ba025ea44fc1"
   },
   {
     "id": "mb-work-1bc12c06-df3d-4917-b92f-99b7a9439fa7",
     "category": "song",
-    "work_title": null,
+    "work_title": "Aチャンネル Blu-ray Disc BOX 完全生産限定版 ANZX-12081〜12086",
     "track_title": "Viba鍋!よっつ星",
     "artist": "るん / 福原香織 / トオル / 悠木碧 / ナギ / 内山夕実 / ユー子 / 寿美菜子",
     "year": 2017,
@@ -1122,12 +1131,13 @@
     "featured": false,
     "image": "",
     "source_url": "https://musicbrainz.org/work/1bc12c06-df3d-4917-b92f-99b7a9439fa7",
-    "temporary": true
+    "temporary": true,
+    "release_id": "manual-mb-work-1bc12c06-df3d-4917-b92f-99b7a9439fa7"
   },
   {
     "id": "mb-work-12d8f313-b66a-46f4-935b-63c001bee868",
     "category": "song",
-    "work_title": null,
+    "work_title": "Aチャンネル Blu-ray Disc BOX 完全生産限定版 ANZX-12081〜12086",
     "track_title": "きっと ずっと もっと",
     "artist": "トオル / 悠木碧",
     "year": 2017,
@@ -1143,12 +1153,13 @@
     "featured": false,
     "image": "",
     "source_url": "https://musicbrainz.org/work/12d8f313-b66a-46f4-935b-63c001bee868",
-    "temporary": true
+    "temporary": true,
+    "release_id": "manual-mb-work-12d8f313-b66a-46f4-935b-63c001bee868"
   },
   {
     "id": "mb-work-74aabcf8-528b-3d1b-b774-7388b3686d0f",
     "category": "song",
-    "work_title": null,
+    "work_title": "冴えない彼女の育てかた♭ 3 完全生産限定版 ANZX-13385〜13386",
     "track_title": "届かない恋",
     "artist": "霞ヶ丘詩羽 / 茅野愛衣",
     "year": 2017,
@@ -1164,12 +1175,13 @@
     "featured": false,
     "image": "",
     "source_url": "https://musicbrainz.org/work/74aabcf8-528b-3d1b-b774-7388b3686d0f",
-    "temporary": true
+    "temporary": true,
+    "release_id": "manual-mb-work-74aabcf8-528b-3d1b-b774-7388b3686d0f"
   },
   {
     "id": "mb-work-e2e8480c-ebaf-4237-8be1-967af1939bda",
     "category": "song",
-    "work_title": null,
+    "work_title": "Aチャンネル Blu-ray Disc BOX 完全生産限定版 ANZX-12081〜12086",
     "track_title": "翼はないけど",
     "artist": "るん / 福原香織 / トオル / 悠木碧",
     "year": 2017,
@@ -1185,7 +1197,8 @@
     "featured": false,
     "image": "",
     "source_url": "https://musicbrainz.org/work/e2e8480c-ebaf-4237-8be1-967af1939bda",
-    "temporary": true
+    "temporary": true,
+    "release_id": "manual-mb-work-e2e8480c-ebaf-4237-8be1-967af1939bda"
   },
   {
     "id": "mb-work-e6d47786-4533-49a1-8ec5-149afa43256e",
@@ -1325,8 +1338,8 @@
   {
     "id": "mb-work-bfbc3836-0598-4a92-8f3a-c6f0440f5881",
     "category": "song",
-    "work_title": null,
-    "track_title": "もうそう♡えくすぷれす",
+    "work_title": "KANAight～花澤香菜キャラソン ハイパークロニクルミックス～ SVWC-70189〜70190",
+    "track_title": "もうそう♡えくすぷれす -folclore Remix-",
     "artist": "千石撫子 / 花澤香菜",
     "year": 2016,
     "release_date": "2016-08-31",
@@ -1341,7 +1354,8 @@
     "featured": false,
     "image": "",
     "source_url": "https://musicbrainz.org/work/bfbc3836-0598-4a92-8f3a-c6f0440f5881",
-    "temporary": true
+    "temporary": true,
+    "release_id": "manual-mb-work-bfbc3836-0598-4a92-8f3a-c6f0440f5881"
   },
   {
     "id": "seed-anime-13",
@@ -1390,7 +1404,7 @@
   {
     "id": "mb-work-c7a6c8ad-4325-3623-b3ff-83605d72369f",
     "category": "song",
-    "work_title": null,
+    "work_title": "冴えない彼女の育てかた 3 完全生産限定版 ANZX-11485〜11486",
     "track_title": "Leaf ticket",
     "artist": "加藤恵 / 安野希世乃",
     "year": 2015,
@@ -1406,12 +1420,13 @@
     "featured": false,
     "image": "",
     "source_url": "https://musicbrainz.org/work/c7a6c8ad-4325-3623-b3ff-83605d72369f",
-    "temporary": true
+    "temporary": true,
+    "release_id": "manual-mb-work-c7a6c8ad-4325-3623-b3ff-83605d72369f"
   },
   {
     "id": "mb-work-aab80454-cd23-4cdd-9155-b2d141d7a41d",
     "category": "song",
-    "work_title": null,
+    "work_title": "冴えない彼女の育てかた 2 完全生産限定版 ANZX-11483〜11484",
     "track_title": "勇気の神様",
     "artist": "澤村・スペンサー・英梨々 / 大西沙織",
     "year": 2015,
@@ -1427,7 +1442,8 @@
     "featured": false,
     "image": "",
     "source_url": "https://musicbrainz.org/work/aab80454-cd23-4cdd-9155-b2d141d7a41d",
-    "temporary": true
+    "temporary": true,
+    "release_id": "manual-mb-work-aab80454-cd23-4cdd-9155-b2d141d7a41d"
   },
   {
     "id": "mb-work-e4858bb9-269b-412f-9acb-2ca2014eb4c4",
@@ -1772,7 +1788,7 @@
   {
     "id": "mb-work-4e0afd19-3970-4232-96d6-912e29cc5eea",
     "category": "song",
-    "work_title": null,
+    "work_title": "僕らの翼 ZMCZ-8372",
     "track_title": "僕らの翼",
     "artist": "隣人部",
     "year": 2013,
@@ -1789,7 +1805,8 @@
     "featured": false,
     "image": "",
     "source_url": "https://musicbrainz.org/work/4e0afd19-3970-4232-96d6-912e29cc5eea",
-    "temporary": true
+    "temporary": true,
+    "release_id": "manual-mb-work-4e0afd19-3970-4232-96d6-912e29cc5eea"
   },
   {
     "id": "mb-work-7e049a0e-b0ac-45d6-a8cc-26428b691c54",
@@ -1884,7 +1901,7 @@
   {
     "id": "mb-work-ef99166c-56c6-4a2f-971a-65103ef5e721",
     "category": "song",
-    "work_title": null,
+    "work_title": "俺の妹がこんなに可愛いわけがない Complete Collection＋ SVWC-7805〜7806",
     "track_title": "SECRET×2",
     "artist": "高坂桐乃 / 竹達彩奈",
     "year": 2011,
@@ -1900,7 +1917,8 @@
     "featured": false,
     "image": "",
     "source_url": "https://musicbrainz.org/work/ef99166c-56c6-4a2f-971a-65103ef5e721",
-    "temporary": true
+    "temporary": true,
+    "release_id": "manual-mb-work-ef99166c-56c6-4a2f-971a-65103ef5e721"
   },
   {
     "id": "mb-work-54e26760-3e85-41f0-97e5-4a48c8618100",
@@ -1949,11 +1967,11 @@
   {
     "id": "mb-work-53a17010-6854-4d25-bde4-54fe8b25ed8b",
     "category": "song",
-    "work_title": null,
+    "work_title": "俺の妹がこんなに可愛いわけがない 3 完全生産限定版 ANZX-9755",
     "track_title": "オレンジ",
     "artist": "高坂桐乃 / 竹達彩奈",
     "year": 2011,
-    "release_date": "2011-02-03",
+    "release_date": "2011-02-23",
     "roles": [
       "編曲",
       "ミックス"
@@ -1966,12 +1984,13 @@
     "featured": false,
     "image": "",
     "source_url": "https://musicbrainz.org/work/53a17010-6854-4d25-bde4-54fe8b25ed8b",
-    "temporary": true
+    "temporary": true,
+    "release_id": "manual-mb-work-53a17010-6854-4d25-bde4-54fe8b25ed8b"
   },
   {
     "id": "mb-work-04692a59-f536-30d5-b0ac-d50fb114055a",
     "category": "song",
-    "work_title": null,
+    "work_title": "俺の妹がこんなに可愛いわけがない 2 完全生産限定版 ANZX-9753",
     "track_title": "ほらいずむ",
     "artist": "高坂桐乃 / 竹達彩奈",
     "year": 2011,
@@ -1988,12 +2007,13 @@
     "featured": false,
     "image": "",
     "source_url": "https://musicbrainz.org/work/04692a59-f536-30d5-b0ac-d50fb114055a",
-    "temporary": true
+    "temporary": true,
+    "release_id": "manual-mb-work-04692a59-f536-30d5-b0ac-d50fb114055a"
   },
   {
     "id": "mb-work-3524262b-4665-3862-9e52-ae9625762691",
     "category": "song",
-    "work_title": null,
+    "work_title": "俺の妹がこんなに可愛いわけがない 1 完全生産限定版 ANZX-9751",
     "track_title": "Shine!",
     "artist": "高坂桐乃 / 竹達彩奈",
     "year": 2010,
@@ -2010,7 +2030,8 @@
     "featured": false,
     "image": "",
     "source_url": "https://musicbrainz.org/work/3524262b-4665-3862-9e52-ae9625762691",
-    "temporary": true
+    "temporary": true,
+    "release_id": "manual-mb-work-3524262b-4665-3862-9e52-ae9625762691"
   },
   {
     "id": "mb-work-09457a79-30da-355e-ab79-7a47f3817e4c",
@@ -2040,9 +2061,9 @@
   {
     "id": "legacy-001",
     "category": "song",
-    "work_title": null,
-    "track_title": "Lefty Hand Cream",
-    "artist": "ハート/あいみょん（カバー）",
+    "work_title": "公式カバー動画",
+    "track_title": "ハート（あいみょん cover）",
+    "artist": "Lefty Hand Cream",
     "year": 2022,
     "release_date": "2022-01-06",
     "roles": [
@@ -2052,11 +2073,12 @@
     "official_url": "https://www.youtube.com/watch?v=okXLVnPEbpU",
     "apple_music": "",
     "spotify": "",
-    "youtube": "https://www.youtube.com/watch?v=okXLVnPEbpU",
+    "youtube": "",
     "featured": false,
     "image": "",
     "source_url": "https://www.yamazo.jp/works",
-    "temporary": true
+    "temporary": true,
+    "release_id": "manual-legacy-001"
   },
   {
     "id": "legacy-015",
@@ -2084,7 +2106,7 @@
     "id": "legacy-016",
     "category": "song",
     "work_title": null,
-    "track_title": "A3! ETERNA GOD EP",
+    "track_title": "A3! ETERNAL GOD EP",
     "artist": "GOD座コラボ公演曲B / 2 Valet Resonance / 作詞・作曲・編曲：yamazo / ルッツ＆サシャ［荒川志太、泉田 莇（CV：影山達也、小西成弥）］",
     "year": 2021,
     "release_date": "2021-06-23",
@@ -2092,7 +2114,7 @@
       "作詞・作曲・編曲：yamazo"
     ],
     "credit_note": "",
-    "official_url": "https://a3.ponycanyon.co.jp/a3-eternal-god-ep/",
+    "official_url": "https://www.ponycanyon.co.jp/music/PCCG000002019",
     "apple_music": "",
     "spotify": "",
     "youtube": "",
@@ -2100,13 +2122,13 @@
     "image": "",
     "source_url": "https://www.yamazo.jp/works",
     "temporary": true,
-    "release_id": "artwork-legacy-016-3f243e24dc8e"
+    "release_id": "manual-legacy-016"
   },
   {
     "id": "legacy-017",
     "category": "song",
     "work_title": null,
-    "track_title": "HEVENS DOOR",
+    "track_title": "HEAVENS DOOR",
     "artist": "M1. 愛らんらんらん / 歌：阿以蘭丸 (CV：坂田将吾)",
     "year": 2021,
     "release_date": "2021-06-16",
@@ -2114,20 +2136,21 @@
       "作曲・編曲：yamazo"
     ],
     "credit_note": "",
-    "official_url": "",
+    "official_url": "https://f-ran.jp/music03.html",
     "apple_music": "",
     "spotify": "",
     "youtube": "https://www.youtube.com/watch?v=TXjdYyiTvU8",
     "featured": false,
     "image": "",
     "source_url": "https://www.yamazo.jp/works",
-    "temporary": true
+    "temporary": true,
+    "release_id": "manual-legacy-017"
   },
   {
     "id": "legacy-019",
     "category": "song",
     "work_title": null,
-    "track_title": "THE IDOLM@STER ARTIST4 如月千早",
+    "track_title": "THE IDOLM@STER MASTER ARTIST 4 10 如月千早",
     "artist": "1.Coming Smile",
     "year": 2021,
     "release_date": "2021-06-16",
@@ -2149,7 +2172,7 @@
     "id": "legacy-022",
     "category": "song",
     "work_title": null,
-    "track_title": "ソードアート・オンライン アリシゼーション War of Underwold #2",
+    "track_title": "ソードアート・オンライン アリシゼーション War of Underworld #2",
     "artist": "Deep in the dark",
     "year": 2020,
     "release_date": "2020-01-29",
@@ -2165,13 +2188,13 @@
     "image": "",
     "source_url": "https://www.yamazo.jp/works",
     "temporary": true,
-    "release_id": "artwork-legacy-022-b28589d5647a"
+    "release_id": ""
   },
   {
     "id": "legacy-023",
     "category": "song",
     "work_title": null,
-    "track_title": "A3! MIX SEASON LP",
+    "track_title": "A3! MIX SEASONS LP",
     "artist": "第二回公演ミックス公演曲A / ３、不屈のチャント / 作詞・作曲・編曲：yamazo / 久保田＆宮木[皆木 綴、高遠 丞(CV：西山宏太朗、佐藤拓也)]",
     "year": 2019,
     "release_date": "2019-12-18",
@@ -2179,7 +2202,7 @@
       "作詞・作曲・編曲：yamazo"
     ],
     "credit_note": "",
-    "official_url": "https://a3.ponycanyon.co.jp/a3-mix-seasons-lp/",
+    "official_url": "https://www.ponycanyon.co.jp/music/PCCG000001851",
     "apple_music": "",
     "spotify": "",
     "youtube": "",
@@ -2187,13 +2210,13 @@
     "image": "",
     "source_url": "https://www.yamazo.jp/works",
     "temporary": true,
-    "release_id": "artwork-legacy-023-3f243e24dc8e"
+    "release_id": "manual-legacy-023"
   },
   {
     "id": "legacy-024",
     "category": "song",
     "work_title": null,
-    "track_title": "三森すずこ「チャンス！/夕方」",
+    "track_title": "三森すずこ「チャンス！／ゆうがた」",
     "artist": "1.チャンス！ / 作詞：hotaru　作曲：大石昌良　編曲：大石昌良、yamazo",
     "year": 2019,
     "release_date": "2019-12-04",
@@ -2214,8 +2237,8 @@
   {
     "id": "legacy-025",
     "category": "song",
-    "work_title": null,
-    "track_title": "ハイスクールフリート5.1ch BD BOX",
+    "work_title": "ハイスクール・フリート 5.1ch Blu-ray Disc BOX ANZX-13441",
+    "track_title": "ハイスクール・フリート 5.1ch Blu-ray Disc BOX",
     "artist": "万里小路楓キャラクターソング「ビューティフル・ビューグル」",
     "year": 2019,
     "release_date": "2019-12-04",
@@ -2230,7 +2253,8 @@
     "featured": false,
     "image": "",
     "source_url": "https://www.yamazo.jp/works",
-    "temporary": true
+    "temporary": true,
+    "release_id": "manual-legacy-025"
   },
   {
     "id": "legacy-027",
