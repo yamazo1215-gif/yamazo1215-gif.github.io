@@ -353,21 +353,20 @@
     "category": "score",
     "work_title": "勇者が死んだ！",
     "track_title": null,
-    "artist": null,
+    "artist": "うたたね歌菜 / 奈良悠樹 / yamazo / MOKA☆",
     "year": 2023,
     "release_date": "2023-01-01",
     "roles": [
-      "Music"
+      "劇伴（共同）"
     ],
-    "credit_note": "劇伴音楽",
-    "official_url": "",
+    "credit_note": "劇伴音楽（共同担当）",
+    "official_url": "https://heroisdead.com/staff/",
     "apple_music": "",
     "spotify": "",
     "youtube": "",
     "featured": false,
     "image": "",
-    "source_url": "https://www.anisil.com/people/17149-yamazo",
-    "temporary": true,
+    "source_url": "https://heroisdead.com/staff/",
     "release_id": "anilist-148109"
   },
   {
@@ -2857,6 +2856,67 @@
         "note": "全38曲。",
         "url": "https://columbia.jp/shonenmaid/release02.html",
         "release_date": "2016-06-22"
+      }
+    ]
+  },
+  {
+    "id": "score-diamond-no-ace-first",
+    "category": "score",
+    "work_title": "ダイヤのA（第1期）",
+    "track_title": null,
+    "artist": "Flying-Pan",
+    "year": 2013,
+    "release_date": "2013-10-06",
+    "roles": [
+      "音楽"
+    ],
+    "credit_note": "劇伴音楽（Flying-Panとして参加）",
+    "official_url": "https://www.fmf-music.com/feat-works/__trashed/",
+    "source_url": "https://www.fmf-music.com/feat-works/__trashed/",
+    "apple_music": "",
+    "spotify": "",
+    "youtube": "",
+    "featured": false,
+    "image": "",
+    "release_id": "manual-score-diamond-no-ace-first"
+  },
+  {
+    "id": "soundtrack-diamond-no-ace-first",
+    "category": "soundtrack",
+    "work_title": "TVアニメ「ダイヤのA」オリジナルサウンドトラック",
+    "track_title": null,
+    "artist": "Flying-Pan",
+    "year": 2015,
+    "release_date": "2015-03-18",
+    "roles": [
+      "音楽"
+    ],
+    "credit_note": "第1期オリジナルサウンドトラック",
+    "official_url": "https://diaace.com/goods.html",
+    "source_url": "https://tower.jp/item/3788144",
+    "apple_music": "",
+    "spotify": "",
+    "youtube": "",
+    "featured": false,
+    "image": "",
+    "release_id": "manual-soundtrack-diamond-no-ace-first",
+    "related_work_id": "score-diamond-no-ace-first",
+    "release_editions": [
+      {
+        "format": "CD",
+        "title": "",
+        "release_date": "2015-03-18",
+        "catalog_number": "PCCG-01453",
+        "note": "全49曲。",
+        "url": "https://tower.jp/item/3788144"
+      },
+      {
+        "format": "配信",
+        "title": "",
+        "release_date": "2015-03-18",
+        "catalog_number": "",
+        "note": "全49曲。日付は配信ストアのリリース表記。",
+        "url": "https://ototoy.jp/_/default/p/50230"
       }
     ]
   }

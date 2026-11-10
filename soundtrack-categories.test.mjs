@@ -20,8 +20,8 @@ test('soundtrack releases are separate from their preserved score projects',()=>
   assert.equal(new Set(album.release_editions.map(e => [e.format,e.title,e.release_date,e.catalog_number].join('|'))).size, album.release_editions.length);
   for (const edition of album.release_editions) { assert.ok(edition.format); assert.ok(edition.url?.startsWith('https://')); }
  }
- assert.equal(works.filter(w=>w.category==='score').length,21);
- assert.ok(works.filter(w=>w.category==='score').every(w=>w.credit_note==='劇伴音楽'));
+ assert.equal(works.filter(w=>w.category==='score').length,22);
+ assert.ok(works.filter(w=>w.category==='score').every(w=>w.credit_note.startsWith('劇伴音楽')));
 });
 test('Room Mate artwork catalog follows the score project rather than song',()=>{
  assert.equal(releases.find(r=>r.id==='release-98238').release_type,'score');
@@ -29,7 +29,7 @@ test('Room Mate artwork catalog follows the score project rather than song',()=>
 test('verified missing albums preserve formats, bonus status and edition differences',()=>{
  const byId=new Map(works.map(w=>[w.id,w]));
  const editions=id=>byId.get(id).release_editions;
- assert.equal(works.filter(w=>w.category==='soundtrack').length,11);
+ assert.equal(works.filter(w=>w.category==='soundtrack').length,12);
  assert.deepEqual(editions('soundtrack-nine-rulers-crown').map(e=>e.format),['配信']);
  assert.deepEqual(editions('soundtrack-shonen-maid-ost').map(e=>e.format),['CD']);
  assert.deepEqual(editions('soundtrack-yamanosusume-next-summit-ost').map(e=>e.format),['BD/DVD特典CD']);

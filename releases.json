@@ -3956,5 +3956,35 @@
         "release_date": "2016-06-22"
       }
     ]
+  },
+  {
+    "id": "manual-score-diamond-no-ace-first",
+    "release_title": "ダイヤのA（第1期）",
+    "release_type": "score",
+    "release_date": "2013-10-06"
+  },
+  {
+    "id": "manual-soundtrack-diamond-no-ace-first",
+    "release_title": "TVアニメ「ダイヤのA」オリジナルサウンドトラック",
+    "release_type": "soundtrack",
+    "release_date": "2015-03-18",
+    "release_editions": [
+      {
+        "format": "CD",
+        "title": "",
+        "release_date": "2015-03-18",
+        "catalog_number": "PCCG-01453",
+        "note": "全49曲。",
+        "url": "https://tower.jp/item/3788144"
+      },
+      {
+        "format": "配信",
+        "title": "",
+        "release_date": "2015-03-18",
+        "catalog_number": "",
+        "note": "全49曲。日付は配信ストアのリリース表記。",
+        "url": "https://ototoy.jp/_/default/p/50230"
+      }
+    ]
   }
 ]

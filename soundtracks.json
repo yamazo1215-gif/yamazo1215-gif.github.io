@@ -369,5 +369,41 @@
     "source": "official-and-distributor",
     "role": "音楽",
     "url": "https://columbia.jp/shonenmaid/release02.html"
+  },
+  {
+    "id": "soundtrack-diamond-no-ace-first",
+    "title": "TVアニメ「ダイヤのA」オリジナルサウンドトラック",
+    "artist": "Flying-Pan",
+    "category": "soundtrack",
+    "release_date": "2015-03-18",
+    "related_work_id": "score-diamond-no-ace-first",
+    "role": "音楽",
+    "source": "official-and-distributor",
+    "sources": [
+      "https://diaace.com/goods.html",
+      "https://tower.jp/item/3788144",
+      "https://ototoy.jp/_/default/p/50230"
+    ],
+    "url": "https://diaace.com/goods.html",
+    "release_editions": [
+      {
+        "format": "CD",
+        "title": "",
+        "release_date": "2015-03-18",
+        "catalog_number": "PCCG-01453",
+        "note": "全49曲。",
+        "url": "https://tower.jp/item/3788144"
+      },
+      {
+        "format": "配信",
+        "title": "",
+        "release_date": "2015-03-18",
+        "catalog_number": "",
+        "note": "全49曲。日付は配信ストアのリリース表記。",
+        "url": "https://ototoy.jp/_/default/p/50230"
+      }
+    ],
+    "source_artist": "Frying-Pan",
+    "artist_credit_note": "販売ページはFrying-Pan表記。所属公式と本人指定のFlying-Panに表示統一。"
   }
 ]
