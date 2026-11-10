@@ -62,7 +62,7 @@
   {
     "id": "release-98238",
     "release_title": "Room Mate",
-    "release_type": "song",
+    "release_type": "score",
     "release_date": "2017-01-01",
     "artwork": {
       "src": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b98238-4DhBzMv946g9.png",
@@ -3262,7 +3262,7 @@
   {
     "id": "manual-soundtrack-haikara-ost",
     "release_title": "美男高校地球防衛部ハイカラ！O.S.T.",
-    "release_type": "score",
+    "release_type": "soundtrack",
     "release_date": "",
     "edition": "美男高校地球防衛部ハイカラ！O.S.T. / PCCG-02458",
     "artwork": {
@@ -3281,7 +3281,7 @@
   {
     "id": "manual-soundtrack-hananoi-ost",
     "release_title": "花野井くんと恋の病 オリジナルサウンドトラック",
-    "release_type": "score",
+    "release_type": "soundtrack",
     "release_date": "",
     "edition": "花野井くんと恋の病 ORIGINAL SOUND TRACK; WAGE-13010 CD and digital Complete Edition share artwork. Do not silently change entry to Complete Edition.",
     "artwork": {

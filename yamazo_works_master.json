@@ -219,7 +219,7 @@
   },
   {
     "id": "soundtrack-haikara-ost",
-    "category": "score",
+    "category": "soundtrack",
     "work_title": "美男高校地球防衛部ハイカラ！O.S.T.",
     "track_title": null,
     "artist": null,
@@ -237,7 +237,8 @@
     "image": "",
     "source_url": "https://www.ponycanyon.co.jp/music/PCCG000002458",
     "temporary": true,
-    "release_id": "manual-soundtrack-haikara-ost"
+    "release_id": "manual-soundtrack-haikara-ost",
+    "related_work_id": "anilist-188138"
   },
   {
     "id": "verified-song-youtou",
@@ -328,7 +329,7 @@
   },
   {
     "id": "soundtrack-hananoi-ost",
-    "category": "score",
+    "category": "soundtrack",
     "work_title": "花野井くんと恋の病 オリジナルサウンドトラック",
     "track_title": null,
     "artist": null,
@@ -346,7 +347,8 @@
     "image": "",
     "source_url": "https://tower.jp/item/6422159",
     "temporary": true,
-    "release_id": "manual-soundtrack-hananoi-ost"
+    "release_id": "manual-soundtrack-hananoi-ost",
+    "related_work_id": "anilist-165855"
   },
   {
     "id": "verified-song-remohos-tokyo",
@@ -2277,5 +2279,196 @@
     "source_url": "https://www.yamazo.jp/works",
     "temporary": true,
     "release_id": "artwork-legacy-027-5461632ac5bd"
+  },
+  {
+    "id": "verified-pop-kinki-ashioto",
+    "category": "song",
+    "work_title": "J album",
+    "track_title": "足音",
+    "artist": "KinKi Kids",
+    "year": 2009,
+    "release_date": "2009-12-09",
+    "roles": [
+      "作曲"
+    ],
+    "credit_note": "作曲：yamazo。",
+    "official_url": "https://www.elov-label.jp/s/el/discography/JECN-0214",
+    "apple_music": "",
+    "spotify": "",
+    "youtube": "",
+    "featured": false,
+    "image": "",
+    "source_url": "https://www.elov-label.jp/s/el/discography/JECN-0214",
+    "temporary": false
+  },
+  {
+    "id": "verified-pop-aaa-one-night-animal",
+    "category": "song",
+    "work_title": "BEYOND～カラダノカナタ",
+    "track_title": "One Night Animal",
+    "artist": "AAA",
+    "year": 2008,
+    "release_date": "2008-05-28",
+    "roles": [
+      "作曲"
+    ],
+    "credit_note": "作曲：山田知広（Tomohiro Yamada / yamazo）。",
+    "official_url": "https://avex.jp/aaa/discography/detail.php?id=1001590",
+    "apple_music": "",
+    "spotify": "",
+    "youtube": "",
+    "featured": false,
+    "image": "",
+    "source_url": "https://www.uta-net.com/composer/31300/",
+    "temporary": false
+  },
+  {
+    "id": "verified-pop-jamosa-imademo",
+    "category": "song",
+    "work_title": "LUV ～collabo BEST～",
+    "track_title": "今でも好きだよ feat. WISE",
+    "artist": "JAMOSA",
+    "year": 2010,
+    "release_date": "2010-11-10",
+    "roles": [
+      "作曲"
+    ],
+    "credit_note": "作曲：yamazo。",
+    "official_url": "https://avex.jp/jamosa/discography/detail.php?id=1003497",
+    "apple_music": "",
+    "spotify": "",
+    "youtube": "",
+    "featured": false,
+    "image": "",
+    "source_url": "https://www.uta-net.com/song/102726/",
+    "temporary": false
+  },
+  {
+    "id": "verified-pop-gokigen-koe",
+    "category": "song",
+    "work_title": "満タンで行こう!!",
+    "track_title": "声が聞きたくて... feat. marina",
+    "artist": "GOKIGEN SOUND",
+    "year": 2012,
+    "release_date": "2012-07-11",
+    "roles": [
+      "作詞",
+      "作曲"
+    ],
+    "credit_note": "作詞・作曲：GOKIGEN SOUND・yamazo。2012年7月11日先行配信、アルバムは7月18日発売。",
+    "official_url": "https://tanktoprecords.net/gokigensound/discography/",
+    "apple_music": "",
+    "spotify": "",
+    "youtube": "",
+    "featured": false,
+    "image": "",
+    "source_url": "https://www.uta-net.com/song/132535/",
+    "temporary": false
+  },
+  {
+    "id": "verified-pop-gokigen-akashi",
+    "category": "song",
+    "work_title": "満タンで行こう!!",
+    "track_title": "証 ～愛してるなんてまだ言えないけど～",
+    "artist": "GOKIGEN SOUND",
+    "year": 2012,
+    "release_date": "2012-07-18",
+    "roles": [
+      "作曲"
+    ],
+    "credit_note": "作曲：GOKIGEN SOUND・yamazo。",
+    "official_url": "https://tanktoprecords.net/gokigensound/discography/",
+    "apple_music": "",
+    "spotify": "",
+    "youtube": "",
+    "featured": false,
+    "image": "",
+    "source_url": "https://www.uta-net.com/song/132533/",
+    "temporary": false
+  },
+  {
+    "id": "verified-pop-saito-kagefumi",
+    "category": "song",
+    "work_title": "フィッシュストーリー",
+    "track_title": "影踏み",
+    "artist": "斉藤壮馬",
+    "year": 2017,
+    "release_date": "2017-06-07",
+    "roles": [
+      "作曲"
+    ],
+    "credit_note": "作曲：yamazo。",
+    "official_url": "https://prtimes.jp/main/html/rd/p/000000720.000013546.html",
+    "apple_music": "",
+    "spotify": "",
+    "youtube": "",
+    "featured": false,
+    "image": "",
+    "source_url": "https://www.uta-net.com/song/230594/",
+    "temporary": false
+  },
+  {
+    "id": "verified-pop-mimori-sunshine",
+    "category": "song",
+    "work_title": "好きっ",
+    "track_title": "サンシャインハーモニー",
+    "artist": "三森すずこ",
+    "year": 2014,
+    "release_date": "2014-04-02",
+    "roles": [
+      "編曲"
+    ],
+    "credit_note": "編曲：yamazo。",
+    "official_url": "https://mimorin.com/discography/disco11/",
+    "apple_music": "",
+    "spotify": "",
+    "youtube": "",
+    "featured": false,
+    "image": "",
+    "source_url": "https://mimorin.com/discography/disco11/",
+    "temporary": false
+  },
+  {
+    "id": "verified-pop-mimori-zenbu",
+    "category": "song",
+    "work_title": "好きっ",
+    "track_title": "全部受けとって、強く抱きしめて。",
+    "artist": "三森すずこ",
+    "year": 2014,
+    "release_date": "2014-04-02",
+    "roles": [
+      "編曲"
+    ],
+    "credit_note": "編曲：yamazo。",
+    "official_url": "https://mimorin.com/discography/disco11/",
+    "apple_music": "",
+    "spotify": "",
+    "youtube": "",
+    "featured": false,
+    "image": "",
+    "source_url": "https://mimorin.com/discography/disco11/",
+    "temporary": false
+  },
+  {
+    "id": "verified-pop-sifow-ai-ai",
+    "category": "song",
+    "work_title": "夏花火",
+    "track_title": "Ai-Ai-!!!",
+    "artist": "sifow",
+    "year": 2007,
+    "release_date": "2007-07-25",
+    "roles": [
+      "作曲",
+      "編曲"
+    ],
+    "credit_note": "作曲・編曲：yamazo。",
+    "official_url": "",
+    "apple_music": "https://music.apple.com/jp/song/261296037",
+    "spotify": "",
+    "youtube": "",
+    "featured": false,
+    "image": "",
+    "source_url": "https://books.rakuten.co.jp/rb/4394388/",
+    "temporary": false
   }
 ]

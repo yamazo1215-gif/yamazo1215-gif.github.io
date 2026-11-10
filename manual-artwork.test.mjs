@@ -6,7 +6,8 @@ const releases = JSON.parse(fs.readFileSync(new URL('./releases.json', import.me
 const sources = JSON.parse(fs.readFileSync(new URL('./manual-artwork-sources.json', import.meta.url)));
 const releaseMap = new Map(releases.map(r => [r.id, r]));
 test('manually reviewed covers have matching works, source evidence, and local image bytes', () => {
-  assert.equal(works.length, 102);
+  // Other verified works may be added without changing this reviewed artwork batch.
+  assert.ok(works.length >= 102);
   assert.equal(new Set(works.map(w=>w.id)).size, works.length);
   assert.equal(new Set(releases.map(r=>r.id)).size, releases.length);
   for (const source of sources) {

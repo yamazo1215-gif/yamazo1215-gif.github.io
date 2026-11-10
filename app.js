@@ -11,7 +11,7 @@ let visibleLimit = pageSize;
 const normalize = value => value.normalize('NFKC').toLocaleLowerCase().trim();
 const roleMatch = { compose: /(^|\b)compose|作曲|作編曲/i, arrange: /(^|\b)arrange|編曲|作編曲/i, guitar: /guitar|ギター/i };
 function matches(card) {
-  const categoryMatches = active === 'all' || ((active === 'score' || active === 'song') ? card.dataset.category === active : roleMatch[active]?.test(card.dataset.roles || ''));
+  const categoryMatches = active === 'all' || (['score', 'soundtrack', 'song'].includes(active) ? card.dataset.category === active : roleMatch[active]?.test(card.dataset.roles || ''));
   const terms = normalize(search.value).split(/\s+/).filter(Boolean);
   return categoryMatches && (year.value === 'all' || card.dataset.year === year.value) && terms.every(term => normalize(card.dataset.search || '').includes(term));
 }

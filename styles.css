@@ -808,3 +808,9 @@ footer > span {
   .works-toolbar { flex-wrap: nowrap; justify-content: space-between; }
   .works-toolbar button { padding-inline: .35rem; font-size: .68rem; }
 }
+
+/* Category and role filters remain readable with the separate soundtrack tab. */
+@media (max-width: 700px) {
+  .works-toolbar { flex-wrap: wrap; justify-content: flex-start; gap: .3rem; }
+  .works-toolbar button { min-height: 44px; padding-inline: .65rem; font-size: .75rem; }
+}

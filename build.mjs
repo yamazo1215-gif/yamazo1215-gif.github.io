@@ -16,7 +16,7 @@ const safeImage = (value) => {
   if (value.startsWith('assets/') || value.startsWith('./assets/') || value.startsWith('/assets/')) return esc(value);
   try { const url = new URL(value); return url.protocol === 'https:' ? esc(value) : ''; } catch { return ''; }
 };
-const categoryLabel = { score: 'Score / Soundtrack', song: 'Song', original: 'Original', performance: 'Performance' };
+const categoryLabel = { score: '劇伴担当 / Score', soundtrack: 'サントラ盤 / Soundtrack', song: 'Song', original: 'Original', performance: 'Performance' };
 const titleFor = (work) => work.category === 'song' ? work.track_title : work.work_title;
 const artworkFor = (work) => {
   if (work.image) return { src: safeImage(work.image), source: 'work' };
@@ -39,8 +39,8 @@ const card = (work, index) => {
   const links = [['Official', work.official_url], ['Apple Music', work.apple_music], ['Spotify', work.spotify], ['YouTube', work.youtube]].filter(([, url]) => safe(url));
   const image = workImage(work, 'work-card-image');
   const date = work.release_date || String(work.year || '');
-  return `<article class="work-card${image ? ' has-image' : ''}" data-category="${esc(work.category)}" data-roles="${esc((work.roles || []).join(' '))}" data-year="${esc(work.year)}" data-search="${esc([title, work.work_title, work.artist, work.credit_note, ...(work.roles || [])].filter(Boolean).join(' '))}">
-    <div class="work-card-visual">${image || `<span aria-hidden="true">${work.category === 'score' ? 'SC' : work.category === 'song' ? 'SG' : 'YM'}</span>`}</div>
+  return `<article class="work-card${image ? ' has-image' : ''}" data-category="${esc(work.category)}" data-roles="${esc((work.roles || []).join(' '))}" data-year="${esc(work.year)}" data-search="${esc([title, work.work_title, work.artist, work.credit_note, categoryLabel[work.category], ...(work.roles || [])].filter(Boolean).join(' '))}">
+    <div class="work-card-visual">${image || `<span aria-hidden="true">${work.category === 'soundtrack' ? 'OST' : work.category === 'score' ? 'SC' : work.category === 'song' ? 'SG' : 'YM'}</span>`}</div>
     <div class="work-card-main">
       <div class="work-card-top"><span>${esc(categoryLabel[work.category] || work.category)}</span>${date ? `<time datetime="${esc(date)}">${esc(date.replaceAll('-', '.'))}</time>` : ''}</div>
       ${title ? `<h3>${esc(title)}</h3>` : ''}
@@ -69,7 +69,8 @@ const years = [...new Set(works.map(work => work.year).filter(Boolean))].sort((a
 const worksHtml = `<div class="works-controls"><div class="works-control-top"><label class="works-search-label"><span>SEARCH ARCHIVE</span><input type="search" id="works-search" placeholder="作品名・アーティスト・クレジットを検索" autocomplete="off"></label><label class="works-year-label"><span>YEAR</span><select id="works-year"><option value="all">すべての年</option>${years.map(year=>`<option value="${esc(year)}">${esc(year)}</option>`).join('')}</select></label></div>
 <div class="works-control-bottom"><div class="works-toolbar" aria-label="Worksを絞り込む">
   <button type="button" class="active" aria-pressed="true" data-filter="all">All</button>
-  <button type="button" aria-pressed="false" data-filter="score">Score</button>
+  <button type="button" aria-pressed="false" data-filter="score">劇伴担当</button>
+  <button type="button" aria-pressed="false" data-filter="soundtrack">サントラ盤</button>
   <button type="button" aria-pressed="false" data-filter="song">Songs</button>
   <button type="button" aria-pressed="false" data-filter="compose">Compose</button>
   <button type="button" aria-pressed="false" data-filter="arrange">Arrange</button>

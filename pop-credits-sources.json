@@ -1,0 +1,138 @@
+[
+  {
+    "id": "verified-pop-kinki-ashioto",
+    "title": "足音",
+    "artist": "KinKi Kids",
+    "release_title": "J album",
+    "release_date": "2009-12-09",
+    "roles": [
+      "作曲"
+    ],
+    "sources": [
+      "https://www.elov-label.jp/s/el/discography/JECN-0214"
+    ],
+    "notes": "作曲：yamazo。"
+  },
+  {
+    "id": "verified-pop-aaa-one-night-animal",
+    "title": "One Night Animal",
+    "artist": "AAA",
+    "release_title": "BEYOND～カラダノカナタ",
+    "release_date": "2008-05-28",
+    "roles": [
+      "作曲"
+    ],
+    "sources": [
+      "https://avex.jp/aaa/discography/detail.php?id=1001590",
+      "https://www.oricon.co.jp/prof/373048/lyrics/185767/",
+      "https://www.uta-net.com/composer/31300/"
+    ],
+    "notes": "作曲：山田知広（Tomohiro Yamada / yamazo）。"
+  },
+  {
+    "id": "verified-pop-jamosa-imademo",
+    "title": "今でも好きだよ feat. WISE",
+    "artist": "JAMOSA",
+    "release_title": "LUV ～collabo BEST～",
+    "release_date": "2010-11-10",
+    "roles": [
+      "作曲"
+    ],
+    "sources": [
+      "https://avex.jp/jamosa/discography/detail.php?id=1003497",
+      "https://www.uta-net.com/song/102726/"
+    ],
+    "notes": "作曲：yamazo。"
+  },
+  {
+    "id": "verified-pop-gokigen-koe",
+    "title": "声が聞きたくて... feat. marina",
+    "artist": "GOKIGEN SOUND",
+    "release_title": "満タンで行こう!!",
+    "release_date": "2012-07-11",
+    "roles": [
+      "作詞",
+      "作曲"
+    ],
+    "sources": [
+      "https://tanktoprecords.net/gokigensound/discography/",
+      "https://tanktoprecords.net/gokigensound/news/120710.html",
+      "https://www.uta-net.com/song/132535/"
+    ],
+    "notes": "作詞・作曲：GOKIGEN SOUND・yamazo。2012年7月11日先行配信、アルバムは7月18日発売。"
+  },
+  {
+    "id": "verified-pop-gokigen-akashi",
+    "title": "証 ～愛してるなんてまだ言えないけど～",
+    "artist": "GOKIGEN SOUND",
+    "release_title": "満タンで行こう!!",
+    "release_date": "2012-07-18",
+    "roles": [
+      "作曲"
+    ],
+    "sources": [
+      "https://tanktoprecords.net/gokigensound/discography/",
+      "https://www.uta-net.com/song/132533/"
+    ],
+    "notes": "作曲：GOKIGEN SOUND・yamazo。"
+  },
+  {
+    "id": "verified-pop-saito-kagefumi",
+    "title": "影踏み",
+    "artist": "斉藤壮馬",
+    "release_title": "フィッシュストーリー",
+    "release_date": "2017-06-07",
+    "roles": [
+      "作曲"
+    ],
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000720.000013546.html",
+      "https://www.uta-net.com/song/230594/"
+    ],
+    "notes": "作曲：yamazo。"
+  },
+  {
+    "id": "verified-pop-mimori-sunshine",
+    "title": "サンシャインハーモニー",
+    "artist": "三森すずこ",
+    "release_title": "好きっ",
+    "release_date": "2014-04-02",
+    "roles": [
+      "編曲"
+    ],
+    "sources": [
+      "https://mimorin.com/discography/disco11/"
+    ],
+    "notes": "編曲：yamazo。"
+  },
+  {
+    "id": "verified-pop-mimori-zenbu",
+    "title": "全部受けとって、強く抱きしめて。",
+    "artist": "三森すずこ",
+    "release_title": "好きっ",
+    "release_date": "2014-04-02",
+    "roles": [
+      "編曲"
+    ],
+    "sources": [
+      "https://mimorin.com/discography/disco11/"
+    ],
+    "notes": "編曲：yamazo。"
+  },
+  {
+    "id": "verified-pop-sifow-ai-ai",
+    "title": "Ai-Ai-!!!",
+    "artist": "sifow",
+    "release_title": "夏花火",
+    "release_date": "2007-07-25",
+    "roles": [
+      "作曲",
+      "編曲"
+    ],
+    "sources": [
+      "https://books.rakuten.co.jp/rb/4394388/",
+      "https://www.cdjapan.co.jp/product/AVCD-23333"
+    ],
+    "notes": "作曲・編曲は本人確認。初出は夏花火（2007-07-25）、Love Spell（2007-08-15）は再収録。"
+  }
+]
