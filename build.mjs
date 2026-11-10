@@ -36,18 +36,18 @@ const workImage = (work, className = '', loading = 'lazy') => {
 
 const card = (work, index) => {
   const title = titleFor(work);
-  const links = [['Official', work.official_url], ['Apple Music', work.apple_music], ['Spotify', work.spotify], ['YouTube', work.youtube]].filter(([, url]) => url);
+  const links = [['Official', work.official_url], ['Apple Music', work.apple_music], ['Spotify', work.spotify], ['YouTube', work.youtube]].filter(([, url]) => safe(url));
   const image = workImage(work, 'work-card-image');
-  return `<article class="work-card${index >= 12 ? ' initial-hidden' : ''}${image ? ' has-image' : ''}" data-category="${esc(work.category)}" data-roles="${esc((work.roles || []).join(' '))}">
-    ${image ? `<div class="work-card-visual">${image}</div>` : ''}
+  const date = work.release_date || String(work.year || '');
+  return `<article class="work-card${image ? ' has-image' : ''}" data-category="${esc(work.category)}" data-roles="${esc((work.roles || []).join(' '))}" data-year="${esc(work.year)}" data-search="${esc([title, work.work_title, work.artist, work.credit_note, ...(work.roles || [])].filter(Boolean).join(' '))}">
+    <div class="work-card-visual">${image || `<span aria-hidden="true">${work.category === 'score' ? 'SC' : work.category === 'song' ? 'SG' : 'YM'}</span>`}</div>
     <div class="work-card-main">
-      <div class="work-card-top"><span>${esc(categoryLabel[work.category] || work.category)}</span>${work.year ? `<time datetime="${esc(work.year)}">${esc(work.year)}</time>` : ''}</div>
-      ${work.category === 'song' && work.work_title ? `<p class="work-parent">${esc(work.work_title)}</p>` : ''}
+      <div class="work-card-top"><span>${esc(categoryLabel[work.category] || work.category)}</span>${date ? `<time datetime="${esc(date)}">${esc(date.replaceAll('-', '.'))}</time>` : ''}</div>
       ${title ? `<h3>${esc(title)}</h3>` : ''}
       ${work.artist ? `<p class="artist">${esc(work.artist)}</p>` : ''}
-      ${work.roles?.length ? `<p class="roles">${esc(work.roles.join(' / '))}</p>` : ''}
-      ${work.credit_note ? `<p class="credit-note">${esc(work.credit_note)}</p>` : ''}
-      ${links.length ? `<nav class="work-links" aria-label="${esc(title || 'Work')} の関連リンク">${links.map(([label, url]) => `<a href="${safe(url)}" target="_blank" rel="noreferrer">${label}<span aria-hidden="true"> ↗</span></a>`).join('')}</nav>` : ''}
+      <div class="work-card-bottom">${work.roles?.length ? `<p class="roles">${esc(work.roles.join(' / '))}</p>` : ''}
+      ${links.length ? `<a class="work-primary-link" href="${safe(links[0][1])}" target="_blank" rel="noreferrer" aria-label="${esc(title)} ${esc(links[0][0])}（新しいタブ）">${esc(links[0][0])} ↗</a>` : ''}</div>
+      ${(work.work_title && work.category === 'song') || work.credit_note || links.length > 1 ? `<details class="work-details"><summary>作品詳細 <span aria-hidden="true">＋</span></summary><div>${work.category === 'song' && work.work_title ? `<p class="work-parent">${esc(work.work_title)}</p>` : ''}${work.credit_note ? `<p class="credit-note">${esc(work.credit_note)}</p>` : ''}${links.length > 1 ? `<nav class="work-links" aria-label="${esc(title || 'Work')} の関連リンク">${links.slice(1).map(([label, url]) => `<a href="${safe(url)}" target="_blank" rel="noreferrer">${label} ↗</a>`).join('')}</nav>` : ''}</div></details>` : ''}
     </div>
   </article>`;
 };
@@ -65,14 +65,16 @@ const featuredHtml = featured.length ? `<div class="featured-grid">${featured.ma
   </article>`;
 }).join('')}</div>` : '<p class="empty-state">Featured WorksはWorks Masterで指定されます。</p>';
 
-const worksHtml = `<div class="works-toolbar" aria-label="Worksを絞り込む">
+const years = [...new Set(works.map(work => work.year).filter(Boolean))].sort((a,b)=>b-a);
+const worksHtml = `<div class="works-controls"><div class="works-control-top"><label class="works-search-label"><span>SEARCH ARCHIVE</span><input type="search" id="works-search" placeholder="作品名・アーティスト・クレジットを検索" autocomplete="off"></label><label class="works-year-label"><span>YEAR</span><select id="works-year"><option value="all">すべての年</option>${years.map(year=>`<option value="${esc(year)}">${esc(year)}</option>`).join('')}</select></label></div>
+<div class="works-control-bottom"><div class="works-toolbar" aria-label="Worksを絞り込む">
   <button type="button" class="active" aria-pressed="true" data-filter="all">All</button>
   <button type="button" aria-pressed="false" data-filter="score">Score</button>
   <button type="button" aria-pressed="false" data-filter="song">Songs</button>
   <button type="button" aria-pressed="false" data-filter="compose">Compose</button>
   <button type="button" aria-pressed="false" data-filter="arrange">Arrange</button>
   <button type="button" aria-pressed="false" data-filter="guitar">Guitar</button>
-</div><p class="result-count" aria-live="polite">${works.length} credits</p><div class="works-grid">${works.map(card).join('')}</div>${works.length > 12 ? `<button class="show-more" type="button">もっと見る（残り${works.length - 12}件）</button>` : ''}`;
+</div><p class="result-count" aria-live="polite">${works.length} credits</p></div></div><div class="works-grid">${works.map(card).join('')}</div><p class="works-empty" hidden>該当する作品はありません。検索語や絞り込みを変えてください。</p><button class="show-more" type="button" hidden>もっと見る</button>`;
 
 let html = await fs.readFile('template.html', 'utf8');
 html = html.replace('{{FEATURED}}', featuredHtml).replace('{{WORKS}}', worksHtml).replace('{{YEAR}}', String(new Date().getFullYear()));

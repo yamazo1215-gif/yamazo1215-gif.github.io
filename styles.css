@@ -736,3 +736,75 @@ footer > span {
 .work-card[hidden] { display: none; }
 .work-card-visual[hidden], .featured-visual[hidden] { display: none; }
 .featured-card.image-unavailable { grid-template-columns: 1fr; }
+
+/* Works archive: a compact editorial index, with full credits on demand. */
+.works-section { padding-top: 5rem; }
+.works-section .section-heading { margin-bottom: 2rem; grid-template-columns: 1fr auto; }
+.works-section .section-heading h2 { font-size: clamp(3rem, 6vw, 5rem); }
+.works-controls { border-top: 2px solid var(--ink); padding-top: 1.25rem; margin-bottom: 0; }
+.works-control-top { display: grid; grid-template-columns: 1fr 160px; gap: 1.5rem; margin-bottom: 1rem; }
+.works-search-label, .works-year-label { display: grid; gap: .4rem; min-width: 0; }
+.works-search-label > span, .works-year-label > span { font: 700 .65rem/1.4 var(--font-sans); letter-spacing: .14em; color: var(--muted); }
+.works-controls input, .works-controls select { width: 100%; min-width: 0; min-height: 44px; border: 0; border-bottom: 1px solid #b8b8b1; border-radius: 0; background: transparent; color: var(--ink); font: 400 .9rem/1.4 var(--font-sans); padding: .55rem 0; }
+.works-controls input:focus-visible, .works-controls select:focus-visible, .work-details summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+.works-controls input::placeholder { color: #777770; }
+.works-control-bottom { display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding-bottom: 1rem; }
+.works-toolbar { margin: 0; gap: .3rem; }
+.works-toolbar button { min-height: 40px; padding: .55rem .85rem; font-size: .75rem; border-color: transparent; border-radius: 3px; }
+.works-toolbar button:hover { background: #e9e9e1; }
+.works-toolbar button.active { background: var(--ink); color: var(--white); }
+.result-count { margin: 0; white-space: nowrap; font-variant-numeric: tabular-nums; font-size: .7rem; }
+.works-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 2rem; border: 0; border-top: 1px solid var(--ink); align-items: start; }
+.work-card, .work-card.has-image { min-height: 0; padding: 1rem 0; gap: 1rem; background: transparent; border: 0; border-bottom: 1px solid var(--line); align-items: flex-start; }
+.work-card:hover { border-bottom-color: var(--ink); }
+.work-card .work-card-main, .work-card.has-image .work-card-main { padding: 0; gap: 0; background: transparent; border: 0; }
+.work-card-visual { flex: 0 0 56px; width: 56px; min-width: 56px; height: 56px; margin: 0; border: 1px solid var(--line); background: #edede6; }
+.work-card-visual > span { font: 700 .85rem/1 var(--font-sans); letter-spacing: -.04em; color: #92928a; }
+.work-card[data-category="score"] .work-card-visual { background: #e5e8e6; }
+.work-card-top { font-size: .62rem; line-height: 1.4; letter-spacing: .07em; gap: .5rem; }
+.work-card-top time { white-space: nowrap; font-variant-numeric: tabular-nums; }
+.work-card h3, .work-card .work-parent + h3 { font-size: 1rem; line-height: 1.45; margin: .3rem 0 0; letter-spacing: -.02em; }
+.work-card .artist { font-size: .8rem; line-height: 1.5; margin: .2rem 0 0; overflow-wrap: anywhere; }
+.work-card-bottom { display: flex; align-items: baseline; justify-content: space-between; gap: .5rem; margin-top: .35rem; }
+.work-card .roles { font-size: .72rem; line-height: 1.5; margin: 0; }
+.work-primary-link { flex-shrink: 0; font-size: .65rem; font-weight: 700; padding: .3rem 0 .3rem .3rem; }
+.work-details { margin-top: .25rem; }
+.work-details summary { width: fit-content; cursor: pointer; list-style: none; font-size: .65rem; color: var(--muted); min-height: 30px; display: flex; gap: 1rem; align-items: center; }
+.work-details summary::-webkit-details-marker { display: none; }
+.work-details[open] summary { color: var(--ink); }
+.work-details[open] summary span { transform: rotate(45deg); }
+.work-details > div { padding: .4rem 0 .1rem; }
+.work-card .work-parent, .work-card .credit-note { font-size: .75rem; line-height: 1.7; margin: 0 0 .3rem; }
+.work-card .work-links { font-size: .7rem; padding: .4rem 0 0; gap: .5rem 1rem; }
+.works-empty { padding: 2rem 0; color: var(--muted); font-size: .9rem; }
+.works-empty[hidden] { display: none; }
+.show-more { width: auto; display: block; min-width: 240px; margin: 2rem auto 0; border-radius: 3px; padding: .85rem 1.6rem; font-size: .8rem; }
+@media (min-width: 1200px) {
+  .works-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0 1.6rem; }
+  .work-card, .work-card.has-image { gap: .75rem; }
+  .work-card-visual { flex-basis: 46px; width: 46px; min-width: 46px; height: 46px; }
+}
+@media (max-width: 700px) {
+  .works-section { padding-top: 3.5rem; }
+  .works-section .section-heading { margin-bottom: 1.3rem; }
+  .works-section .section-heading > p { font-size: .65rem; }
+  .works-control-top { grid-template-columns: minmax(0,1fr) 105px; gap: .85rem; }
+  .works-controls input, .works-controls select { font-size: 16px; }
+  .works-controls input::placeholder { font-size: .8rem; }
+  .works-control-bottom { align-items: flex-start; flex-direction: column; gap: .6rem; padding-bottom: .8rem; }
+  .works-toolbar { gap: .15rem; width: 100%; }
+  .works-toolbar button { padding: .5rem .58rem; font-size: .72rem; }
+  .result-count { align-self: flex-end; }
+  .works-grid { grid-template-columns: 1fr; gap: 0; }
+  .work-card, .work-card.has-image { gap: .85rem; padding: .85rem 0; }
+  .work-card-visual { flex-basis: 48px; width: 48px; min-width: 48px; height: 48px; }
+  .work-card h3 { font-size: .95rem; }
+  .work-card .artist { font-size: .8rem; }
+  .work-card .roles { font-size: .75rem; }
+  .work-primary-link { font-size: .72rem; min-height: 32px; }
+  .work-details summary { min-height: 36px; font-size: .72rem; }
+}
+@media (max-width: 700px) {
+  .works-toolbar { flex-wrap: nowrap; justify-content: space-between; }
+  .works-toolbar button { padding-inline: .35rem; font-size: .68rem; }
+}

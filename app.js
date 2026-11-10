@@ -2,34 +2,38 @@ const buttons = [...document.querySelectorAll('[data-filter]')];
 const cards = [...document.querySelectorAll('.work-card')];
 const count = document.querySelector('.result-count');
 const more = document.querySelector('.show-more');
+const search = document.querySelector('#works-search');
+const year = document.querySelector('#works-year');
+const empty = document.querySelector('.works-empty');
+const pageSize = 24;
 let active = 'all';
-let expanded = false;
-const roleMatch = {
-  compose: /(^|\b)compose|作曲|作編曲/i,
-  arrange: /(^|\b)arrange|編曲|作編曲/i,
-  guitar: /guitar|ギター/i,
-};
+let visibleLimit = pageSize;
+const normalize = value => value.normalize('NFKC').toLocaleLowerCase().trim();
+const roleMatch = { compose: /(^|\b)compose|作曲|作編曲/i, arrange: /(^|\b)arrange|編曲|作編曲/i, guitar: /guitar|ギター/i };
 function matches(card) {
-  if (active === 'all') return true;
-  if (active === 'score' || active === 'song') return card.dataset.category === active;
-  return roleMatch[active]?.test(card.dataset.roles || '');
+  const categoryMatches = active === 'all' || ((active === 'score' || active === 'song') ? card.dataset.category === active : roleMatch[active]?.test(card.dataset.roles || ''));
+  const terms = normalize(search.value).split(/\s+/).filter(Boolean);
+  return categoryMatches && (year.value === 'all' || card.dataset.year === year.value) && terms.every(term => normalize(card.dataset.search || '').includes(term));
 }
 function render() {
   const matched = cards.filter(matches);
-  cards.forEach((card) => { card.hidden = !matches(card) || (!expanded && matched.indexOf(card) >= 12); });
-  count.textContent = `${matched.length} credits`;
-  if (more) {
-    more.hidden = matched.length <= 12;
-    more.textContent = expanded ? '表示を戻す' : `もっと見る（残り${Math.max(0, matched.length - 12)}件）`;
-  }
+  const visible = new Set(matched.slice(0, visibleLimit));
+  cards.forEach(card => { card.hidden = !visible.has(card); });
+  count.textContent = `${matched.length} / ${cards.length} credits`;
+  empty.hidden = matched.length > 0;
+  const remaining = matched.length - visible.size;
+  more.hidden = remaining <= 0;
+  more.textContent = `さらに${Math.min(pageSize, remaining)}件表示（残り${remaining}件）`;
 }
-buttons.forEach((button) => button.addEventListener('click', () => {
+function reset() { visibleLimit = pageSize; render(); }
+buttons.forEach(button => button.addEventListener('click', () => {
   active = button.dataset.filter;
-  expanded = false;
-  buttons.forEach((item) => { const selected = item === button; item.classList.toggle('active', selected); item.setAttribute('aria-pressed', String(selected)); });
-  render();
+  buttons.forEach(item => { const selected = item === button; item.classList.toggle('active', selected); item.setAttribute('aria-pressed', String(selected)); });
+  reset();
 }));
-more?.addEventListener('click', () => { expanded = !expanded; render(); });
+search.addEventListener('input', reset);
+year.addEventListener('change', reset);
+more.addEventListener('click', () => { visibleLimit += pageSize; render(); });
 render();
 
 // A failed external image must not leave a broken icon or an empty column.

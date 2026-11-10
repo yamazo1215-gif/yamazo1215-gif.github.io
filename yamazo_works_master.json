@@ -42,6 +42,26 @@
     "temporary": true
   },
   {
+    "id": "verified-song-toumei-startline",
+    "category": "song",
+    "work_title": null,
+    "track_title": "透明スタートライン",
+    "artist": "E♡Star",
+    "year": 2026,
+    "release_date": "2026-02-09",
+    "roles": [
+      "編曲"
+    ],
+    "credit_note": "作詞：稲葉エミ / 作曲：前澤寛之 / 編曲：yamazo",
+    "official_url": "https://linkco.re/YyGSFQDP?lang=ja",
+    "apple_music": "",
+    "spotify": "",
+    "youtube": "",
+    "featured": false,
+    "image": "",
+    "source_url": "https://linkco.re/YyGSFQDP?lang=ja"
+  },
+  {
     "id": "verified-song-chant-2024-live",
     "category": "song",
     "work_title": null,
@@ -258,6 +278,26 @@
     "source_url": "https://remohos.com/music/rmhs.html",
     "temporary": true,
     "release_id": "remohos-rmhs"
+  },
+  {
+    "id": "verified-song-natsu-ga-kita-kara",
+    "category": "song",
+    "work_title": "夏が来たから - Single",
+    "track_title": "夏が来たから",
+    "artist": "≠ME",
+    "year": 2024,
+    "release_date": "2024-08-28",
+    "roles": [
+      "編曲"
+    ],
+    "credit_note": "作詞：指原莉乃 / 作曲：バグベア / 編曲：yamazo",
+    "official_url": "https://not-equal-me.jp/news/detail/4781",
+    "apple_music": "",
+    "spotify": "",
+    "youtube": "",
+    "featured": false,
+    "image": "",
+    "source_url": "https://news.kingrecords.co.jp/2024/07/30626/"
   },
   {
     "id": "anilist-165855",
