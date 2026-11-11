@@ -17,4 +17,6 @@ test('The Legendary Hero Is Dead lists all four official music credits in order'
  assert.equal(work.artist,'うたたね歌菜 / 奈良悠樹 / yamazo / MOKA☆');
  assert.deepEqual(work.roles,['劇伴（共同）']);assert.match(work.credit_note,/共同担当/);
  assert.equal(work.official_url,'https://heroisdead.com/staff/');
+ assert.equal(work.release_date,'2023-04-06');
+ assert.equal(work.date_source_url,'https://heroisdead.com/onair/');
 });

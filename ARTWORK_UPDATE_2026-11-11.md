@@ -1,13 +1,9 @@
-# Works artwork update · 2026-11-11
+# Jacket verification
 
-Reviewed release pages and actual cover images individually. The page now has artwork for 100 of 102 Works: 24 previously empty entries filled, three generic/site-wide images replaced, and one no-image placeholder removed.
+Added 16 unmodified, visually checked jacket images to 18 existing cards: nine POP song cards share seven release jackets; nine soundtrack cards use nine verified album images. Source pages, original image URLs, dimensions, SHA-256 hashes and the exact card/release mapping are retained in `artwork-review-2026-11-11.json` and `releases.json`.
 
-`manual-artwork-sources.json` records the exact source page, original asset URL, release/edition, and local file for every added or replaced image. Original aspect ratios are preserved. The Lefty Hand Cream entry uses its official performance-video thumbnail, not a fabricated CD jacket. Bonus-disc songs use their enclosing package and state the release in Works details. A-channel entries remain tied to the existing 2017 BOX edition.
+The Tiny single and its official label artwork were added separately. POP titles continue to identify the song while their artwork comes from the containing release. No edition is split into a new work card.
 
-Corrected clear title spelling (ETERNAL GOD, MIX SEASONS, HEAVENS DOOR, MASTER ARTIST, Underworld, ゆうがた), the Lefty Hand Cream title/artist order, the folclore Remix qualifier, and the original package date for オレンジ (2011-02-23).
+Not adopted: the Next Summit Blu-ray contents composite (not a standalone soundtrack cover); the current Diamond no Ace SS key visual (not verified for season one); an HTML response mislabeled as a season-one image; the first Boueibu LOVE soundtrack promotional graphic. The verified digital album image is used for LOVE instead.
 
-Remaining without artwork:
-- ないものねだらせたもん勝ち / Emoria: source restrictions and access refusal; no replacement adopted.
-- SAO Alicization War of Underworld #2: the existing `noimg.jpg` was removed; the researched official replacement was not adopted because that site explicitly prohibits unauthorized use.
-
-Validation: all Node tests pass; the static build succeeds; source data retains all 102 work IDs; all added local files are verified image files. Browser screenshot validation was unavailable in the execution environment. No UI/CSS/JavaScript rendering behavior was changed.
+Following explicit user approval, Next Summit uses its official work key visual, not a soundtrack jacket; Diamond no Ace uses the first-season visual verified against the authorized d Anime Store 2013 episodes 1–51 listing. Provenance is in `key-visual-review-2026-11-11.json`. Browser visual QA remains unavailable because Chromium cannot launch in this execution environment. Build, automated tests, source-to-output image byte comparisons and whitespace checks were run locally. The user approved publishing the combined changes.

@@ -355,7 +355,7 @@
     "track_title": null,
     "artist": "うたたね歌菜 / 奈良悠樹 / yamazo / MOKA☆",
     "year": 2023,
-    "release_date": "2023-01-01",
+    "release_date": "2023-04-06",
     "roles": [
       "劇伴（共同）"
     ],
@@ -367,7 +367,8 @@
     "featured": false,
     "image": "",
     "source_url": "https://heroisdead.com/staff/",
-    "release_id": "anilist-148109"
+    "release_id": "anilist-148109",
+    "date_source_url": "https://heroisdead.com/onair/"
   },
   {
     "id": "verified-song-remohos-konamon",
@@ -2252,7 +2253,8 @@
     "featured": false,
     "image": "",
     "source_url": "https://www.elov-label.jp/s/el/discography/JECN-0214",
-    "temporary": false
+    "temporary": false,
+    "release_id": "manual-pop-kinki-j"
   },
   {
     "id": "verified-pop-aaa-one-night-animal",
@@ -2273,7 +2275,8 @@
     "featured": false,
     "image": "",
     "source_url": "https://www.uta-net.com/composer/31300/",
-    "temporary": false
+    "temporary": false,
+    "release_id": "manual-pop-aaa-beyond-correct"
   },
   {
     "id": "verified-pop-jamosa-imademo",
@@ -2294,7 +2297,8 @@
     "featured": false,
     "image": "",
     "source_url": "https://www.uta-net.com/song/102726/",
-    "temporary": false
+    "temporary": false,
+    "release_id": "manual-pop-jamosa-luv-correct"
   },
   {
     "id": "verified-pop-gokigen-koe",
@@ -2316,7 +2320,8 @@
     "featured": false,
     "image": "",
     "source_url": "https://www.uta-net.com/song/132535/",
-    "temporary": false
+    "temporary": false,
+    "release_id": "manual-pop-gokigen-mantan"
   },
   {
     "id": "verified-pop-gokigen-akashi",
@@ -2337,7 +2342,8 @@
     "featured": false,
     "image": "",
     "source_url": "https://www.uta-net.com/song/132533/",
-    "temporary": false
+    "temporary": false,
+    "release_id": "manual-pop-gokigen-mantan"
   },
   {
     "id": "verified-pop-saito-kagefumi",
@@ -2358,7 +2364,8 @@
     "featured": false,
     "image": "",
     "source_url": "https://www.uta-net.com/song/230594/",
-    "temporary": false
+    "temporary": false,
+    "release_id": "manual-pop-soma-fishstory"
   },
   {
     "id": "verified-pop-mimori-sunshine",
@@ -2379,7 +2386,8 @@
     "featured": false,
     "image": "",
     "source_url": "https://mimorin.com/discography/disco11/",
-    "temporary": false
+    "temporary": false,
+    "release_id": "manual-pop-mimori-suki"
   },
   {
     "id": "verified-pop-mimori-zenbu",
@@ -2400,7 +2408,8 @@
     "featured": false,
     "image": "",
     "source_url": "https://mimorin.com/discography/disco11/",
-    "temporary": false
+    "temporary": false,
+    "release_id": "manual-pop-mimori-suki"
   },
   {
     "id": "verified-pop-sifow-ai-ai",
@@ -2422,7 +2431,8 @@
     "featured": false,
     "image": "",
     "source_url": "https://books.rakuten.co.jp/rb/4394388/",
-    "temporary": false
+    "temporary": false,
+    "release_id": "manual-pop-sifow-natsuhanabi"
   },
   {
     "id": "soundtrack-nine-rulers-crown",
@@ -2919,5 +2929,26 @@
         "url": "https://ototoy.jp/_/default/p/50230"
       }
     ]
+  },
+  {
+    "id": "verified-song-kocchi-no-kento-tiny",
+    "category": "song",
+    "work_title": null,
+    "track_title": "Tiny",
+    "artist": "こっちのけんと",
+    "year": 2022,
+    "release_date": "2022-08-30",
+    "roles": [
+      "作曲・編曲"
+    ],
+    "credit_note": "作曲：こっちのけんと・yamazo / 編曲：yamazo",
+    "official_url": "https://linkco.re/dm2Qhdch",
+    "source_url": "https://linkco.re/dm2Qhdch",
+    "apple_music": "",
+    "spotify": "",
+    "youtube": "https://youtu.be/SnSyIUvUafQ",
+    "featured": false,
+    "image": "",
+    "release_id": "manual-kocchi-no-kento-tiny"
   }
 ]

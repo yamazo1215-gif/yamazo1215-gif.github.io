@@ -201,5 +201,25 @@
       "https://true-singer.com/contents/1012635"
     ],
     "url": "https://true-singer.com/contents/1012635"
+  },
+  {
+    "id": "verified-song-kocchi-no-kento-tiny",
+    "title": "Tiny",
+    "detail": "こっちのけんと",
+    "role": "作曲・編曲",
+    "startDate": "2022-08-30",
+    "year": 2022,
+    "category": "song",
+    "source": "verified-official-and-credit-pages",
+    "sources": [
+      "https://linkco.re/dm2Qhdch",
+      "https://youtu.be/SnSyIUvUafQ",
+      "https://www.uta-net.com/song/362094/",
+      "https://www.tunecore.co.jp/the-magazine/newreleases/243585",
+      "https://prtimes.jp/main/html/rd/p/000000019.000043620.html"
+    ],
+    "url": "https://linkco.re/dm2Qhdch",
+    "credit_note": "作曲：こっちのけんと・yamazo / 編曲：yamazo",
+    "dateNote": "配信発売日。MV公開日は2022-08-31。"
   }
 ]

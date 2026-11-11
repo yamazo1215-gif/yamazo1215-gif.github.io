@@ -1,0 +1,42 @@
+[
+  {
+    "work_ids": [
+      "score-diamond-no-ace-first"
+    ],
+    "release_id": "manual-score-diamond-no-ace-first",
+    "src": "assets/covers/diamond-first-docomo.png",
+    "width": 640,
+    "height": 360,
+    "provider": "verified-key-visual",
+    "source_url": "https://animestore.docomo.ne.jp/animestore/ci_pc?workId=11202",
+    "original_url": "https://cs1.animestore.docomo.ne.jp/anime/1/12/02/rpl_jA/11202_1_1.png?1551176087000",
+    "checked_at": "2026-11-11",
+    "alt": "ダイヤのA 第1期 作品ビジュアル",
+    "sha256": "09eedb83cd7b1b252c2237b2f90f5e022f65da18f364069c3e6f403a65bcecf8",
+    "review": {
+      "method": "official-release-and-visual-review",
+      "image_type": "key-visual",
+      "note": "正規配信元dアニメストア。第1話〜第51話・2013年・第1期製作委員会の表示で版照合。青空背景、左に青道キャラクター群、右に初代ロゴ。"
+    }
+  },
+  {
+    "work_ids": [
+      "soundtrack-yamanosusume-next-summit-ost"
+    ],
+    "release_id": "manual-soundtrack-yamanosusume-next-summit-ost",
+    "src": "assets/covers/next-summit-kv.jpg",
+    "width": 2000,
+    "height": 2828,
+    "provider": "verified-key-visual",
+    "source_url": "https://yamanosusume-ns.com/",
+    "original_url": "https://yamanosusume-ns.com/core_sys/images/main/home/kv.jpg",
+    "checked_at": "2026-11-11",
+    "alt": "ヤマノススメ Next Summit 公式キービジュアル",
+    "sha256": "2bb81ae5afe4998c2739be17e9117355ee101ec9edb06812d83c4615898124f5",
+    "review": {
+      "method": "official-release-and-visual-review",
+      "image_type": "key-visual",
+      "note": "ユーザーが特典サントラカードへのKV使用を明示許可。サントラ独立ジャケットではないことをalt/reviewに明記。"
+    }
+  }
+]

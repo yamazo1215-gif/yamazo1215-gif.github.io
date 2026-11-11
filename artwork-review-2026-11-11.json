@@ -1,0 +1,308 @@
+[
+  {
+    "work_ids": [
+      "soundtrack-robihachi-ost"
+    ],
+    "release_id": "manual-soundtrack-robihachi-ost",
+    "src": "assets/covers/soundtrack-robihachi-ost.jpg",
+    "width": 600,
+    "height": 592,
+    "provider": "verified-release-source",
+    "source_url": "https://robihachi.jp/product/cd/soundtrack.php",
+    "original_url": "https://robihachi.jp/product/cd/img/soundtrack/soundtrack_jk.jpg",
+    "checked_at": "2026-11-11",
+    "alt": "RobiHachi ORIGINAL SOUNDTRACK ジャケット",
+    "sha256": "782601d5a1ad7f21424b509eaaec5cc1d7bb1eace9bd83ff1f75bab74171151e",
+    "review": {
+      "method": "release-page-and-visual-review",
+      "edition": "RobiHachi ORIGINAL SOUNDTRACK"
+    }
+  },
+  {
+    "work_ids": [
+      "soundtrack-boueibu-love-forever"
+    ],
+    "release_id": "manual-soundtrack-boueibu-love-forever",
+    "src": "assets/covers/soundtrack-boueibu-love-forever.jpg",
+    "width": 400,
+    "height": 400,
+    "provider": "verified-release-source",
+    "source_url": "https://boueibu.com/2nd/music03.html",
+    "original_url": "https://boueibu.com/2nd/images/music/j_ost.jpg",
+    "checked_at": "2026-11-11",
+    "alt": "美男高校地球防衛部LOVE！LOVE！ O.S.T「LOVE FOREVER」 ジャケット",
+    "sha256": "8ed93dca382fb9caddf8c54b87a503074746d59ed24704e887f8b09b567f6f05",
+    "review": {
+      "method": "release-page-and-visual-review",
+      "edition": "美男高校地球防衛部LOVE！LOVE！ O.S.T「LOVE FOREVER」"
+    }
+  },
+  {
+    "work_ids": [
+      "soundtrack-boueibu-love-ost"
+    ],
+    "release_id": "manual-soundtrack-boueibu-love-ost",
+    "src": "assets/covers/soundtrack-boueibu-love-ost-digital.jpg",
+    "width": 600,
+    "height": 600,
+    "provider": "verified-release-source",
+    "source_url": "https://music.apple.com/jp/album/973551798",
+    "original_url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/e0/bd/b3/e0bdb3fe-542d-b8c3-833c-ff0a911e9f4c/PCSP_01839_itunes.png/600x600bf-60.jpg",
+    "checked_at": "2026-11-11",
+    "alt": "美男高校地球防衛部LOVE！O.S.T！ ジャケット",
+    "sha256": "5a8f300d906dc697cf4197b0706a1d38e7ec9bb414e08dfe3a325d59f2c4650d",
+    "review": {
+      "method": "release-page-and-visual-review",
+      "edition": "美男高校地球防衛部LOVE！O.S.T！"
+    }
+  },
+  {
+    "work_ids": [
+      "soundtrack-fairy-ranmaru"
+    ],
+    "release_id": "manual-soundtrack-fairy-ranmaru",
+    "src": "assets/covers/soundtrack-fairy-ranmaru.jpg",
+    "width": 500,
+    "height": 494,
+    "provider": "verified-release-source",
+    "source_url": "https://f-ran.jp/music04.html",
+    "original_url": "https://f-ran.jp/images/music/j_004.jpg",
+    "checked_at": "2026-11-11",
+    "alt": "「Fairy蘭丸～あなたの心お助けします～」オリジナル・サウンドトラック ジャケット",
+    "sha256": "4a59f88ad418482a718719ae069f9d68293b88f61a9ab4fe0a768c7d0310f6b8",
+    "review": {
+      "method": "release-page-and-visual-review",
+      "edition": "「Fairy蘭丸～あなたの心お助けします～」オリジナル・サウンドトラック"
+    }
+  },
+  {
+    "work_ids": [
+      "soundtrack-nine-rulers-crown"
+    ],
+    "release_id": "manual-soundtrack-nine-rulers-crown",
+    "src": "assets/covers/soundtrack-nine-rulers-crown.jpg",
+    "width": 600,
+    "height": 600,
+    "provider": "verified-release-source",
+    "source_url": "https://music.apple.com/us/album/another-world/1872349825?i=1872349936",
+    "original_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/45/87/76/45877603-5844-907c-9cb0-4136a05dcfed/MAQLT-00618.jpg/600x600bf-60.jpg",
+    "checked_at": "2026-11-11",
+    "alt": "「9-nine- Ruler’s Crown」オリジナル・サウンドトラック ジャケット",
+    "sha256": "67b6e9ce16f35698c875d7550c3e81a1e40399706cbf9b8d0e87721b689bed59",
+    "review": {
+      "method": "release-page-and-visual-review",
+      "edition": "「9-nine- Ruler’s Crown」オリジナル・サウンドトラック"
+    }
+  },
+  {
+    "work_ids": [
+      "soundtrack-yamanosusume-ost"
+    ],
+    "release_id": "manual-soundtrack-yamanosusume-ost",
+    "src": "assets/covers/yamanosusume-ost.jpg",
+    "width": 300,
+    "height": 300,
+    "provider": "verified-release-source",
+    "source_url": "https://www.neowing.co.jp/product/SMRR-12",
+    "original_url": "https://www.neowing.co.jp/pictures/l/03/30/SMRR-12.jpg?v=2",
+    "checked_at": "2026-11-11",
+    "alt": "ヤマノススメ オリジナルサウンドトラック ジャケット",
+    "sha256": "feb740ee2c5df8b39f8ab1612b7012e5b2548477507c0cb682994e5c66952f29",
+    "review": {
+      "method": "release-page-and-visual-review",
+      "edition": "ヤマノススメ オリジナルサウンドトラック"
+    }
+  },
+  {
+    "work_ids": [
+      "soundtrack-yamanosusume-third-ost"
+    ],
+    "release_id": "manual-soundtrack-yamanosusume-third-ost",
+    "src": "assets/covers/yamanosusume-third-ost.jpg",
+    "width": 1200,
+    "height": 1200,
+    "provider": "verified-release-source",
+    "source_url": "https://books.rakuten.co.jp/rb/17259824/",
+    "original_url": "https://tshop.r10s.jp/book/cabinet/0114/4578572420114.jpg",
+    "checked_at": "2026-11-11",
+    "alt": "ヤマノススメ サードシーズン オリジナルサウンドトラック ジャケット",
+    "sha256": "d88625ce7f3f93dba6ff69be1625f2d7fe679af388c076fd40180fd24144a7bc",
+    "review": {
+      "method": "release-page-and-visual-review",
+      "edition": "ヤマノススメ サードシーズン オリジナルサウンドトラック"
+    }
+  },
+  {
+    "work_ids": [
+      "soundtrack-shonen-maid-ost"
+    ],
+    "release_id": "manual-soundtrack-shonen-maid-ost",
+    "src": "assets/covers/shonen-maid-ost.jpg",
+    "width": 230,
+    "height": 230,
+    "provider": "verified-release-source",
+    "source_url": "https://columbia.jp/shonenmaid/release02.html",
+    "original_url": "https://columbia.jp/shonenmaid/images/COCX-39565.jpg",
+    "checked_at": "2026-11-11",
+    "alt": "TVアニメ「少年メイド」音楽集 ジャケット",
+    "sha256": "aa072c474e9e48ab9e00072c157353679b6c366dede4b27c8aaa78b937cc02fa",
+    "review": {
+      "method": "release-page-and-visual-review",
+      "edition": "TVアニメ「少年メイド」音楽集"
+    }
+  },
+  {
+    "work_ids": [
+      "verified-pop-kinki-ashioto"
+    ],
+    "release_id": "manual-pop-kinki-j",
+    "src": "assets/covers/pop-kinki-j.jpg",
+    "width": 600,
+    "height": 600,
+    "provider": "verified-release-source",
+    "source_url": "https://www.elov-label.jp/s/el/discography/JECN-0214",
+    "original_url": "https://www.elov-label.jp/images/45/742/b7c680641caffd7636e6ea434d4d0.jpg",
+    "checked_at": "2026-11-11",
+    "alt": "J album（通常盤） ジャケット",
+    "sha256": "b65ac8dac08e7c54b6fcd6da765f5768a601b31838fc8f9cf5b56bb963c4c541",
+    "review": {
+      "method": "release-page-and-visual-review",
+      "edition": "J album（通常盤）"
+    }
+  },
+  {
+    "work_ids": [
+      "verified-pop-aaa-one-night-animal"
+    ],
+    "release_id": "manual-pop-aaa-beyond-correct",
+    "src": "assets/covers/pop-aaa-beyond-correct.jpg",
+    "width": 360,
+    "height": 359,
+    "provider": "verified-release-source",
+    "source_url": "https://www.cdjapan.co.jp/product/AVCD-31401",
+    "original_url": "https://st.cdjapan.co.jp/pictures/l/03/24/AVCD-31401.jpg?v=1",
+    "checked_at": "2026-11-11",
+    "alt": "BEYOND～カラダノカナタ AVCD-31401 ジャケット",
+    "sha256": "da54614a3eaa7e10abf5f7c02d7c1ac9aae6cb8dbf8ee7917cb4be97ac83a4b0",
+    "review": {
+      "method": "release-page-and-visual-review",
+      "edition": "BEYOND～カラダノカナタ AVCD-31401"
+    }
+  },
+  {
+    "work_ids": [
+      "verified-pop-jamosa-imademo"
+    ],
+    "release_id": "manual-pop-jamosa-luv-correct",
+    "src": "assets/covers/pop-jamosa-luv-correct.jpg",
+    "width": 500,
+    "height": 500,
+    "provider": "verified-release-source",
+    "source_url": "https://www.cdjapan.co.jp/product/RZCD-46651",
+    "original_url": "https://st.cdjapan.co.jp/pictures/l/16/26/RZCD-46651.jpg?v=1",
+    "checked_at": "2026-11-11",
+    "alt": "LUV ～collabo BEST～ RZCD-46651 ジャケット",
+    "sha256": "583e5f428c7815b1a2b0e6b755db14023d8d60d84a4f6c89976f6a59bd298c9a",
+    "review": {
+      "method": "release-page-and-visual-review",
+      "edition": "LUV ～collabo BEST～ RZCD-46651"
+    }
+  },
+  {
+    "work_ids": [
+      "verified-pop-gokigen-koe",
+      "verified-pop-gokigen-akashi"
+    ],
+    "release_id": "manual-pop-gokigen-mantan",
+    "src": "assets/covers/pop-gokigen-mantan.jpg",
+    "width": 202,
+    "height": 202,
+    "provider": "verified-release-source",
+    "source_url": "https://tanktoprecords.net/gokigensound/discography/",
+    "original_url": "https://tanktoprecords.net/gokigensound/discography/images/AVCD-43017.jpg",
+    "checked_at": "2026-11-11",
+    "alt": "満タンで行こう!! AVCD-43017 ジャケット",
+    "sha256": "9a333a3905509015eeb608c7e9941b0c778b6e4f72f00edb271af8526113a066",
+    "review": {
+      "method": "release-page-and-visual-review",
+      "edition": "満タンで行こう!! AVCD-43017"
+    }
+  },
+  {
+    "work_ids": [
+      "verified-pop-saito-kagefumi"
+    ],
+    "release_id": "manual-pop-soma-fishstory",
+    "src": "assets/covers/pop-soma-fishstory.jpg",
+    "width": 650,
+    "height": 643,
+    "provider": "verified-release-source",
+    "source_url": "https://prtimes.jp/main/html/rd/p/000000720.000013546.html",
+    "original_url": "https://prtimes.jp/i/13546/720/resize/d13546-720-436809-8.jpg",
+    "checked_at": "2026-11-11",
+    "alt": "フィッシュストーリー 通常盤 ジャケット",
+    "sha256": "b3b3bd2f88dcfe0ca157fb57c0f6c855d4f88518b67edf995cde1885205f3386",
+    "review": {
+      "method": "release-page-and-visual-review",
+      "edition": "フィッシュストーリー 通常盤"
+    }
+  },
+  {
+    "work_ids": [
+      "verified-pop-mimori-sunshine",
+      "verified-pop-mimori-zenbu"
+    ],
+    "release_id": "manual-pop-mimori-suki",
+    "src": "assets/covers/pop-mimori-suki.jpg",
+    "width": 200,
+    "height": 200,
+    "provider": "verified-release-source",
+    "source_url": "https://mimorin.com/discography/disco11/",
+    "original_url": "https://mimorin.com/wordpress/wp-content/uploads/2014/02/mimori_201402_single1.jpg",
+    "checked_at": "2026-11-11",
+    "alt": "好きっ 通常盤 PCCG-01390 ジャケット",
+    "sha256": "b5f6d5c2f0c533c24650a2ace3ed00406aab99c4412c4a700f78b89444d3710e",
+    "review": {
+      "method": "release-page-and-visual-review",
+      "edition": "好きっ 通常盤 PCCG-01390"
+    }
+  },
+  {
+    "work_ids": [
+      "verified-pop-sifow-ai-ai"
+    ],
+    "release_id": "manual-pop-sifow-natsuhanabi",
+    "src": "assets/covers/pop-sifow-natsuhanabi.jpg",
+    "width": 300,
+    "height": 300,
+    "provider": "verified-release-source",
+    "source_url": "https://www.cdjapan.co.jp/product/AVCD-31172",
+    "original_url": "https://st.cdjapan.co.jp/pictures/l/03/27/AVCD-31172.jpg?v=1",
+    "checked_at": "2026-11-11",
+    "alt": "夏花火 AVCD-31172 ジャケット",
+    "sha256": "4e5cd22088a2cf7dc724350a46a6c41a8b1f6aa0b4baeccc65026681a2a553e4",
+    "review": {
+      "method": "release-page-and-visual-review",
+      "edition": "夏花火 AVCD-31172"
+    }
+  },
+  {
+    "work_ids": [
+      "soundtrack-diamond-no-ace-first"
+    ],
+    "release_id": "manual-soundtrack-diamond-no-ace-first",
+    "src": "assets/covers/diamond-ost.jpg",
+    "width": 400,
+    "height": 399,
+    "provider": "verified-release-source",
+    "source_url": "https://www.cdjapan.co.jp/product/PCCG-1453",
+    "original_url": "https://st.cdjapan.co.jp/pictures/l/15/14/PCCG-1453.jpg?v=2",
+    "checked_at": "2026-11-11",
+    "alt": "TVアニメ ダイヤのA オリジナルサウンドトラック PCCG-01453 ジャケット",
+    "sha256": "73c06a56c9e377a8188c2da6d59fe7eef271d12420ee6cf888ff7cae52112b62",
+    "review": {
+      "method": "release-page-and-visual-review",
+      "edition": "TVアニメ ダイヤのA オリジナルサウンドトラック PCCG-01453"
+    }
+  }
+]
